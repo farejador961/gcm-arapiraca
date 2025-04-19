@@ -18,21 +18,30 @@ nltk.download("averaged_perceptron_tagger")
 st.set_page_config(page_title="Gerador de Questões", layout="wide")
 st.title("📝 Gerador de Questões - PDF → Múltipla Escolha")
 
-# Cria diretório de uploads se não existir
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Interface: seleção de fonte PDF
+# Sessão para textos
+if "textos_pdf" not in st.session_state:
+    st.session_state.textos_pdf = []
+if "num_questoes" not in st.session_state:
+    st.session_state.num_questoes = []
+
+# Interface de múltiplos PDFs
 with st.form("form_gerador"):
     col1, col2 = st.columns(2)
+
     with col1:
-        num_q = st.selectbox("Quantas questões?", [5, 10, 20, 40, 50, 100])
-        pdf_url = st.text_input("📄 URL do PDF")
+        uploaded_files = st.file_uploader("📁 Envie um ou mais PDFs", type="pdf", accept_multiple_files=True)
+        urls = st.text_area("📄 URLs de PDFs (uma por linha)")
+
     with col2:
-        uploaded = st.file_uploader("📁 Ou envie um PDF", type="pdf")
+        default_num = 5
+        num_por_pdf = st.text_input("Quantas questões por PDF? (separado por vírgula)", value="5,5")
+
     gerar = st.form_submit_button("🔎 Gerar Questões")
 
-# Função para extrair texto do PDF
+# Função para extrair texto
 def extrair_texto(pdf_stream):
     texto = ""
     with pdfplumber.open(pdf_stream) as pdf:
@@ -70,75 +79,56 @@ def gerar_questoes_cloze(texto, n):
             break
     return questoes
 
-# Geração de questões: só se for clicado o botão "Gerar"
+# Processamento
 if gerar:
-    try:
-        st.info("🛠️ Processando PDF...")
+    st.session_state.textos_pdf = []
+    st.session_state.num_questoes = []
 
-        if "textos_pdf" not in st.session_state:
-            st.session_state.textos_pdf = []
+    num_q_list = [int(n.strip()) for n in num_por_pdf.split(",") if n.strip().isdigit()]
+    idx = 0
 
-        texto_total = ""
+    # PDFs enviados
+    for pdf_file in uploaded_files:
+        nome_base = pdf_file.name.rsplit('.', 1)[0]
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        nome_unico = f"{nome_base}_{timestamp}.pdf"
+        path = os.path.join(UPLOAD_FOLDER, nome_unico)
 
-        if uploaded is not None:
-            nome_base = uploaded.name.rsplit('.', 1)[0]
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            nome_unico = f"{nome_base}_{timestamp}.pdf"
-            path = os.path.join(UPLOAD_FOLDER, nome_unico)
+        with open(path, "wb") as f:
+            f.write(pdf_file.getvalue())
 
-            with open(path, "wb") as f:
-                f.write(uploaded.getvalue())
+        texto = extrair_texto(path)
+        st.session_state.textos_pdf.append(texto)
+        st.session_state.num_questoes.append(num_q_list[idx] if idx < len(num_q_list) else 5)
+        idx += 1
 
-            texto = extrair_texto(path)
-            st.session_state.textos_pdf.append(texto)
-
-        if pdf_url.strip():
-            r = requests.get(pdf_url)
+    # PDFs por URL
+    for url in urls.strip().splitlines():
+        if not url.strip():
+            continue
+        try:
+            r = requests.get(url.strip())
             r.raise_for_status()
             texto = extrair_texto(BytesIO(r.content))
             st.session_state.textos_pdf.append(texto)
+            st.session_state.num_questoes.append(num_q_list[idx] if idx < len(num_q_list) else 5)
+            idx += 1
+        except Exception as e:
+            st.error(f"Erro ao baixar PDF de {url}: {e}")
 
-        if not st.session_state.textos_pdf:
-            st.warning("Envie um PDF ou informe uma URL.")
-            st.stop()
+    # Gerar questões para cada PDF
+    st.session_state.questoes = []
+    for texto, qtd in zip(st.session_state.textos_pdf, st.session_state.num_questoes):
+        questoes_pdf = gerar_questoes_cloze(texto, qtd)
+        st.session_state.questoes.extend(questoes_pdf)
 
-        # Junta todos os textos acumulados
-        texto_total = "\n\n".join(st.session_state.textos_pdf)
+    st.session_state.gq_resp = [None] * len(st.session_state.questoes)
+    st.session_state.gq_comment = [""] * len(st.session_state.questoes)
+    st.session_state.show_gabarito = [False] * len(st.session_state.questoes)
+    st.success(f"✅ {len(st.session_state.questoes)} questões geradas com sucesso!")
 
-        # Gera questões
-        questoes = gerar_questoes_cloze(texto_total, num_q)
-        st.session_state.questoes = questoes
-        st.session_state.gq_resp = [None]*len(questoes)
-        st.session_state.gq_comment = [""]*len(questoes)
-        st.session_state.show_gabarito = [False]*len(questoes)
-        st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
-
-    except Exception as e:
-        st.error(f"❌ Erro ao processar: {e}")
-        st.stop()
-
-        # Continua com a geração de questões...
-        questoes = gerar_questoes_cloze(texto, num_q)
-        st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
-
-    except Exception as e:
-        st.error(f"❌ Erro ao processar: {e}")
-        st.stop()
-
-
-        # Armazenar as questões na sessão
-        questoes = gerar_questoes_cloze(texto, num_q)
-        st.session_state.questoes = questoes
-        st.session_state.gq_resp = [None]*len(questoes)
-        st.session_state.gq_comment = [""]*len(questoes)
-        st.session_state.show_gabarito = [False]*len(questoes)
-        st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
-    except Exception as e:
-        st.error(f"❌ Erro ao processar o PDF: {e}")
-        st.stop()
-
-# Exibe as questões se existirem
-if "questoes" in st.session_state:
+# Exibir questões
+if "questoes" in st.session_state and st.session_state.questoes:
     questoes = st.session_state.questoes
     st.markdown("### 🔍 Questões Geradas")
 
@@ -160,7 +150,6 @@ if "questoes" in st.session_state:
         comment = st.text_input("Comentário (opcional)", key=f"c{i}")
         st.session_state.gq_comment[i] = comment
 
-    # Botão para corrigir
     if st.button("📥 Enviar Respostas e Salvar"):
         acertos = 0
         resultados = []
@@ -179,17 +168,14 @@ if "questoes" in st.session_state:
         st.metric("Acertos", f"{acertos}/{len(questoes)} ({perc*100:.1f}%)")
         st.progress(perc)
 
-        # Salva resultados
         df = pd.DataFrame(resultados)
         os.makedirs("dados", exist_ok=True)
         df.to_csv("dados/questoes_geradas.csv", mode="a", index=False, header=not os.path.exists("dados/questoes_geradas.csv"))
         st.success("🗃️ Resultados salvos em dados/questoes_geradas.csv")
 
-        st.write("[➡️ Vá para o Painel de Progresso](#/pages/2_Painel_de_Progresso)")
-
-    # Botão para limpar questões e reiniciar
     if st.button("🧹 Limpar e Recomeçar"):
         for key in list(st.session_state.keys()):
-            if key.startswith("q") or key.startswith("gab_") or key.startswith("c") or key in ["questoes", "gq_resp", "gq_comment", "show_gabarito"]:
+            if key.startswith("q") or key.startswith("gab_") or key.startswith("c") or key in ["questoes", "gq_resp", "gq_comment", "show_gabarito", "textos_pdf", "num_questoes"]:
                 del st.session_state[key]
         st.experimental_rerun()
+
