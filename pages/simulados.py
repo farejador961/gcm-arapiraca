@@ -1,80 +1,126 @@
 import streamlit as st
+import os
+import pandas as pd
+from datetime import datetime
+from PyPDF2 import PdfReader
 import requests
-from bs4 import BeautifulSoup
 
-st.set_page_config(page_title="Simulados Inteligentes", layout="wide")
+# Configuração da página
+st.set_page_config(page_title="📘 Simulados Inteligentes", layout="wide")
 st.title("🎯 Simulados Inteligentes")
 
-# ---------------- FORMULÁRIO DE BUSCA POR Banca IBAM ----------------
-with st.form("busca_simulados"):
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown("**Banca: IBAM** (fixo para esta versão)")
-        banca = "ibam"  # Fixo
-    with col2:
-        materia = st.text_input("Matéria (opcional)")
+# Pastas para armazenamento
+PASTA_PROVAS = "dados/provas/"
+PASTA_GABARITOS = "dados/gabaritos/"
+PASTA_RESULTADOS = "dados/resultados/"
+os.makedirs(PASTA_PROVAS, exist_ok=True)
+os.makedirs(PASTA_GABARITOS, exist_ok=True)
+os.makedirs(PASTA_RESULTADOS, exist_ok=True)
 
-    buscar = st.form_submit_button("🔍 Listar Provas da Banca IBAM")
+# Inputs iniciais
+with st.form("formulario_simulado"):
+    nome_aluno = st.text_input("Seu nome completo")
+    numero_simulado = st.text_input("Número do Simulado (ex: 001)")
+    link_prova = st.text_input("Link para download do PDF da Prova")
+    link_gabarito = st.text_input("Link para download do PDF do Gabarito")
 
-# Função para buscar provas da banca IBAM
-def buscar_provas_ibam():
-    url = f"https://www.pciconcursos.com.br/provas/ibam"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-    }
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    provas = []
+    upload_prova = st.file_uploader("Ou envie a prova em PDF", type="pdf")
+    upload_gabarito = st.file_uploader("Ou envie o gabarito em PDF", type="pdf")
 
-    for link in soup.select('a[href^="/provas/"]'):
-        nome_prova = link.get_text(strip=True)
-        url_prova = "https://www.pciconcursos.com.br" + link.get('href')
-        if nome_prova and url_prova not in [p['url'] for p in provas]:
-            provas.append({"nome": nome_prova, "url": url_prova})
-    return provas
+    iniciar = st.form_submit_button("📥 Enviar e Corrigir")
 
+# Função para baixar e salvar arquivos PDF
+def salvar_pdf_via_link(url, pasta, nome_base):
+    response = requests.get(url)
+    caminho = os.path.join(pasta, f"{nome_base}.pdf")
+    with open(caminho, "wb") as f:
+        f.write(response.content)
+    return caminho
 
-# Função para buscar questões de uma prova específica
-def buscar_questoes_da_prova(url_prova, filtro_materia=None):
-    response = requests.get(url_prova)
-    soup = BeautifulSoup(response.text, 'html.parser')
+# Função para salvar uploads manuais
+def salvar_upload_pdf(arquivo, pasta, nome_base):
+    caminho = os.path.join(pasta, f"{nome_base}.pdf")
+    with open(caminho, "wb") as f:
+        f.write(arquivo.read())
+    return caminho
 
-    questoes = []
-    for question in soup.find_all('div', class_='questao'):
-        try:
-            enunciado = question.find('div', class_='pergunta').get_text(strip=True)
-            alternativas = [alt.get_text(strip=True) for alt in question.find_all('li')]
+# Função para extrair respostas de um PDF
+def extrair_respostas_pdf(caminho_pdf):
+    respostas = []
+    try:
+        leitor = PdfReader(caminho_pdf)
+        for pagina in leitor.pages:
+            texto = pagina.extract_text()
+            for linha in texto.splitlines():
+                if linha.strip()[:2].isdigit():  # ex: "01 A"
+                    partes = linha.strip().split()
+                    if len(partes) >= 2:
+                        respostas.append(partes[1].upper())
+        return respostas
+    except Exception as e:
+        st.error(f"Erro ao extrair respostas: {e}")
+        return []
 
-            if filtro_materia:
-                if filtro_materia.lower() in enunciado.lower():
-                    questoes.append({'enunciado': enunciado, 'alternativas': alternativas})
-            else:
-                questoes.append({'enunciado': enunciado, 'alternativas': alternativas})
-        except:
-            continue
-    return questoes
+# Correção da prova
+def corrigir_respostas(respostas_aluno, respostas_gabarito):
+    acertos = sum(1 for r, g in zip(respostas_aluno, respostas_gabarito) if r == g)
+    total = len(respostas_gabarito)
+    percentual = round((acertos / total) * 100, 2) if total > 0 else 0
+    return acertos, total, percentual
 
-# --------------- PROCESSAMENTO -------------------
-if buscar:
-    provas = buscar_provas_ibam()
-    if provas:
-        st.success(f"{len(provas)} prova(s) encontradas da banca IBAM.")
-        nomes_provas = [p['nome'] for p in provas]
-        prova_selecionada = st.selectbox("📄 Selecione a prova que deseja visualizar:", nomes_provas)
+# Processamento
+if iniciar and nome_aluno and numero_simulado:
+    nome_base = f"{nome_aluno.replace(' ', '_')}_simulado_{numero_simulado}"
 
-        if prova_selecionada:
-            prova_url = next(p['url'] for p in provas if p['nome'] == prova_selecionada)
-            mostrar = st.button("📘 Mostrar Questões da Prova Selecionada")
-            if mostrar:
-                questoes = buscar_questoes_da_prova(prova_url, materia)
-                if questoes:
-                    for idx, q in enumerate(questoes, 1):
-                        st.markdown(f"### Questão {idx}")
-                        st.markdown(f"**Enunciado:** {q['enunciado']}")
-                        for i, alt in enumerate(q['alternativas']):
-                            st.markdown(f"{chr(65+i)}) {alt}")
-                        st.markdown("---")
-                else:
-                    st.warning("⚠️ Nenhuma questão encontrada nesta prova (ou filtro de matéria muito restrito).")
+    # Salvar prova
+    if link_prova:
+        caminho_prova = salvar_pdf_via_link(link_prova, PASTA_PROVAS, nome_base)
+    elif upload_prova:
+        caminho_prova = salvar_upload_pdf(upload_prova, PASTA_PROVAS, nome_base)
     else:
-        st.warning("⚠️ Nenhuma prova encontrada para a banca IBAM.")
+        st.warning("Envie ou cole o link da prova.")
+        caminho_prova = None
+
+    # Salvar gabarito
+    if link_gabarito:
+        caminho_gabarito = salvar_pdf_via_link(link_gabarito, PASTA_GABARITOS, nome_base)
+    elif upload_gabarito:
+        caminho_gabarito = salvar_upload_pdf(upload_gabarito, PASTA_GABARITOS, nome_base)
+    else:
+        st.warning("Envie ou cole o link do gabarito.")
+        caminho_gabarito = None
+
+    # Correção e salvamento
+    if caminho_prova and caminho_gabarito:
+        respostas_aluno = extrair_respostas_pdf(caminho_prova)
+        respostas_gabarito = extrair_respostas_pdf(caminho_gabarito)
+
+        acertos, total, percentual = corrigir_respostas(respostas_aluno, respostas_gabarito)
+
+        st.success(f"🎉 Você acertou {acertos} de {total} ({percentual}%)")
+
+        # Salvar resultado
+        resultado = {
+            "nome": nome_aluno,
+            "simulado": numero_simulado,
+            "acertos": acertos,
+            "total": total,
+            "percentual": percentual,
+            "data": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+
+        df_resultado = pd.DataFrame([resultado])
+        resultado_csv = os.path.join(PASTA_RESULTADOS, f"{nome_base}.csv")
+        df_resultado.to_csv(resultado_csv, index=False)
+
+        # Adiciona ao CSV geral se quiser usar no painel
+        geral_csv = os.path.join("dados", "resultados.csv")
+        if os.path.exists(geral_csv):
+            df_geral = pd.read_csv(geral_csv)
+            df_geral = pd.concat([df_geral, df_resultado], ignore_index=True)
+        else:
+            df_geral = df_resultado
+        df_geral.to_csv(geral_csv, index=False)
+
+        st.success("✅ Resultado salvo e integrado ao painel de progresso!")
+

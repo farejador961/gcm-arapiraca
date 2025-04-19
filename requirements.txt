@@ -18,5 +18,7 @@ nltk
 pandas
 beautifulsoup4
 requests
+PyPDF2
+
 
 
