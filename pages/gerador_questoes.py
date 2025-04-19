@@ -1,4 +1,3 @@
-# pages/gerador_questoes.py
 import streamlit as st
 import pdfplumber
 import requests
@@ -77,7 +76,8 @@ def gerar_questoes_cloze(texto, n):
 # Se gerou
 if gerar:
     st.info("🛠️ Processando PDF...")
-    # obtém texto
+
+    # Obtém texto
     try:
         if uploaded:
             path = os.path.join(UPLOAD_FOLDER, uploaded.name)
@@ -90,7 +90,7 @@ if gerar:
             st.warning("Envie um PDF ou informe a URL.") 
             st.stop()
 
-        # cria as questões
+        # Cria as questões
         questoes = gerar_questoes_cloze(texto, num_q)
         st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
     except Exception as e:
@@ -118,7 +118,7 @@ if gerar:
             st.session_state.show_gabarito[i] = True
         if st.session_state.show_gabarito[i]:
             st.info(f"**Resposta correta:** {q['resposta']}")
-        
+
         # Campo de comentário
         comment = st.text_input("Comentário (opcional)", key=f"c{i}")
         st.session_state.gq_comment[i] = comment
@@ -150,4 +150,5 @@ if gerar:
 
         # Opcional: redirecionar ao Painel de Progresso
         st.write("[➡️ Vá para o Painel de Progresso](#/pages/2_Painel_de_Progresso)")
+
 
