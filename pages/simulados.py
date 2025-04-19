@@ -30,7 +30,7 @@ def gerar_nome_arquivo(nome, simulado_id, tipo):
         return f"uploads/provas/{nome_limpo}_simulado{simulado_id}.pdf"
     elif tipo == "gabarito":
         return f"uploads/gabaritos/{nome_limpo}_simulado{simulado_id}_gabarito.pdf"
-    
+
 # Função para salvar uploads manuais
 def salvar_upload_pdf(arquivo, pasta, nome_base):
     caminho = os.path.join(pasta, f"{nome_base}.pdf")
@@ -38,7 +38,7 @@ def salvar_upload_pdf(arquivo, pasta, nome_base):
         f.write(arquivo.read())
     return caminho
 
-# Baixa e salva o PDF
+# Baixa e salva o PDF de uma URL
 def baixar_pdf(url, destino):
     try:
         response = requests.get(url)
@@ -48,6 +48,56 @@ def baixar_pdf(url, destino):
     except Exception as e:
         st.error(f"Erro ao baixar {destino}: {e}")
         return False
+
+# Formulário de Envio
+with st.form("form_envio"):
+    st.subheader("📤 Enviar ou Escolher Prova e Gabarito")
+
+    nome = st.text_input("👤 Seu nome completo")
+    simulado_id = st.text_input("🧾 Número do simulado (ex: 1, 2...)")
+
+    st.markdown("**🔗 Ou informe os links abaixo (opcional):**")
+    url_prova = st.text_input("🔗 Link do PDF da PROVA")
+    url_gabarito = st.text_input("🔗 Link do PDF do GABARITO")
+
+    st.markdown("**📁 Ou envie os arquivos diretamente do seu computador:**")
+    arquivo_prova = st.file_uploader("📄 Envie o PDF da PROVA", type=["pdf"])
+    arquivo_gabarito = st.file_uploader("📄 Envie o PDF do GABARITO", type=["pdf"])
+
+    enviar = st.form_submit_button("📥 Armazenar Arquivos")
+
+# Processamento do envio
+if enviar and nome and simulado_id:
+    nome_limpo = nome.lower().replace(" ", "_")
+    nome_prova = f"{nome_limpo}_simulado{simulado_id}"
+    nome_gabarito = f"{nome_prova}_gabarito"
+
+    caminho_prova = f"uploads/provas/{nome_prova}.pdf"
+    caminho_gabarito = f"uploads/gabaritos/{nome_gabarito}.pdf"
+
+    sucesso_prova, sucesso_gabarito = False, False
+
+    if url_prova:
+        sucesso_prova = baixar_pdf(url_prova, caminho_prova)
+    elif arquivo_prova:
+        salvar_upload_pdf(arquivo_prova, "uploads/provas", nome_prova)
+        sucesso_prova = True
+
+    if url_gabarito:
+        sucesso_gabarito = baixar_pdf(url_gabarito, caminho_gabarito)
+    elif arquivo_gabarito:
+        salvar_upload_pdf(arquivo_gabarito, "uploads/gabaritos", nome_gabarito)
+        sucesso_gabarito = True
+
+    if sucesso_prova and sucesso_gabarito:
+        st.success("✅ Prova e gabarito armazenados com sucesso!")
+    elif sucesso_prova or sucesso_gabarito:
+        st.warning("⚠️ Apenas um dos arquivos foi salvo com sucesso.")
+    else:
+        st.error("❌ Nenhum arquivo foi salvo. Verifique as entradas.")
+elif enviar:
+    st.error("❗ Preencha o nome e número do simulado.")
+
 
 # Extrai texto de PDF
 def extrair_texto_pdf(caminho):
