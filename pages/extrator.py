@@ -19,7 +19,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 st.set_page_config(page_title="Extrator de Resumo", layout="centered")
 
 st.title("📄 Extrator de Resumo de PDF")
-st.image("dados/Maike.png", width=150)
+st.image("dados/Mayke.png", width=150)
 st.markdown("Resuma um PDF por **URL** ou **upload local**. Ideal para estudar com foco!")
 
 # Função de resumo
