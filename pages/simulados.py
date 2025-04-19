@@ -30,6 +30,13 @@ def gerar_nome_arquivo(nome, simulado_id, tipo):
         return f"uploads/provas/{nome_limpo}_simulado{simulado_id}.pdf"
     elif tipo == "gabarito":
         return f"uploads/gabaritos/{nome_limpo}_simulado{simulado_id}_gabarito.pdf"
+    
+# Função para salvar uploads manuais
+def salvar_upload_pdf(arquivo, pasta, nome_base):
+    caminho = os.path.join(pasta, f"{nome_base}.pdf")
+    with open(caminho, "wb") as f:
+        f.write(arquivo.read())
+    return caminho
 
 # Baixa e salva o PDF
 def baixar_pdf(url, destino):
