@@ -75,9 +75,18 @@ if gerar:
     try:
         st.info("🛠️ Processando PDF...")
         if uploaded:
-            path = os.path.join(UPLOAD_FOLDER, uploaded.name)
-            with open(path, "wb") as f: f.write(uploaded.read())
+            from datetime import datetime
+
+            nome_base = uploaded.name.rsplit('.', 1)[0]
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            nome_unico = f"{nome_base}_{timestamp}.pdf"
+            path = os.path.join(UPLOAD_FOLDER, nome_unico)
+
+            with open(path, "wb") as f:
+                f.write(uploaded.read())
+
             texto = extrair_texto(path)
+
         elif pdf_url:
             r = requests.get(pdf_url); r.raise_for_status()
             texto = extrair_texto(BytesIO(r.content))
