@@ -17,6 +17,7 @@ nltk.download("averaged_perceptron_tagger")
 # Configurações da página
 st.set_page_config(page_title="Gerador de Questões", layout="wide")
 st.title("📝 Gerador de Questões - PDF → Múltipla Escolha")
+st.image("dados/Maike.png", width=150)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
