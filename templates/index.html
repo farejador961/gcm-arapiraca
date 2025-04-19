@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo de PDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gerador de Resumo de PDF</h1>
+        </header>
+
+        <main>
+            <form method="POST" enctype="multipart/form-data" class="pdf-form">
+                <label for="url">Insira o link do PDF:</label>
+                <input type="text" id="url" name="url" placeholder="Cole o link do PDF aqui">
+
+                <hr>
+
+                <label for="file">Ou selecione um PDF do seu computador:</label>
+                <input type="file" id="file" name="file" accept=".pdf">
+
+                <hr>
+
+                <label for="num_sentences">Tamanho do resumo:</label>
+                <select id="num_sentences" name="num_sentences">
+                    <option value="3">Curto (3 frases)</option>
+                    <option value="5">Médio (5 frases)</option>
+                    <option value="8">Longo (8 frases)</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Gerar Resumo</button>
+            </form>
+
+            {% if summary %}
+            <section class="summary">
+                <h2>Resumo do PDF</h2>
+                <p>{{ summary }}</p>
+            </section>
+            {% endif %}
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Você</p>
+        </footer>
+    </div>
+</body>
+</html>

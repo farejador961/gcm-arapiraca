@@ -1,0 +1,210 @@
+{
+  "modulos": {
+    "Lei Orgânica do Município": [
+      {
+        "pergunta": "Qual é o conceito de autonomia municipal segundo a Lei Orgânica?",
+        "alternativas": [
+          "A) Capacidade de legislar sobre matérias federais",
+          "B) Autogoverno e gestão de interesses locais nos limites da Constituição",
+          "C) Independência financeira total sem repasses estaduais",
+          "D) Competência exclusiva para segurança pública"
+        ],
+        "resposta_correta": "B) Autogoverno e gestão de interesses locais nos limites da Constituição"
+      },
+      {
+        "pergunta": "Cabe à Câmara Municipal, dentre suas atribuições:",
+        "alternativas": [
+          "A) Executar políticas de saúde pública",
+          "B) Fiscalizar atos do Executivo e criar leis municipais",
+          "C) Julgar crimes federais",
+          "D) Conceder empréstimos a Estados"
+        ],
+        "resposta_correta": "B) Fiscalizar atos do Executivo e criar leis municipais"
+      }
+    ],
+    "Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018)": [
+      {
+        "pergunta": "O que institui o Sistema Único de Segurança Pública (SUSP)?",
+        "alternativas": [
+          "A) Nova carreira para guardas municipais",
+          "B) Integração de bancos de dados policiais",
+          "C) Diretrizes de cooperação entre União, Estados, DF e Municípios",
+          "D) Centralização das ações policiais na Polícia Federal"
+        ],
+        "resposta_correta": "C) Diretrizes de cooperação entre União, Estados, DF e Municípios"
+      },
+      {
+        "pergunta": "Um dos princípios da PNPSD é:",
+        "alternativas": [
+          "A) Exclusividade de atuação da União",
+          "B) Eficiência e controle social",
+          "C) Criminalização das manifestações",
+          "D) Privatização da segurança pública"
+        ],
+        "resposta_correta": "B) Eficiência e controle social"
+      }
+    ],
+    "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)": [
+      {
+        "pergunta": "Segundo o Estatuto, as Guardas Municipais têm como função principal:",
+        "alternativas": [
+          "A) Investigações criminais complexas",
+          "B) Proteção de bens, serviços e instalações municipais",
+          "C) Julgamento de infrações rodoviárias",
+          "D) Atuação no sistema prisional"
+        ],
+        "resposta_correta": "B) Proteção de bens, serviços e instalações municipais"
+      },
+      {
+        "pergunta": "O Decreto 11.841/2023 regula a cooperação das Guardas Municipais com:",
+        "alternativas": [
+          "A) Organismos internacionais de segurança",
+          "B) Forças Armadas em operações externas",
+          "C) Órgãos de segurança da União, Estados e DF",
+          "D) Empresas privadas de segurança"
+        ],
+        "resposta_correta": "C) Órgãos de segurança da União, Estados e DF"
+      }
+    ],
+    "Organização, Comando e Controle e Plano de Carreira (LC 05/2024)": [
+      {
+        "pergunta": "A Lei Complementar nº 05/2024 trata de:",
+        "alternativas": [
+          "A) Criação de nova carreira policial estadual",
+          "B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca",
+          "C) Estatuto do Servidor Federal",
+          "D) Organização do Ministério Público"
+        ],
+        "resposta_correta": "B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca"
+      }
+    ],
+    "Poder de Polícia Administrativa": [
+      {
+        "pergunta": "O poder de polícia administrativa pode impor:",
+        "alternativas": [
+          "A) Penas privativas de liberdade",
+          "B) Sanções administrativas para proteger o interesse público",
+          "C) Multas somente ao Estado",
+          "D) Alterações constitucionais"
+        ],
+        "resposta_correta": "B) Sanções administrativas para proteger o interesse público"
+      }
+    ],
+    "Atos Administrativos": [
+      {
+        "pergunta": "Qual a natureza de um ato administrativo normativo?",
+        "alternativas": [
+          "A) Atos que criam regras gerais e abstratas",
+          "B) Atos individuais de aplicação",
+          "C) Atos de sanção penal",
+          "D) Atos judiciais"
+        ],
+        "resposta_correta": "A) Atos que criam regras gerais e abstratas"
+      }
+    ],
+    "Protocolo e Gerenciamento de Documentos e Processos": [
+      {
+        "pergunta": "Apensação em processo administrativo significa:",
+        "alternativas": [
+          "A) Encerrar um processo",
+          "B) Juntar processos relacionados em um só",
+          "C) Dividir processos em partes",
+          "D) Enviar documentos a órgãos externos"
+        ],
+        "resposta_correta": "B) Juntar processos relacionados em um só"
+      }
+    ],
+    "Legislação de Proteção e Estatutos Específicos": [
+      {
+        "pergunta": "A Lei Maria da Penha foi criada para proteger:",
+        "alternativas": [
+          "A) Idosos em situação de abandono",
+          "B) Crianças em internatos",
+          "C) Mulheres contra violência doméstica",
+          "D) Pessoas com deficiência"
+        ],
+        "resposta_correta": "C) Mulheres contra violência doméstica"
+      },
+      {
+        "pergunta": "O Estatuto da Criança e do Adolescente (ECA) prevê:",
+        "alternativas": [
+          "A) Maioridade penal aos 16 anos",
+          "B) Medidas de proteção para menores de 18 anos",
+          "C) Extinção da guarda municipal",
+          "D) Exclusão de adolescentes do sistema escolar"
+        ],
+        "resposta_correta": "B) Medidas de proteção para menores de 18 anos"
+      }
+    ],
+    "Crimes contra a Administração Pública": [
+      {
+        "pergunta": "Peculato está previsto no art. 312 do Código Penal e consiste em:",
+        "alternativas": [
+          "A) Apropriação indevida de bens públicos por funcionário",
+          "B) Calúnia contra autoridade",
+          "C) Falsificação de documentos particulares",
+          "D) Tráfico de influência"
+        ],
+        "resposta_correta": "A) Apropriação indevida de bens públicos por funcionário"
+      },
+      {
+        "pergunta": "No art. 330 do CP, resistência caracteriza-se por:",
+        "alternativas": [
+          "A) Ofender agente público",
+          "B) Impedir execução de ato legal",
+          "C) Corromper testemunha",
+          "D) Retenção de documento público"
+        ],
+        "resposta_correta": "B) Impedir execução de ato legal"
+      }
+    ],
+    "Noções de Direito Constitucional": [
+      {
+        "pergunta": "Uma característica do Estado Democrático de Direito é:",
+        "alternativas": [
+          "A) Supremacia do poder militar",
+          "B) Obediência à Constituição e direitos fundamentais",
+          "C) Concentração de poder no Executivo",
+          "D) Ausência de controle jurisdicional"
+        ],
+        "resposta_correta": "B) Obediência à Constituição e direitos fundamentais"
+      }
+    ],
+    "Língua Portuguesa": [
+      {
+        "pergunta": "Assinale a frase com o uso correto da crase:",
+        "alternativas": [
+          "A) Vou à festa hoje à noite.",
+          "B) Entreguei o documento a presidente.",
+          "C) Referi-me a Ela durante o discurso.",
+          "D) As aulas começam à as oito."
+        ],
+        "resposta_correta": "A) Vou à festa hoje à noite."
+      }
+    ],
+    "Conhecimentos Gerais sobre o Município de Arapiraca": [
+      {
+        "pergunta": "A Lei Orgânica de Arapiraca define a autonomia do município como:",
+        "alternativas": [
+          "A) Atuação exclusiva em segurança pública",
+          "B) Capacidade de instituir normas e gerir recursos próprios",
+          "C) Dependência total do governo estadual",
+          "D) Subordinação ao Plano Nacional de Desenvolvimento"
+        ],
+        "resposta_correta": "B) Capacidade de instituir normas e gerir recursos próprios"
+      }
+    ],
+    "Noções de Informática": [
+      {
+        "pergunta": "Qual atalho no Windows geralmente abre as configurações de teclado?",
+        "alternativas": [
+          "A) Ctrl + C",
+          "B) Alt + F4",
+          "C) Windows + I",
+          "D) Ctrl + Alt + Del"
+        ],
+        "resposta_correta": "C) Windows + I"
+      }
+    ]
+  }
+}
