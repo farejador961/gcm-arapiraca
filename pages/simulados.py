@@ -18,8 +18,11 @@ with st.form("busca_simulados"):
 
 # Função para buscar provas da banca IBAM
 def buscar_provas_ibam():
-    url = f"https://www.pciconcursos.com.br/provas/{banca}"
-    response = requests.get(url)
+    url = f"https://www.pciconcursos.com.br/provas/ibam"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    }
+    response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
     provas = []
 
@@ -29,6 +32,7 @@ def buscar_provas_ibam():
         if nome_prova and url_prova not in [p['url'] for p in provas]:
             provas.append({"nome": nome_prova, "url": url_prova})
     return provas
+
 
 # Função para buscar questões de uma prova específica
 def buscar_questoes_da_prova(url_prova, filtro_materia=None):
