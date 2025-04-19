@@ -59,7 +59,7 @@ if "respondido" not in st.session_state:
     st.session_state.respondido = [False] * len(perguntas)
 
 # Exibir imagem da Jany
-st.image("dados/Mayke.png", width=100)
+st.image("dados/Mayke.png", width=150)
 
 # Exibir perguntas
 for i, q in enumerate(perguntas):
