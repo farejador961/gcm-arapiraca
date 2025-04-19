@@ -75,28 +75,47 @@ if gerar:
     try:
         st.info("🛠️ Processando PDF...")
 
-        if uploaded is not None:
-            from datetime import datetime
+        if "textos_pdf" not in st.session_state:
+            st.session_state.textos_pdf = []
 
+        texto_total = ""
+
+        if uploaded is not None:
             nome_base = uploaded.name.rsplit('.', 1)[0]
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             nome_unico = f"{nome_base}_{timestamp}.pdf"
             path = os.path.join(UPLOAD_FOLDER, nome_unico)
 
-            # Use uploaded.getvalue() em vez de uploaded.read()
             with open(path, "wb") as f:
                 f.write(uploaded.getvalue())
 
             texto = extrair_texto(path)
+            st.session_state.textos_pdf.append(texto)
 
-        elif pdf_url.strip():
+        if pdf_url.strip():
             r = requests.get(pdf_url)
             r.raise_for_status()
             texto = extrair_texto(BytesIO(r.content))
+            st.session_state.textos_pdf.append(texto)
 
-        else:
-            st.warning("Envie um PDF **ou** informe uma URL.")
+        if not st.session_state.textos_pdf:
+            st.warning("Envie um PDF ou informe uma URL.")
             st.stop()
+
+        # Junta todos os textos acumulados
+        texto_total = "\n\n".join(st.session_state.textos_pdf)
+
+        # Gera questões
+        questoes = gerar_questoes_cloze(texto_total, num_q)
+        st.session_state.questoes = questoes
+        st.session_state.gq_resp = [None]*len(questoes)
+        st.session_state.gq_comment = [""]*len(questoes)
+        st.session_state.show_gabarito = [False]*len(questoes)
+        st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
+
+    except Exception as e:
+        st.error(f"❌ Erro ao processar: {e}")
+        st.stop()
 
         # Continua com a geração de questões...
         questoes = gerar_questoes_cloze(texto, num_q)
