@@ -5,6 +5,7 @@ import os
 
 st.set_page_config(page_title="Painel de Progresso - GCM", layout="wide")
 st.title("📚 Acompanhamento de Estudos - GCM Arapiraca")
+st.image("dados/Maike.png", width=150)
 
 # ✅ Verifica e cria o arquivo de resultados, se necessário
 if not os.path.exists("dados/resultados.csv"):
