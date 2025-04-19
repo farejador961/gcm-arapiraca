@@ -16,5 +16,7 @@ streamlit
 pdfplumber
 nltk
 pandas
+beautifulsoup4
+requests
 
 
