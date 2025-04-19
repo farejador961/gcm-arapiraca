@@ -13,6 +13,7 @@ os.makedirs("uploads/provas", exist_ok=True)
 os.makedirs("uploads/gabaritos", exist_ok=True)
 os.makedirs("dados", exist_ok=True)
 
+
 # Formulário de Envio
 with st.form("form_envio"):
     st.subheader("📤 Enviar ou Escolher Prova e Gabarito")
