@@ -74,7 +74,8 @@ def gerar_questoes_cloze(texto, n):
 if gerar:
     try:
         st.info("🛠️ Processando PDF...")
-        if uploaded:
+
+        if uploaded is not None:
             from datetime import datetime
 
             nome_base = uploaded.name.rsplit('.', 1)[0]
@@ -82,17 +83,29 @@ if gerar:
             nome_unico = f"{nome_base}_{timestamp}.pdf"
             path = os.path.join(UPLOAD_FOLDER, nome_unico)
 
+            # Use uploaded.getvalue() em vez de uploaded.read()
             with open(path, "wb") as f:
-                f.write(uploaded.read())
+                f.write(uploaded.getvalue())
 
             texto = extrair_texto(path)
 
-        elif pdf_url:
-            r = requests.get(pdf_url); r.raise_for_status()
+        elif pdf_url.strip():
+            r = requests.get(pdf_url)
+            r.raise_for_status()
             texto = extrair_texto(BytesIO(r.content))
+
         else:
-            st.warning("Envie um PDF ou informe uma URL.")
+            st.warning("Envie um PDF **ou** informe uma URL.")
             st.stop()
+
+        # Continua com a geração de questões...
+        questoes = gerar_questoes_cloze(texto, num_q)
+        st.success(f"✅ {len(questoes)} questões geradas com sucesso!")
+
+    except Exception as e:
+        st.error(f"❌ Erro ao processar: {e}")
+        st.stop()
+
 
         # Armazenar as questões na sessão
         questoes = gerar_questoes_cloze(texto, num_q)
