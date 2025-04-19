@@ -3,6 +3,7 @@ import requests
 import os
 import csv
 from PyPDF2 import PdfReader
+import uuid
 
 st.set_page_config(page_title="Simulados Inteligentes", layout="wide")
 st.title("🎯 Simulados Inteligentes")
@@ -50,7 +51,11 @@ def baixar_pdf(url, destino):
         return False
 
 # Formulário de Envio
-with st.form("form_envio"):
+form_id = f"form_envio_{uuid.uuid4().hex[:6]}"  # gera uma chave única
+
+with st.form(form_id):
+    ...
+
     st.subheader("📤 Enviar ou Escolher Prova e Gabarito")
 
     nome = st.text_input("👤 Seu nome completo")
@@ -97,7 +102,6 @@ if enviar and nome and simulado_id:
         st.error("❌ Nenhum arquivo foi salvo. Verifique as entradas.")
 elif enviar:
     st.error("❗ Preencha o nome e número do simulado.")
-
 
 # Extrai texto de PDF
 def extrair_texto_pdf(caminho):
