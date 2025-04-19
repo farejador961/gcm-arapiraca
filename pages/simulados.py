@@ -17,7 +17,7 @@ with st.form("busca_simulados"):
 
 # Função para buscar questões no PCI Concursos
 def buscar_questoes_pciconcursos(cargo, materia=None):
-    url = f"https://www.pciconcursos.com.br/provas/{cargo}/1"
+    url = f"https://www.pciconcursos.com.br/vagas/{cargo}/1"
     if materia:
         url += f"?materia={materia}"  # Se houver matéria, adicionar à URL
     response = requests.get(url)
