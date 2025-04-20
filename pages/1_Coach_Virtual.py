@@ -42,14 +42,22 @@ def exibir_dialogo(texto):
 with open("dados/perguntas.json", encoding="utf-8-sig") as f:
     data = json.load(f)
 
+letras = ["A", "B", "C", "D", "E", "F"]
 perguntas = []
+
 for modulo, lista in data["modulos"].items():
     for item in lista:
+        alternativas = item["alternativas"]
+        
+        # Normalizar alternativas: se for lista, transformar em dicionário
+        if isinstance(alternativas, list):
+            alternativas = {letras[i]: texto for i, texto in enumerate(alternativas)}
+
         perguntas.append({
             "id": item.get("id"),
             "modulo": modulo,
             "texto": item["pergunta"],
-            "opcoes": item["alternativas"],
+            "opcoes": alternativas,
             "correta": item["resposta_correta"]
         })
 
