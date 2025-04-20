@@ -401,6 +401,106 @@
         },
         "resposta_correta": "B"
       }
-    ]
+    ],
+    "Lei nº 13.675/201.8 (SUSP)": [
+      {
+      "id": 33,
+      "pergunta": "Qual órgão coordena o SUSP em nível nacional?",
+      "alternativas": {
+        "A": "Ministério da Justiça",
+        "B": "Conselho Nacional de Segurança",
+        "C": "Secretaria Nacional de Segurança Pública",
+        "D": "Gabinete de Segurança Institucional"
+      },
+      "resposta_correta": "C"
+      }
+    ],
+    
+    "Questões Diversas": [
+      {
+        "id": 34,
+        "disciplina": "Direito Constitucional",
+        "pergunta": "Assinale a alternativa correta sobre os princípios fundamentais da Constituição Federal.",
+        "alternativas": {
+          "A": "A soberania é um princípio que se aplica apenas a Estados independentes.",
+          "B": "A cidadania é um princípio que se refere ao direito de participar da vida política do país.",
+          "C": "A dignidade da pessoa humana é um princípio que não possui aplicação prática.",
+          "D": "A justiça social é um princípio que não se relaciona com a Constituição."
+        },
+        "resposta_correta": "B"
+      },
+      {
+        "id": 35,
+        "disciplina": "Direito Administrativo",
+        "pergunta": "De acordo com a Lei nº 8.112/1990, é correto afirmar que:",
+        "alternativas": {
+          "A": "O servidor público pode ser exonerado a pedido a qualquer momento.",
+          "B": "A estabilidade no serviço público é adquirida após 3 anos de efetivo exercício.",
+          "C": "A licença para tratamento de saúde é concedida independentemente de perícia médica.",
+          "D": "O servidor público não pode acumular cargos públicos."
+        },
+        "resposta_correta": "A"
+        },
+        {
+          "id": 36,
+          "disciplina": "Direito Constitucional",
+          "enunciado": "Assinale a alternativa correta sobre os princípios fundamentais da Constituição Federal.",
+          "alternativas": {
+            "a": "A soberania é um princípio que se aplica apenas a Estados independentes.",
+            "b": "A cidadania é um princípio que se refere ao direito de participar da vida política do país.",
+            "c": "A dignidade da pessoa humana é um princípio que não possui aplicação prática.",
+            "d": "A justiça social é um princípio que não se relaciona com a Constituição."
+          },
+          "resposta": "b"
+        },
+        {
+          "id": 37,
+          "disciplina": "Direito Administrativo",
+          "enunciado": "De acordo com a Lei nº 8.112/1990, é correto afirmar que:",
+          "alternativas": {
+            "a": "O servidor público pode ser exonerado a pedido a qualquer momento.",
+            "b": "A estabilidade no serviço público é adquirida após 3 anos de efetivo exercício.",
+            "c": "A licença para tratamento de saúde é concedida independentemente de perícia médica.",
+            "d": "O servidor público não pode acumular cargos públicos."
+          },
+          "resposta": "a"
+        },
+        {
+          "id": 38,
+          "disciplina": "Noções de Informática",
+          "enunciado": "Assinale a alternativa correta sobre sistemas operacionais.",
+          "alternativas": {
+            "a": "O sistema operacional é responsável apenas pela execução de programas.",
+            "b": "O sistema operacional gerencia recursos como memória e processador.",
+            "c": "O sistema operacional não interage com o hardware do computador.",
+            "d": "O sistema operacional é irrelevante para o funcionamento do computador."
+          },
+          "resposta": "b"
+        },
+        {
+          "id": 39,
+          "disciplina": "Código Penal",
+          "enunciado": "Sobre o Código Penal Brasileiro, é correto afirmar que:",
+          "alternativas": {
+            "a": "O Código Penal não prevê penas alternativas.",
+            "b": "A pena de morte é permitida em casos excepcionais.",
+            "c": "O Código Penal não trata de crimes militares.",
+            "d": "A legítima defesa é considerada uma excludente de ilicitude."
+          },
+          "resposta": "d"
+        },
+        {
+          "id": 40,
+          "disciplina": "Código de Trânsito Brasileiro",
+          "enunciado": "De acordo com o Código de Trânsito Brasileiro, é correto afirmar que:",
+          "alternativas": {
+            "a": "A velocidade máxima em vias urbanas é sempre 60 km/h.",
+            "b": "O uso do cinto de segurança é obrigatório apenas para o motorista.",
+            "c": "A ultrapassagem é proibida em faixas contínuas.",
+            "d": "O condutor deve sempre estacionar em vagas destinadas a deficientes."
+          },
+          "resposta": "c"
+        }
+      ]
+    }
   }
-}
