@@ -111,7 +111,7 @@ for idx, q in enumerate(selecionadas):
         key=widget_key
     )
 
-    # key única do botão
+    # Botão para registrar resposta e exibir feedback
     btn_key = f"btn_{q['id']}_{idx}"
     if st.button("Responder/Revisar", key=btn_key):
         acertou = escolha == q["correta"]
@@ -119,11 +119,6 @@ for idx, q in enumerate(selecionadas):
             "resposta": escolha,
             "acertou": acertou
         }
-
-    # Botão para registrar resposta e exibir feedback
-    if st.button("Responder/Revisar", key=f"btn_{idx}"):
-        acertou = escolha == q["correta"]
-        st.session_state.answers[widget_key] = {"resposta": escolha, "acertou": acertou}
 
         if acertou:
             st.success("✅ Acertou!")
