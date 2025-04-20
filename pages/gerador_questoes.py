@@ -37,7 +37,7 @@ def extrair_texto(pdf_stream):
     return texto
 
 
-def gerar_questoes_interpretativas(texto, n, modulo_label, max_palavras_sentenca=30, max_caracteres_alternativa=180):
+def gerar_questoes_interpretativas(texto, n, modulo_label, max_palavras_sentenca=60, max_caracteres_alternativa=360):
     from nltk.tokenize import sent_tokenize, word_tokenize
     from nltk import pos_tag
     from sklearn.feature_extraction.text import TfidfVectorizer

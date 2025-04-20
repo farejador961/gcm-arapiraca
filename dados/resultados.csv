@@ -1,1 +1,3301 @@
-data,módulo,acertou,total
+id,modulo,resposta_correta
+1,Lei Orgânica do Município,A
+2,Lei Orgânica do Município,A
+3,Lei Orgânica do Município,A
+4,Lei Orgânica do Município,D
+5,Lei Orgânica do Município,C
+6,Lei Orgânica do Município,A
+7,Lei Orgânica do Município,A
+8,Lei Orgânica do Município,C
+9,Lei Orgânica do Município,C
+10,Lei Orgânica do Município,D
+11,Lei Orgânica do Município,D
+12,Lei Orgânica do Município,B
+13,Lei Orgânica do Município,C
+14,Lei Orgânica do Município,C
+15,Lei Orgânica do Município,B
+16,Lei Orgânica do Município,D
+17,Lei Orgânica do Município,C
+18,Lei Orgânica do Município,B
+19,Lei Orgânica do Município,C
+20,Lei Orgânica do Município,A
+21,Lei Orgânica do Município,A
+22,Lei Orgânica do Município,D
+23,Lei Orgânica do Município,C
+24,Lei Orgânica do Município,D
+25,Lei Orgânica do Município,A
+26,Lei Orgânica do Município,C
+27,Lei Orgânica do Município,C
+28,Lei Orgânica do Município,B
+29,Lei Orgânica do Município,D
+30,Lei Orgânica do Município,B
+31,Lei Orgânica do Município,D
+32,Lei Orgânica do Município,C
+33,Lei Orgânica do Município,D
+34,Lei Orgânica do Município,B
+35,Lei Orgânica do Município,D
+36,Lei Orgânica do Município,C
+37,Lei Orgânica do Município,D
+38,Lei Orgânica do Município,A
+39,Lei Orgânica do Município,A
+40,Lei Orgânica do Município,C
+41,Lei Orgânica do Município,D
+42,Lei Orgânica do Município,A
+43,Lei Orgânica do Município,A
+44,Lei Orgânica do Município,A
+45,Lei Orgânica do Município,B
+46,Lei Orgânica do Município,A
+47,Lei Orgânica do Município,D
+48,Lei Orgânica do Município,A
+49,Lei Orgânica do Município,D
+50,Lei Orgânica do Município,D
+51,Lei Orgânica do Município,A
+52,Lei Orgânica do Município,B
+53,Lei Orgânica do Município,A
+54,Lei Orgânica do Município,B
+55,Lei Orgânica do Município,A
+56,Lei Orgânica do Município,A
+57,Lei Orgânica do Município,A
+58,Lei Orgânica do Município,B
+59,Lei Orgânica do Município,B
+60,Lei Orgânica do Município,C
+61,Lei Orgânica do Município,D
+62,Lei Orgânica do Município,D
+63,Lei Orgânica do Município,A
+64,Lei Orgânica do Município,A
+65,Lei Orgânica do Município,D
+66,Lei Orgânica do Município,D
+67,Lei Orgânica do Município,B
+68,Lei Orgânica do Município,D
+69,Lei Orgânica do Município,D
+70,Lei Orgânica do Município,A
+71,Lei Orgânica do Município,A
+72,Lei Orgânica do Município,B
+73,Lei Orgânica do Município,A
+74,Lei Orgânica do Município,A
+75,Lei Orgânica do Município,A
+76,Lei Orgânica do Município,C
+77,Lei Orgânica do Município,B
+78,Lei Orgânica do Município,D
+79,Lei Orgânica do Município,B
+80,Lei Orgânica do Município,A
+81,Lei Orgânica do Município,B
+82,Lei Orgânica do Município,C
+83,Lei Orgânica do Município,D
+84,Lei Orgânica do Município,C
+85,Lei Orgânica do Município,C
+86,Lei Orgânica do Município,B
+87,Lei Orgânica do Município,A
+88,Lei Orgânica do Município,D
+89,Lei Orgânica do Município,D
+90,Lei Orgânica do Município,C
+91,Lei Orgânica do Município,C
+92,Lei Orgânica do Município,D
+93,Lei Orgânica do Município,B
+94,Lei Orgânica do Município,D
+95,Lei Orgânica do Município,A
+96,Lei Orgânica do Município,C
+97,Lei Orgânica do Município,B
+98,Lei Orgânica do Município,D
+99,Lei Orgânica do Município,A
+100,Lei Orgânica do Município,B
+101,Lei Orgânica do Município,A
+102,Lei Orgânica do Município,C
+103,Lei Orgânica do Município,D
+104,Lei Orgânica do Município,A
+105,Lei Orgânica do Município,D
+106,Lei Orgânica do Município,A
+107,Lei Orgânica do Município,B
+108,Lei Orgânica do Município,C
+109,Lei Orgânica do Município,D
+110,Lei Orgânica do Município,B
+111,Lei Orgânica do Município,B
+112,Lei Orgânica do Município,A
+113,Lei Orgânica do Município,D
+114,Lei Orgânica do Município,D
+115,Lei Orgânica do Município,D
+116,Lei Orgânica do Município,B
+117,Lei Orgânica do Município,D
+118,Lei Orgânica do Município,B
+119,Lei Orgânica do Município,A
+120,Lei Orgânica do Município,B
+121,Lei Orgânica do Município,D
+122,Lei Orgânica do Município,C
+123,Lei Orgânica do Município,C
+124,Lei Orgânica do Município,A
+125,Lei Orgânica do Município,C
+126,Lei Orgânica do Município,B
+127,Lei Orgânica do Município,C
+128,Lei Orgânica do Município,A
+129,Lei Orgânica do Município,A
+130,Lei Orgânica do Município,A
+131,Lei Orgânica do Município,D
+132,Lei Orgânica do Município,A
+133,Lei Orgânica do Município,B
+134,Lei Orgânica do Município,C
+135,Lei Orgânica do Município,A
+136,Lei Orgânica do Município,B
+137,Lei Orgânica do Município,A
+138,Lei Orgânica do Município,D
+139,Lei Orgânica do Município,A
+140,Lei Orgânica do Município,A
+141,Lei Orgânica do Município,C
+142,Lei Orgânica do Município,B
+143,Lei Orgânica do Município,B
+144,Lei Orgânica do Município,D
+145,Lei Orgânica do Município,A
+146,Lei Orgânica do Município,B
+147,Lei Orgânica do Município,A
+148,Lei Orgânica do Município,D
+149,Lei Orgânica do Município,A
+150,Lei Orgânica do Município,A
+151,Lei Orgânica do Município,C
+152,Lei Orgânica do Município,B
+153,Lei Orgânica do Município,C
+154,Lei Orgânica do Município,D
+155,Lei Orgânica do Município,C
+156,Lei Orgânica do Município,A
+157,Lei Orgânica do Município,D
+158,Lei Orgânica do Município,B
+159,Lei Orgânica do Município,D
+160,Lei Orgânica do Município,A
+161,Lei Orgânica do Município,A
+162,Lei Orgânica do Município,A
+163,Lei Orgânica do Município,D
+164,Lei Orgânica do Município,D
+165,Lei Orgânica do Município,D
+166,Lei Orgânica do Município,B
+167,Lei Orgânica do Município,D
+168,Lei Orgânica do Município,A
+169,Lei Orgânica do Município,B
+170,Lei Orgânica do Município,C
+171,Lei Orgânica do Município,D
+172,Lei Orgânica do Município,D
+173,Lei Orgânica do Município,A
+174,Lei Orgânica do Município,D
+175,Lei Orgânica do Município,A
+176,Lei Orgânica do Município,D
+177,Lei Orgânica do Município,D
+178,Lei Orgânica do Município,A
+179,Lei Orgânica do Município,B
+180,Lei Orgânica do Município,B
+181,Lei Orgânica do Município,C
+182,Lei Orgânica do Município,D
+183,Lei Orgânica do Município,B
+184,Lei Orgânica do Município,C
+185,Lei Orgânica do Município,D
+186,Lei Orgânica do Município,C
+187,Lei Orgânica do Município,A
+188,Lei Orgânica do Município,B
+189,Lei Orgânica do Município,A
+190,Lei Orgânica do Município,D
+191,Lei Orgânica do Município,B
+192,Lei Orgânica do Município,B
+193,Lei Orgânica do Município,B
+194,Lei Orgânica do Município,A
+195,Lei Orgânica do Município,D
+196,Lei Orgânica do Município,C
+197,Lei Orgânica do Município,D
+198,Lei Orgânica do Município,C
+199,Lei Orgânica do Município,B
+200,Lei Orgânica do Município,A
+201,Lei Orgânica do Município,B
+202,Lei Orgânica do Município,B
+203,Lei Orgânica do Município,B
+204,Lei Orgânica do Município,B
+205,Lei Orgânica do Município,C
+206,Lei Orgânica do Município,B
+207,Lei Orgânica do Município,D
+208,Lei Orgânica do Município,C
+209,Lei Orgânica do Município,B
+210,Lei Orgânica do Município,A
+211,Lei Orgânica do Município,A
+212,Lei Orgânica do Município,B
+213,Lei Orgânica do Município,A
+214,Lei Orgânica do Município,B
+215,Lei Orgânica do Município,B
+216,Lei Orgânica do Município,D
+217,Lei Orgânica do Município,B
+218,Lei Orgânica do Município,D
+219,Lei Orgânica do Município,D
+220,Lei Orgânica do Município,B
+221,Lei Orgânica do Município,A
+222,Lei Orgânica do Município,A
+223,Lei Orgânica do Município,D
+224,Lei Orgânica do Município,B
+225,Lei Orgânica do Município,B
+226,Lei Orgânica do Município,C
+227,Lei Orgânica do Município,B
+228,Lei Orgânica do Município,C
+229,Lei Orgânica do Município,A
+230,Lei Orgânica do Município,B
+231,Lei Orgânica do Município,D
+232,Lei Orgânica do Município,B
+233,Lei Orgânica do Município,D
+234,Lei Orgânica do Município,D
+235,Lei Orgânica do Município,C
+236,Lei Orgânica do Município,C
+237,Lei Orgânica do Município,B
+238,Lei Orgânica do Município,C
+239,Lei Orgânica do Município,A
+240,Lei Orgânica do Município,A
+241,Lei Orgânica do Município,C
+242,Lei Orgânica do Município,A
+243,Lei Orgânica do Município,D
+244,Lei Orgânica do Município,D
+245,Lei Orgânica do Município,D
+246,Lei Orgânica do Município,B
+247,Lei Orgânica do Município,D
+248,Lei Orgânica do Município,A
+249,Lei Orgânica do Município,B
+250,Lei Orgânica do Município,D
+251,Lei Orgânica do Município,C
+252,Lei Orgânica do Município,C
+253,Lei Orgânica do Município,C
+254,Lei Orgânica do Município,C
+255,Lei Orgânica do Município,A
+256,Lei Orgânica do Município,A
+257,Lei Orgânica do Município,A
+258,Lei Orgânica do Município,B
+259,Lei Orgânica do Município,B
+260,Lei Orgânica do Município,A
+261,Lei Orgânica do Município,D
+262,Lei Orgânica do Município,C
+263,Lei Orgânica do Município,A
+264,Lei Orgânica do Município,D
+265,Lei Orgânica do Município,B
+266,Lei Orgânica do Município,D
+267,Lei Orgânica do Município,D
+268,Lei Orgânica do Município,C
+269,Lei Orgânica do Município,A
+270,Lei Orgânica do Município,C
+271,Lei Orgânica do Município,C
+272,Lei Orgânica do Município,C
+273,Lei Orgânica do Município,C
+274,Lei Orgânica do Município,D
+275,Lei Orgânica do Município,B
+276,Lei Orgânica do Município,A
+277,Lei Orgânica do Município,C
+278,Lei Orgânica do Município,D
+279,Lei Orgânica do Município,D
+280,Lei Orgânica do Município,A
+281,Lei Orgânica do Município,D
+282,Lei Orgânica do Município,B
+283,Lei Orgânica do Município,D
+284,Lei Orgânica do Município,C
+285,Lei Orgânica do Município,C
+286,Lei Orgânica do Município,B
+287,Lei Orgânica do Município,A
+288,Lei Orgânica do Município,A
+289,Lei Orgânica do Município,D
+290,Lei Orgânica do Município,D
+291,Lei Orgânica do Município,D
+292,Lei Orgânica do Município,A
+293,Lei Orgânica do Município,D
+294,Lei Orgânica do Município,D
+295,Lei Orgânica do Município,D
+296,Lei Orgânica do Município,A
+297,Lei Orgânica do Município,B
+298,Lei Orgânica do Município,B
+299,Lei Orgânica do Município,C
+300,Lei Orgânica do Município,B
+301,Lei nº 13675 de 2018,C
+302,Lei nº 13675 de 2018,A
+303,Lei nº 13675 de 2018,B
+304,Lei nº 13675 de 2018,A
+305,Lei nº 13675 de 2018,D
+306,Lei nº 13675 de 2018,C
+307,Lei nº 13675 de 2018,C
+308,Lei nº 13675 de 2018,A
+309,Lei nº 13675 de 2018,B
+310,Lei nº 13675 de 2018,D
+311,Lei nº 13675 de 2018,D
+312,Lei nº 13675 de 2018,D
+313,Lei nº 13675 de 2018,C
+314,Lei nº 13675 de 2018,C
+315,Lei nº 13675 de 2018,B
+316,Lei nº 13675 de 2018,A
+317,Lei nº 13675 de 2018,D
+318,Lei nº 13675 de 2018,B
+319,Lei nº 13675 de 2018,A
+320,Lei nº 13675 de 2018,B
+321,Lei nº 13675 de 2018,C
+322,Lei nº 13675 de 2018,B
+323,Lei nº 13675 de 2018,C
+324,Lei nº 13675 de 2018,A
+325,Lei nº 13675 de 2018,A
+326,Lei nº 13675 de 2018,D
+327,Lei nº 13675 de 2018,B
+328,Lei nº 13675 de 2018,A
+329,Lei nº 13675 de 2018,C
+330,Lei nº 13675 de 2018,B
+331,Lei nº 13675 de 2018,B
+332,Lei nº 13675 de 2018,A
+333,Lei nº 13675 de 2018,A
+334,Lei nº 13675 de 2018,C
+335,Lei nº 13675 de 2018,B
+336,Lei nº 13675 de 2018,A
+337,Lei nº 13675 de 2018,C
+338,Lei nº 13675 de 2018,D
+339,Lei nº 13675 de 2018,D
+340,Lei nº 13675 de 2018,B
+341,Lei nº 13675 de 2018,D
+342,Lei nº 13675 de 2018,B
+343,Lei nº 13675 de 2018,B
+344,Lei nº 13675 de 2018,C
+345,Lei nº 13675 de 2018,D
+346,Lei nº 13675 de 2018,C
+347,Lei nº 13675 de 2018,C
+348,Lei nº 13675 de 2018,D
+349,Lei nº 13675 de 2018,B
+350,Lei nº 13675 de 2018,A
+351,Lei nº 13675 de 2018,C
+352,Lei nº 13675 de 2018,C
+353,Lei nº 13675 de 2018,A
+354,Lei nº 13675 de 2018,C
+355,Lei nº 13675 de 2018,C
+356,Lei nº 13675 de 2018,B
+357,Lei nº 13675 de 2018,A
+358,Lei nº 13675 de 2018,A
+359,Lei nº 13675 de 2018,B
+360,Lei nº 13675 de 2018,C
+361,Lei nº 13675 de 2018,B
+362,Lei nº 13675 de 2018,D
+363,Lei nº 13675 de 2018,A
+364,Lei nº 13675 de 2018,D
+365,Lei nº 13675 de 2018,A
+366,Lei nº 13675 de 2018,B
+367,Lei nº 13675 de 2018,B
+368,Lei nº 13675 de 2018,B
+369,Lei nº 13675 de 2018,A
+370,Lei nº 13675 de 2018,A
+371,Lei nº 13675 de 2018,A
+372,Lei nº 13675 de 2018,C
+373,Lei nº 13675 de 2018,D
+374,Lei nº 13675 de 2018,A
+375,Lei nº 13675 de 2018,C
+376,Lei nº 13675 de 2018,C
+377,Lei nº 13675 de 2018,A
+378,Lei nº 13675 de 2018,A
+379,Lei nº 13675 de 2018,D
+380,Lei nº 13675 de 2018,C
+381,Lei nº 13675 de 2018,D
+382,Lei nº 13675 de 2018,C
+383,Lei nº 13675 de 2018,B
+384,Lei nº 13675 de 2018,A
+385,Lei nº 13675 de 2018,D
+386,Lei nº 13675 de 2018,D
+387,Lei nº 13675 de 2018,D
+388,Lei nº 13675 de 2018,D
+389,Lei nº 13675 de 2018,C
+390,Lei nº 13675 de 2018,B
+391,Lei nº 13675 de 2018,D
+392,Lei nº 13675 de 2018,D
+393,Lei nº 13675 de 2018,C
+394,Lei nº 13675 de 2018,D
+395,Lei nº 13675 de 2018,D
+396,Lei nº 13675 de 2018,C
+397,Lei nº 13675 de 2018,B
+398,Lei nº 13675 de 2018,D
+399,Lei nº 13675 de 2018,C
+400,Lei nº 13675 de 2018,B
+401,Lei nº 13675 de 2018,D
+402,Lei nº 13675 de 2018,B
+403,Lei nº 13675 de 2018,B
+404,Lei nº 13675 de 2018,D
+405,Lei nº 13675 de 2018,C
+406,Lei nº 13675 de 2018,B
+407,Lei nº 13675 de 2018,C
+408,Lei nº 13675 de 2018,A
+409,Lei nº 13675 de 2018,A
+410,Lei nº 13675 de 2018,D
+411,Lei nº 13675 de 2018,D
+412,Lei nº 13675 de 2018,D
+413,Lei nº 13675 de 2018,A
+414,Lei nº 13675 de 2018,D
+415,Lei nº 13675 de 2018,B
+416,Lei nº 13675 de 2018,C
+417,Lei nº 13675 de 2018,B
+418,Lei nº 13675 de 2018,D
+419,Lei nº 13675 de 2018,D
+420,Lei nº 13675 de 2018,C
+421,Lei nº 13675 de 2018,D
+422,Lei nº 13675 de 2018,A
+423,Lei nº 13675 de 2018,D
+424,Lei nº 13675 de 2018,D
+425,Lei nº 13675 de 2018,B
+426,Lei nº 13675 de 2018,D
+427,Lei nº 13675 de 2018,D
+428,Lei nº 13675 de 2018,A
+429,Lei nº 13675 de 2018,C
+430,Lei nº 13675 de 2018,C
+431,Lei nº 13675 de 2018,A
+432,Lei nº 13675 de 2018,B
+433,Lei nº 13675 de 2018,A
+434,Lei nº 13675 de 2018,D
+435,Lei nº 13675 de 2018,B
+436,Lei nº 13675 de 2018,B
+437,Lei nº 13675 de 2018,C
+438,Lei nº 13675 de 2018,B
+439,Lei nº 13675 de 2018,B
+440,Lei nº 13675 de 2018,D
+441,Lei nº 13675 de 2018,D
+442,Lei nº 13675 de 2018,B
+443,Lei nº 13675 de 2018,C
+444,Lei nº 13675 de 2018,C
+445,Lei nº 13675 de 2018,C
+446,Lei nº 13675 de 2018,D
+447,Lei nº 13675 de 2018,B
+448,Lei nº 13675 de 2018,A
+449,Lei nº 13675 de 2018,C
+450,Lei nº 13675 de 2018,D
+451,Lei nº 13675 de 2018,D
+452,Lei nº 13675 de 2018,D
+453,Lei nº 13675 de 2018,C
+454,Lei nº 13675 de 2018,D
+455,Lei nº 13675 de 2018,B
+456,Lei nº 13675 de 2018,C
+457,Lei nº 13675 de 2018,C
+458,Lei nº 13675 de 2018,C
+459,Lei nº 13675 de 2018,D
+460,Lei nº 13675 de 2018,D
+461,Lei nº 13675 de 2018,D
+462,Lei nº 13675 de 2018,B
+463,Lei nº 13675 de 2018,B
+464,Lei nº 13675 de 2018,A
+465,Lei nº 13675 de 2018,C
+466,Lei nº 13675 de 2018,B
+467,Lei nº 13675 de 2018,D
+468,Lei nº 13675 de 2018,B
+469,Lei nº 13675 de 2018,C
+470,Lei nº 13675 de 2018,C
+471,Lei nº 13675 de 2018,D
+472,Lei nº 13675 de 2018,A
+473,Lei nº 13675 de 2018,C
+474,Lei nº 13675 de 2018,D
+475,Lei nº 13675 de 2018,D
+476,Lei nº 13675 de 2018,D
+477,Lei nº 13675 de 2018,B
+478,Lei nº 13675 de 2018,D
+479,Lei nº 13675 de 2018,B
+480,Lei nº 13675 de 2018,B
+481,Lei nº 13675 de 2018,D
+482,Lei nº 13675 de 2018,A
+483,Lei nº 13675 de 2018,A
+484,Lei nº 13675 de 2018,C
+485,Lei nº 13675 de 2018,B
+486,Lei nº 13675 de 2018,C
+487,Lei nº 13675 de 2018,D
+488,Lei nº 13675 de 2018,A
+489,Lei nº 13675 de 2018,D
+490,Lei nº 13675 de 2018,C
+491,Lei nº 13675 de 2018,C
+492,Lei nº 13675 de 2018,C
+493,Lei nº 13675 de 2018,D
+494,Lei nº 13675 de 2018,D
+495,Lei nº 13675 de 2018,C
+496,Lei nº 13675 de 2018,C
+497,Lei nº 13675 de 2018,B
+498,Lei nº 13675 de 2018,B
+499,Lei nº 13675 de 2018,B
+500,Lei nº 13675 de 2018,C
+501,Lei nº 13675 de 2018,D
+502,Lei nº 13675 de 2018,B
+503,Lei nº 13675 de 2018,B
+504,Lei nº 13675 de 2018,A
+505,Lei nº 13675 de 2018,B
+506,Lei nº 13675 de 2018,C
+507,Lei nº 13675 de 2018,B
+508,Lei nº 13675 de 2018,A
+509,Lei nº 13675 de 2018,C
+510,Lei nº 13675 de 2018,C
+511,Lei nº 13675 de 2018,C
+512,Lei nº 13675 de 2018,C
+513,Lei nº 13675 de 2018,D
+514,Lei nº 13675 de 2018,D
+515,Lei nº 13675 de 2018,A
+516,Lei nº 13675 de 2018,A
+517,Lei nº 13675 de 2018,B
+518,Lei nº 13675 de 2018,D
+519,Lei nº 13675 de 2018,B
+520,Lei nº 13675 de 2018,A
+521,Lei nº 13675 de 2018,C
+522,Lei nº 13675 de 2018,A
+523,Lei nº 13675 de 2018,D
+524,Lei nº 13675 de 2018,A
+525,Lei nº 13675 de 2018,C
+526,Lei nº 13675 de 2018,B
+527,Lei nº 13675 de 2018,B
+528,Lei nº 13675 de 2018,A
+529,Lei nº 13675 de 2018,C
+530,Lei nº 13675 de 2018,A
+531,Lei nº 13675 de 2018,A
+532,Lei nº 13675 de 2018,D
+533,Lei nº 13675 de 2018,C
+534,Lei nº 13675 de 2018,D
+535,Lei nº 13675 de 2018,C
+536,Lei nº 13675 de 2018,B
+537,Lei nº 13675 de 2018,C
+538,Lei nº 13675 de 2018,B
+539,Lei nº 13675 de 2018,C
+540,Lei nº 13675 de 2018,A
+541,Lei nº 13675 de 2018,B
+542,Lei nº 13675 de 2018,B
+543,Lei nº 13675 de 2018,B
+544,Lei nº 13675 de 2018,B
+545,Lei nº 13675 de 2018,B
+546,Lei nº 13675 de 2018,D
+547,Lei nº 13675 de 2018,A
+548,Lei nº 13675 de 2018,B
+549,Lei nº 13675 de 2018,A
+550,Lei nº 13675 de 2018,C
+551,Lei nº 13675 de 2018,B
+552,Lei nº 13675 de 2018,D
+553,Lei nº 13675 de 2018,C
+554,Lei nº 13675 de 2018,C
+555,Lei nº 13675 de 2018,A
+556,Lei nº 13675 de 2018,C
+557,Lei nº 13675 de 2018,A
+558,Lei nº 13675 de 2018,A
+559,Lei nº 13675 de 2018,B
+560,Lei nº 13675 de 2018,D
+561,Lei nº 13675 de 2018,C
+562,Lei nº 13675 de 2018,C
+563,Lei nº 13675 de 2018,D
+564,Lei nº 13675 de 2018,C
+565,Lei nº 13675 de 2018,C
+566,Lei nº 13675 de 2018,D
+567,Lei nº 13675 de 2018,D
+568,Lei nº 13675 de 2018,D
+569,Lei nº 13675 de 2018,B
+570,Lei nº 13675 de 2018,C
+571,Lei nº 13675 de 2018,D
+572,Lei nº 13675 de 2018,D
+573,Lei nº 13675 de 2018,A
+574,Lei nº 13675 de 2018,B
+575,Lei nº 13675 de 2018,A
+576,Lei nº 13675 de 2018,B
+577,Lei nº 13675 de 2018,C
+578,Lei nº 13675 de 2018,D
+579,Lei nº 13675 de 2018,C
+580,Lei nº 13675 de 2018,A
+581,Lei nº 13675 de 2018,A
+582,Lei nº 13675 de 2018,D
+583,Lei nº 13675 de 2018,D
+584,Lei nº 13675 de 2018,B
+585,Lei nº 13675 de 2018,B
+586,Lei nº 13675 de 2018,D
+587,Lei nº 13675 de 2018,B
+588,Lei nº 13675 de 2018,D
+589,Lei nº 13675 de 2018,A
+590,Lei nº 13675 de 2018,D
+591,Lei nº 13675 de 2018,A
+592,Lei nº 13675 de 2018,C
+593,Lei nº 13675 de 2018,B
+594,Lei nº 13675 de 2018,A
+595,Lei nº 13675 de 2018,A
+596,Lei nº 13675 de 2018,B
+597,Lei nº 13675 de 2018,D
+598,Lei nº 13675 de 2018,B
+599,Lei nº 13675 de 2018,B
+600,Lei nº 13675 de 2018,B
+601,Estatuto Geral das Guardas Municipais,C
+602,Estatuto Geral das Guardas Municipais,C
+603,Estatuto Geral das Guardas Municipais,A
+604,Estatuto Geral das Guardas Municipais,B
+605,Estatuto Geral das Guardas Municipais,B
+606,Estatuto Geral das Guardas Municipais,D
+607,Estatuto Geral das Guardas Municipais,D
+608,Estatuto Geral das Guardas Municipais,B
+609,Estatuto Geral das Guardas Municipais,C
+610,Estatuto Geral das Guardas Municipais,A
+611,Estatuto Geral das Guardas Municipais,B
+612,Estatuto Geral das Guardas Municipais,C
+613,Estatuto Geral das Guardas Municipais,C
+614,Estatuto Geral das Guardas Municipais,D
+615,Estatuto Geral das Guardas Municipais,D
+616,Estatuto Geral das Guardas Municipais,B
+617,Estatuto Geral das Guardas Municipais,D
+618,Estatuto Geral das Guardas Municipais,B
+619,Estatuto Geral das Guardas Municipais,B
+620,Estatuto Geral das Guardas Municipais,D
+621,Estatuto Geral das Guardas Municipais,B
+622,Estatuto Geral das Guardas Municipais,A
+623,Estatuto Geral das Guardas Municipais,B
+624,Estatuto Geral das Guardas Municipais,A
+625,Estatuto Geral das Guardas Municipais,B
+626,Estatuto Geral das Guardas Municipais,A
+627,Estatuto Geral das Guardas Municipais,D
+628,Estatuto Geral das Guardas Municipais,A
+629,Estatuto Geral das Guardas Municipais,D
+630,Estatuto Geral das Guardas Municipais,D
+631,Estatuto Geral das Guardas Municipais,D
+632,Estatuto Geral das Guardas Municipais,C
+633,Estatuto Geral das Guardas Municipais,B
+634,Estatuto Geral das Guardas Municipais,A
+635,Estatuto Geral das Guardas Municipais,A
+636,Estatuto Geral das Guardas Municipais,D
+637,Estatuto Geral das Guardas Municipais,C
+638,Estatuto Geral das Guardas Municipais,D
+639,Estatuto Geral das Guardas Municipais,B
+640,Estatuto Geral das Guardas Municipais,D
+641,Estatuto Geral das Guardas Municipais,A
+642,Estatuto Geral das Guardas Municipais,D
+643,Estatuto Geral das Guardas Municipais,A
+644,Estatuto Geral das Guardas Municipais,A
+645,Estatuto Geral das Guardas Municipais,D
+646,Estatuto Geral das Guardas Municipais,C
+647,Estatuto Geral das Guardas Municipais,D
+648,Estatuto Geral das Guardas Municipais,C
+649,Estatuto Geral das Guardas Municipais,B
+650,Estatuto Geral das Guardas Municipais,C
+651,Estatuto Geral das Guardas Municipais,B
+652,Estatuto Geral das Guardas Municipais,C
+653,Estatuto Geral das Guardas Municipais,A
+654,Estatuto Geral das Guardas Municipais,C
+655,Estatuto Geral das Guardas Municipais,C
+656,Estatuto Geral das Guardas Municipais,B
+657,Estatuto Geral das Guardas Municipais,D
+658,Estatuto Geral das Guardas Municipais,C
+659,Estatuto Geral das Guardas Municipais,A
+660,Estatuto Geral das Guardas Municipais,C
+661,Estatuto Geral das Guardas Municipais,B
+662,Estatuto Geral das Guardas Municipais,C
+663,Estatuto Geral das Guardas Municipais,C
+664,Estatuto Geral das Guardas Municipais,D
+665,Estatuto Geral das Guardas Municipais,D
+666,Estatuto Geral das Guardas Municipais,B
+667,Estatuto Geral das Guardas Municipais,B
+668,Estatuto Geral das Guardas Municipais,A
+669,Estatuto Geral das Guardas Municipais,C
+670,Estatuto Geral das Guardas Municipais,C
+671,Estatuto Geral das Guardas Municipais,A
+672,Estatuto Geral das Guardas Municipais,D
+673,Estatuto Geral das Guardas Municipais,C
+674,Estatuto Geral das Guardas Municipais,B
+675,Estatuto Geral das Guardas Municipais,A
+676,Estatuto Geral das Guardas Municipais,C
+677,Estatuto Geral das Guardas Municipais,C
+678,Estatuto Geral das Guardas Municipais,A
+679,Estatuto Geral das Guardas Municipais,B
+680,Estatuto Geral das Guardas Municipais,D
+681,Estatuto Geral das Guardas Municipais,D
+682,Estatuto Geral das Guardas Municipais,A
+683,Estatuto Geral das Guardas Municipais,A
+684,Estatuto Geral das Guardas Municipais,C
+685,Estatuto Geral das Guardas Municipais,C
+686,Estatuto Geral das Guardas Municipais,D
+687,Estatuto Geral das Guardas Municipais,A
+688,Estatuto Geral das Guardas Municipais,C
+689,Estatuto Geral das Guardas Municipais,B
+690,Estatuto Geral das Guardas Municipais,C
+691,Estatuto Geral das Guardas Municipais,A
+692,Estatuto Geral das Guardas Municipais,A
+693,Estatuto Geral das Guardas Municipais,D
+694,Estatuto Geral das Guardas Municipais,B
+695,Estatuto Geral das Guardas Municipais,B
+696,Estatuto Geral das Guardas Municipais,C
+697,Estatuto Geral das Guardas Municipais,B
+698,Estatuto Geral das Guardas Municipais,D
+699,Estatuto Geral das Guardas Municipais,C
+700,Estatuto Geral das Guardas Municipais,A
+701,Estatuto Geral das Guardas Municipais,B
+702,Estatuto Geral das Guardas Municipais,B
+703,Estatuto Geral das Guardas Municipais,A
+704,Estatuto Geral das Guardas Municipais,B
+705,Estatuto Geral das Guardas Municipais,D
+706,Estatuto Geral das Guardas Municipais,A
+707,Estatuto Geral das Guardas Municipais,B
+708,Estatuto Geral das Guardas Municipais,A
+709,Estatuto Geral das Guardas Municipais,D
+710,Estatuto Geral das Guardas Municipais,B
+711,Estatuto Geral das Guardas Municipais,A
+712,Estatuto Geral das Guardas Municipais,D
+713,Estatuto Geral das Guardas Municipais,C
+714,Estatuto Geral das Guardas Municipais,C
+715,Estatuto Geral das Guardas Municipais,B
+716,Estatuto Geral das Guardas Municipais,D
+717,Estatuto Geral das Guardas Municipais,B
+718,Estatuto Geral das Guardas Municipais,B
+719,Estatuto Geral das Guardas Municipais,D
+720,Estatuto Geral das Guardas Municipais,B
+721,Estatuto Geral das Guardas Municipais,A
+722,Estatuto Geral das Guardas Municipais,A
+723,Estatuto Geral das Guardas Municipais,D
+724,Estatuto Geral das Guardas Municipais,B
+725,Estatuto Geral das Guardas Municipais,B
+726,Estatuto Geral das Guardas Municipais,C
+727,Estatuto Geral das Guardas Municipais,B
+728,Estatuto Geral das Guardas Municipais,D
+729,Estatuto Geral das Guardas Municipais,D
+730,Estatuto Geral das Guardas Municipais,C
+731,Estatuto Geral das Guardas Municipais,A
+732,Estatuto Geral das Guardas Municipais,B
+733,Estatuto Geral das Guardas Municipais,D
+734,Estatuto Geral das Guardas Municipais,D
+735,Estatuto Geral das Guardas Municipais,A
+736,Estatuto Geral das Guardas Municipais,D
+737,Estatuto Geral das Guardas Municipais,B
+738,Estatuto Geral das Guardas Municipais,B
+739,Estatuto Geral das Guardas Municipais,C
+740,Estatuto Geral das Guardas Municipais,A
+741,Estatuto Geral das Guardas Municipais,D
+742,Estatuto Geral das Guardas Municipais,A
+743,Estatuto Geral das Guardas Municipais,B
+744,Estatuto Geral das Guardas Municipais,D
+745,Estatuto Geral das Guardas Municipais,C
+746,Estatuto Geral das Guardas Municipais,A
+747,Estatuto Geral das Guardas Municipais,A
+748,Estatuto Geral das Guardas Municipais,C
+749,Estatuto Geral das Guardas Municipais,D
+750,Estatuto Geral das Guardas Municipais,D
+751,Estatuto Geral das Guardas Municipais,C
+752,Estatuto Geral das Guardas Municipais,C
+753,Estatuto Geral das Guardas Municipais,D
+754,Estatuto Geral das Guardas Municipais,B
+755,Estatuto Geral das Guardas Municipais,C
+756,Estatuto Geral das Guardas Municipais,C
+757,Estatuto Geral das Guardas Municipais,A
+758,Estatuto Geral das Guardas Municipais,D
+759,Estatuto Geral das Guardas Municipais,C
+760,Estatuto Geral das Guardas Municipais,D
+761,Estatuto Geral das Guardas Municipais,D
+762,Estatuto Geral das Guardas Municipais,B
+763,Estatuto Geral das Guardas Municipais,B
+764,Estatuto Geral das Guardas Municipais,A
+765,Estatuto Geral das Guardas Municipais,A
+766,Estatuto Geral das Guardas Municipais,C
+767,Estatuto Geral das Guardas Municipais,B
+768,Estatuto Geral das Guardas Municipais,D
+769,Estatuto Geral das Guardas Municipais,C
+770,Estatuto Geral das Guardas Municipais,D
+771,Estatuto Geral das Guardas Municipais,C
+772,Estatuto Geral das Guardas Municipais,A
+773,Estatuto Geral das Guardas Municipais,D
+774,Estatuto Geral das Guardas Municipais,B
+775,Estatuto Geral das Guardas Municipais,A
+776,Estatuto Geral das Guardas Municipais,D
+777,Estatuto Geral das Guardas Municipais,D
+778,Estatuto Geral das Guardas Municipais,B
+779,Estatuto Geral das Guardas Municipais,B
+780,Estatuto Geral das Guardas Municipais,B
+781,Estatuto Geral das Guardas Municipais,B
+782,Estatuto Geral das Guardas Municipais,D
+783,Estatuto Geral das Guardas Municipais,A
+784,Estatuto Geral das Guardas Municipais,D
+785,Estatuto Geral das Guardas Municipais,A
+786,Estatuto Geral das Guardas Municipais,D
+787,Estatuto Geral das Guardas Municipais,B
+788,Estatuto Geral das Guardas Municipais,A
+789,Estatuto Geral das Guardas Municipais,B
+790,Estatuto Geral das Guardas Municipais,D
+791,Estatuto Geral das Guardas Municipais,C
+792,Estatuto Geral das Guardas Municipais,D
+793,Estatuto Geral das Guardas Municipais,A
+794,Estatuto Geral das Guardas Municipais,D
+795,Estatuto Geral das Guardas Municipais,C
+796,Estatuto Geral das Guardas Municipais,D
+797,Estatuto Geral das Guardas Municipais,B
+798,Estatuto Geral das Guardas Municipais,B
+799,Estatuto Geral das Guardas Municipais,B
+800,Estatuto Geral das Guardas Municipais,B
+801,Estatuto Geral das Guardas Municipais,C
+802,Estatuto Geral das Guardas Municipais,B
+803,Estatuto Geral das Guardas Municipais,A
+804,Estatuto Geral das Guardas Municipais,D
+805,Estatuto Geral das Guardas Municipais,D
+806,Estatuto Geral das Guardas Municipais,B
+807,Estatuto Geral das Guardas Municipais,A
+808,Estatuto Geral das Guardas Municipais,D
+809,Estatuto Geral das Guardas Municipais,D
+810,Estatuto Geral das Guardas Municipais,B
+811,Estatuto Geral das Guardas Municipais,C
+812,Estatuto Geral das Guardas Municipais,C
+813,Estatuto Geral das Guardas Municipais,B
+814,Estatuto Geral das Guardas Municipais,B
+815,Estatuto Geral das Guardas Municipais,B
+816,Estatuto Geral das Guardas Municipais,D
+817,Estatuto Geral das Guardas Municipais,A
+818,Estatuto Geral das Guardas Municipais,B
+819,Estatuto Geral das Guardas Municipais,D
+820,Estatuto Geral das Guardas Municipais,C
+821,Estatuto Geral das Guardas Municipais,B
+822,Estatuto Geral das Guardas Municipais,B
+823,Estatuto Geral das Guardas Municipais,A
+824,Estatuto Geral das Guardas Municipais,C
+825,Estatuto Geral das Guardas Municipais,A
+826,Estatuto Geral das Guardas Municipais,B
+827,Estatuto Geral das Guardas Municipais,A
+828,Estatuto Geral das Guardas Municipais,C
+829,Estatuto Geral das Guardas Municipais,D
+830,Estatuto Geral das Guardas Municipais,A
+831,Estatuto Geral das Guardas Municipais,A
+832,Estatuto Geral das Guardas Municipais,B
+833,Estatuto Geral das Guardas Municipais,B
+834,Estatuto Geral das Guardas Municipais,B
+835,Estatuto Geral das Guardas Municipais,D
+836,Estatuto Geral das Guardas Municipais,C
+837,Estatuto Geral das Guardas Municipais,D
+838,Estatuto Geral das Guardas Municipais,B
+839,Estatuto Geral das Guardas Municipais,B
+840,Estatuto Geral das Guardas Municipais,C
+841,Estatuto Geral das Guardas Municipais,B
+842,Estatuto Geral das Guardas Municipais,A
+843,Estatuto Geral das Guardas Municipais,C
+844,Estatuto Geral das Guardas Municipais,A
+845,Estatuto Geral das Guardas Municipais,A
+846,Estatuto Geral das Guardas Municipais,D
+847,Estatuto Geral das Guardas Municipais,A
+848,Estatuto Geral das Guardas Municipais,D
+849,Estatuto Geral das Guardas Municipais,D
+850,Estatuto Geral das Guardas Municipais,D
+851,Estatuto Geral das Guardas Municipais,C
+852,Estatuto Geral das Guardas Municipais,A
+853,Estatuto Geral das Guardas Municipais,A
+854,Estatuto Geral das Guardas Municipais,A
+855,Estatuto Geral das Guardas Municipais,D
+856,Estatuto Geral das Guardas Municipais,A
+857,Estatuto Geral das Guardas Municipais,D
+858,Estatuto Geral das Guardas Municipais,B
+859,Estatuto Geral das Guardas Municipais,A
+860,Estatuto Geral das Guardas Municipais,B
+861,Estatuto Geral das Guardas Municipais,B
+862,Estatuto Geral das Guardas Municipais,A
+863,Estatuto Geral das Guardas Municipais,D
+864,Estatuto Geral das Guardas Municipais,D
+865,Estatuto Geral das Guardas Municipais,A
+866,Estatuto Geral das Guardas Municipais,B
+867,Estatuto Geral das Guardas Municipais,B
+868,Estatuto Geral das Guardas Municipais,A
+869,Estatuto Geral das Guardas Municipais,D
+870,Estatuto Geral das Guardas Municipais,D
+871,Estatuto Geral das Guardas Municipais,A
+872,Estatuto Geral das Guardas Municipais,B
+873,Estatuto Geral das Guardas Municipais,D
+874,Estatuto Geral das Guardas Municipais,A
+875,Estatuto Geral das Guardas Municipais,C
+876,Estatuto Geral das Guardas Municipais,A
+877,Estatuto Geral das Guardas Municipais,A
+878,Estatuto Geral das Guardas Municipais,C
+879,Estatuto Geral das Guardas Municipais,B
+880,Estatuto Geral das Guardas Municipais,A
+881,Estatuto Geral das Guardas Municipais,A
+882,Estatuto Geral das Guardas Municipais,D
+883,Estatuto Geral das Guardas Municipais,A
+884,Estatuto Geral das Guardas Municipais,D
+885,Estatuto Geral das Guardas Municipais,B
+886,Estatuto Geral das Guardas Municipais,D
+887,Estatuto Geral das Guardas Municipais,B
+888,Estatuto Geral das Guardas Municipais,B
+889,Estatuto Geral das Guardas Municipais,D
+890,Estatuto Geral das Guardas Municipais,D
+891,Estatuto Geral das Guardas Municipais,A
+892,Estatuto Geral das Guardas Municipais,A
+893,Estatuto Geral das Guardas Municipais,A
+894,Estatuto Geral das Guardas Municipais,B
+895,Estatuto Geral das Guardas Municipais,D
+896,Estatuto Geral das Guardas Municipais,A
+897,Estatuto Geral das Guardas Municipais,C
+898,Estatuto Geral das Guardas Municipais,C
+899,Estatuto Geral das Guardas Municipais,C
+900,Estatuto Geral das Guardas Municipais,B
+901,Lei Complementar nº 05 de 2024,A
+902,Lei Complementar nº 05 de 2024,A
+903,Lei Complementar nº 05 de 2024,A
+904,Lei Complementar nº 05 de 2024,C
+905,Lei Complementar nº 05 de 2024,A
+906,Lei Complementar nº 05 de 2024,A
+907,Lei Complementar nº 05 de 2024,C
+908,Lei Complementar nº 05 de 2024,A
+909,Lei Complementar nº 05 de 2024,B
+910,Lei Complementar nº 05 de 2024,D
+911,Lei Complementar nº 05 de 2024,C
+912,Lei Complementar nº 05 de 2024,A
+913,Lei Complementar nº 05 de 2024,D
+914,Lei Complementar nº 05 de 2024,B
+915,Lei Complementar nº 05 de 2024,B
+916,Lei Complementar nº 05 de 2024,C
+917,Lei Complementar nº 05 de 2024,C
+918,Lei Complementar nº 05 de 2024,C
+919,Lei Complementar nº 05 de 2024,B
+920,Lei Complementar nº 05 de 2024,D
+921,Lei Complementar nº 05 de 2024,C
+922,Lei Complementar nº 05 de 2024,A
+923,Lei Complementar nº 05 de 2024,A
+924,Lei Complementar nº 05 de 2024,A
+925,Lei Complementar nº 05 de 2024,D
+926,Lei Complementar nº 05 de 2024,B
+927,Lei Complementar nº 05 de 2024,C
+928,Lei Complementar nº 05 de 2024,A
+929,Lei Complementar nº 05 de 2024,C
+930,Lei Complementar nº 05 de 2024,D
+931,Lei Complementar nº 05 de 2024,C
+932,Lei Complementar nº 05 de 2024,C
+933,Lei Complementar nº 05 de 2024,D
+934,Lei Complementar nº 05 de 2024,A
+935,Lei Complementar nº 05 de 2024,C
+936,Lei Complementar nº 05 de 2024,C
+937,Lei Complementar nº 05 de 2024,C
+938,Lei Complementar nº 05 de 2024,C
+939,Lei Complementar nº 05 de 2024,C
+940,Lei Complementar nº 05 de 2024,D
+941,Lei Complementar nº 05 de 2024,D
+942,Lei Complementar nº 05 de 2024,C
+943,Lei Complementar nº 05 de 2024,C
+944,Lei Complementar nº 05 de 2024,A
+945,Lei Complementar nº 05 de 2024,D
+946,Lei Complementar nº 05 de 2024,D
+947,Lei Complementar nº 05 de 2024,C
+948,Lei Complementar nº 05 de 2024,C
+949,Lei Complementar nº 05 de 2024,B
+950,Lei Complementar nº 05 de 2024,D
+951,Lei Complementar nº 05 de 2024,A
+952,Lei Complementar nº 05 de 2024,A
+953,Lei Complementar nº 05 de 2024,A
+954,Lei Complementar nº 05 de 2024,B
+955,Lei Complementar nº 05 de 2024,D
+956,Lei Complementar nº 05 de 2024,A
+957,Lei Complementar nº 05 de 2024,A
+958,Lei Complementar nº 05 de 2024,B
+959,Lei Complementar nº 05 de 2024,C
+960,Lei Complementar nº 05 de 2024,C
+961,Lei Complementar nº 05 de 2024,A
+962,Lei Complementar nº 05 de 2024,C
+963,Lei Complementar nº 05 de 2024,A
+964,Lei Complementar nº 05 de 2024,C
+965,Lei Complementar nº 05 de 2024,B
+966,Lei Complementar nº 05 de 2024,C
+967,Lei Complementar nº 05 de 2024,C
+968,Lei Complementar nº 05 de 2024,D
+969,Lei Complementar nº 05 de 2024,D
+970,Lei Complementar nº 05 de 2024,C
+971,Lei Complementar nº 05 de 2024,B
+972,Lei Complementar nº 05 de 2024,C
+973,Lei Complementar nº 05 de 2024,A
+974,Lei Complementar nº 05 de 2024,D
+975,Lei Complementar nº 05 de 2024,B
+976,Lei Complementar nº 05 de 2024,D
+977,Lei Complementar nº 05 de 2024,D
+978,Lei Complementar nº 05 de 2024,A
+979,Lei Complementar nº 05 de 2024,D
+980,Lei Complementar nº 05 de 2024,D
+981,Lei Complementar nº 05 de 2024,B
+982,Lei Complementar nº 05 de 2024,D
+983,Lei Complementar nº 05 de 2024,B
+984,Lei Complementar nº 05 de 2024,A
+985,Lei Complementar nº 05 de 2024,D
+986,Lei Complementar nº 05 de 2024,C
+987,Lei Complementar nº 05 de 2024,C
+988,Lei Complementar nº 05 de 2024,B
+989,Lei Complementar nº 05 de 2024,D
+990,Lei Complementar nº 05 de 2024,C
+991,Lei Complementar nº 05 de 2024,B
+992,Lei Complementar nº 05 de 2024,B
+993,Lei Complementar nº 05 de 2024,D
+994,Lei Complementar nº 05 de 2024,C
+995,Lei Complementar nº 05 de 2024,C
+996,Lei Complementar nº 05 de 2024,C
+997,Lei Complementar nº 05 de 2024,C
+998,Lei Complementar nº 05 de 2024,A
+999,Lei Complementar nº 05 de 2024,A
+1000,Lei Complementar nº 05 de 2024,A
+1001,Lei Complementar nº 05 de 2024,A
+1002,Lei Complementar nº 05 de 2024,C
+1003,Lei Complementar nº 05 de 2024,C
+1004,Lei Complementar nº 05 de 2024,C
+1005,Lei Complementar nº 05 de 2024,D
+1006,Lei Complementar nº 05 de 2024,A
+1007,Lei Complementar nº 05 de 2024,A
+1008,Lei Complementar nº 05 de 2024,C
+1009,Lei Complementar nº 05 de 2024,D
+1010,Lei Complementar nº 05 de 2024,A
+1011,Lei Complementar nº 05 de 2024,A
+1012,Lei Complementar nº 05 de 2024,B
+1013,Lei Complementar nº 05 de 2024,B
+1014,Lei Complementar nº 05 de 2024,B
+1015,Lei Complementar nº 05 de 2024,A
+1016,Lei Complementar nº 05 de 2024,A
+1017,Lei Complementar nº 05 de 2024,D
+1018,Lei Complementar nº 05 de 2024,A
+1019,Lei Complementar nº 05 de 2024,B
+1020,Lei Complementar nº 05 de 2024,A
+1021,Lei Complementar nº 05 de 2024,B
+1022,Lei Complementar nº 05 de 2024,D
+1023,Lei Complementar nº 05 de 2024,C
+1024,Lei Complementar nº 05 de 2024,B
+1025,Lei Complementar nº 05 de 2024,D
+1026,Lei Complementar nº 05 de 2024,B
+1027,Lei Complementar nº 05 de 2024,D
+1028,Lei Complementar nº 05 de 2024,C
+1029,Lei Complementar nº 05 de 2024,D
+1030,Lei Complementar nº 05 de 2024,A
+1031,Lei Complementar nº 05 de 2024,A
+1032,Lei Complementar nº 05 de 2024,B
+1033,Lei Complementar nº 05 de 2024,B
+1034,Lei Complementar nº 05 de 2024,C
+1035,Lei Complementar nº 05 de 2024,C
+1036,Lei Complementar nº 05 de 2024,C
+1037,Lei Complementar nº 05 de 2024,C
+1038,Lei Complementar nº 05 de 2024,C
+1039,Lei Complementar nº 05 de 2024,A
+1040,Lei Complementar nº 05 de 2024,D
+1041,Lei Complementar nº 05 de 2024,A
+1042,Lei Complementar nº 05 de 2024,A
+1043,Lei Complementar nº 05 de 2024,D
+1044,Lei Complementar nº 05 de 2024,D
+1045,Lei Complementar nº 05 de 2024,A
+1046,Lei Complementar nº 05 de 2024,B
+1047,Lei Complementar nº 05 de 2024,B
+1048,Lei Complementar nº 05 de 2024,A
+1049,Lei Complementar nº 05 de 2024,C
+1050,Lei Complementar nº 05 de 2024,B
+1051,Lei Complementar nº 05 de 2024,C
+1052,Lei Complementar nº 05 de 2024,C
+1053,Lei Complementar nº 05 de 2024,C
+1054,Lei Complementar nº 05 de 2024,C
+1055,Lei Complementar nº 05 de 2024,A
+1056,Lei Complementar nº 05 de 2024,D
+1057,Lei Complementar nº 05 de 2024,D
+1058,Lei Complementar nº 05 de 2024,A
+1059,Lei Complementar nº 05 de 2024,C
+1060,Lei Complementar nº 05 de 2024,B
+1061,Lei Complementar nº 05 de 2024,B
+1062,Lei Complementar nº 05 de 2024,C
+1063,Lei Complementar nº 05 de 2024,D
+1064,Lei Complementar nº 05 de 2024,A
+1065,Lei Complementar nº 05 de 2024,A
+1066,Lei Complementar nº 05 de 2024,D
+1067,Lei Complementar nº 05 de 2024,C
+1068,Lei Complementar nº 05 de 2024,C
+1069,Lei Complementar nº 05 de 2024,B
+1070,Lei Complementar nº 05 de 2024,D
+1071,Lei Complementar nº 05 de 2024,B
+1072,Lei Complementar nº 05 de 2024,A
+1073,Lei Complementar nº 05 de 2024,B
+1074,Lei Complementar nº 05 de 2024,C
+1075,Lei Complementar nº 05 de 2024,A
+1076,Lei Complementar nº 05 de 2024,C
+1077,Lei Complementar nº 05 de 2024,B
+1078,Lei Complementar nº 05 de 2024,A
+1079,Lei Complementar nº 05 de 2024,D
+1080,Lei Complementar nº 05 de 2024,C
+1081,Lei Complementar nº 05 de 2024,D
+1082,Lei Complementar nº 05 de 2024,C
+1083,Lei Complementar nº 05 de 2024,C
+1084,Lei Complementar nº 05 de 2024,B
+1085,Lei Complementar nº 05 de 2024,D
+1086,Lei Complementar nº 05 de 2024,A
+1087,Lei Complementar nº 05 de 2024,A
+1088,Lei Complementar nº 05 de 2024,D
+1089,Lei Complementar nº 05 de 2024,C
+1090,Lei Complementar nº 05 de 2024,C
+1091,Lei Complementar nº 05 de 2024,A
+1092,Lei Complementar nº 05 de 2024,D
+1093,Lei Complementar nº 05 de 2024,C
+1094,Lei Complementar nº 05 de 2024,D
+1095,Lei Complementar nº 05 de 2024,D
+1096,Lei Complementar nº 05 de 2024,A
+1097,Lei Complementar nº 05 de 2024,D
+1098,Lei Complementar nº 05 de 2024,A
+1099,Lei Complementar nº 05 de 2024,B
+1100,Lei Complementar nº 05 de 2024,D
+1101,Lei Complementar nº 05 de 2024,B
+1102,Lei Complementar nº 05 de 2024,D
+1103,Lei Complementar nº 05 de 2024,A
+1104,Lei Complementar nº 05 de 2024,D
+1105,Lei Complementar nº 05 de 2024,C
+1106,Lei Complementar nº 05 de 2024,D
+1107,Lei Complementar nº 05 de 2024,D
+1108,Lei Complementar nº 05 de 2024,B
+1109,Lei Complementar nº 05 de 2024,D
+1110,Lei Complementar nº 05 de 2024,B
+1111,Lei Complementar nº 05 de 2024,D
+1112,Lei Complementar nº 05 de 2024,D
+1113,Lei Complementar nº 05 de 2024,D
+1114,Lei Complementar nº 05 de 2024,C
+1115,Lei Complementar nº 05 de 2024,B
+1116,Lei Complementar nº 05 de 2024,A
+1117,Lei Complementar nº 05 de 2024,B
+1118,Lei Complementar nº 05 de 2024,B
+1119,Lei Complementar nº 05 de 2024,D
+1120,Lei Complementar nº 05 de 2024,C
+1121,Lei Complementar nº 05 de 2024,D
+1122,Lei Complementar nº 05 de 2024,D
+1123,Lei Complementar nº 05 de 2024,A
+1124,Lei Complementar nº 05 de 2024,B
+1125,Lei Complementar nº 05 de 2024,B
+1126,Lei Complementar nº 05 de 2024,D
+1127,Lei Complementar nº 05 de 2024,D
+1128,Lei Complementar nº 05 de 2024,C
+1129,Lei Complementar nº 05 de 2024,A
+1130,Lei Complementar nº 05 de 2024,D
+1131,Lei Complementar nº 05 de 2024,C
+1132,Lei Complementar nº 05 de 2024,B
+1133,Lei Complementar nº 05 de 2024,C
+1134,Lei Complementar nº 05 de 2024,C
+1135,Lei Complementar nº 05 de 2024,C
+1136,Lei Complementar nº 05 de 2024,A
+1137,Lei Complementar nº 05 de 2024,A
+1138,Lei Complementar nº 05 de 2024,D
+1139,Lei Complementar nº 05 de 2024,A
+1140,Lei Complementar nº 05 de 2024,A
+1141,Lei Complementar nº 05 de 2024,B
+1142,Lei Complementar nº 05 de 2024,C
+1143,Lei Complementar nº 05 de 2024,C
+1144,Lei Complementar nº 05 de 2024,D
+1145,Lei Complementar nº 05 de 2024,D
+1146,Lei Complementar nº 05 de 2024,C
+1147,Lei Complementar nº 05 de 2024,A
+1148,Lei Complementar nº 05 de 2024,A
+1149,Lei Complementar nº 05 de 2024,C
+1150,Lei Complementar nº 05 de 2024,D
+1151,Lei Complementar nº 05 de 2024,D
+1152,Lei Complementar nº 05 de 2024,C
+1153,Lei Complementar nº 05 de 2024,B
+1154,Lei Complementar nº 05 de 2024,A
+1155,Lei Complementar nº 05 de 2024,A
+1156,Lei Complementar nº 05 de 2024,D
+1157,Lei Complementar nº 05 de 2024,D
+1158,Lei Complementar nº 05 de 2024,B
+1159,Lei Complementar nº 05 de 2024,C
+1160,Lei Complementar nº 05 de 2024,B
+1161,Lei Complementar nº 05 de 2024,B
+1162,Lei Complementar nº 05 de 2024,C
+1163,Lei Complementar nº 05 de 2024,B
+1164,Lei Complementar nº 05 de 2024,B
+1165,Lei Complementar nº 05 de 2024,A
+1166,Lei Complementar nº 05 de 2024,A
+1167,Lei Complementar nº 05 de 2024,A
+1168,Lei Complementar nº 05 de 2024,C
+1169,Lei Complementar nº 05 de 2024,C
+1170,Lei Complementar nº 05 de 2024,C
+1171,Lei Complementar nº 05 de 2024,A
+1172,Lei Complementar nº 05 de 2024,B
+1173,Lei Complementar nº 05 de 2024,C
+1174,Lei Complementar nº 05 de 2024,A
+1175,Lei Complementar nº 05 de 2024,B
+1176,Lei Complementar nº 05 de 2024,D
+1177,Lei Complementar nº 05 de 2024,C
+1178,Lei Complementar nº 05 de 2024,B
+1179,Lei Complementar nº 05 de 2024,B
+1180,Lei Complementar nº 05 de 2024,A
+1181,Lei Complementar nº 05 de 2024,B
+1182,Lei Complementar nº 05 de 2024,C
+1183,Lei Complementar nº 05 de 2024,B
+1184,Lei Complementar nº 05 de 2024,D
+1185,Lei Complementar nº 05 de 2024,A
+1186,Lei Complementar nº 05 de 2024,D
+1187,Lei Complementar nº 05 de 2024,C
+1188,Lei Complementar nº 05 de 2024,A
+1189,Lei Complementar nº 05 de 2024,D
+1190,Lei Complementar nº 05 de 2024,B
+1191,Lei Complementar nº 05 de 2024,B
+1192,Lei Complementar nº 05 de 2024,D
+1193,Lei Complementar nº 05 de 2024,A
+1194,Lei Complementar nº 05 de 2024,A
+1195,Lei Complementar nº 05 de 2024,D
+1196,Lei Complementar nº 05 de 2024,A
+1197,Lei Complementar nº 05 de 2024,D
+1198,Lei Complementar nº 05 de 2024,B
+1199,Lei Complementar nº 05 de 2024,C
+1200,Lei Complementar nº 05 de 2024,C
+1201,Poder de Polícia Administrativa,B
+1202,Poder de Polícia Administrativa,C
+1203,Poder de Polícia Administrativa,D
+1204,Poder de Polícia Administrativa,C
+1205,Poder de Polícia Administrativa,A
+1206,Poder de Polícia Administrativa,A
+1207,Poder de Polícia Administrativa,B
+1208,Poder de Polícia Administrativa,C
+1209,Poder de Polícia Administrativa,C
+1210,Poder de Polícia Administrativa,C
+1211,Poder de Polícia Administrativa,A
+1212,Poder de Polícia Administrativa,B
+1213,Poder de Polícia Administrativa,A
+1214,Poder de Polícia Administrativa,A
+1215,Poder de Polícia Administrativa,C
+1216,Poder de Polícia Administrativa,B
+1217,Poder de Polícia Administrativa,B
+1218,Poder de Polícia Administrativa,B
+1219,Poder de Polícia Administrativa,B
+1220,Poder de Polícia Administrativa,C
+1221,Poder de Polícia Administrativa,A
+1222,Poder de Polícia Administrativa,D
+1223,Poder de Polícia Administrativa,C
+1224,Poder de Polícia Administrativa,D
+1225,Poder de Polícia Administrativa,C
+1226,Poder de Polícia Administrativa,C
+1227,Poder de Polícia Administrativa,A
+1228,Poder de Polícia Administrativa,B
+1229,Poder de Polícia Administrativa,C
+1230,Poder de Polícia Administrativa,C
+1231,Poder de Polícia Administrativa,C
+1232,Poder de Polícia Administrativa,B
+1233,Poder de Polícia Administrativa,B
+1234,Poder de Polícia Administrativa,D
+1235,Poder de Polícia Administrativa,D
+1236,Poder de Polícia Administrativa,C
+1237,Poder de Polícia Administrativa,A
+1238,Poder de Polícia Administrativa,A
+1239,Poder de Polícia Administrativa,D
+1240,Poder de Polícia Administrativa,D
+1241,Poder de Polícia Administrativa,B
+1242,Poder de Polícia Administrativa,D
+1243,Poder de Polícia Administrativa,D
+1244,Poder de Polícia Administrativa,B
+1245,Poder de Polícia Administrativa,D
+1246,Poder de Polícia Administrativa,B
+1247,Poder de Polícia Administrativa,C
+1248,Poder de Polícia Administrativa,D
+1249,Poder de Polícia Administrativa,C
+1250,Poder de Polícia Administrativa,C
+1251,Poder de Polícia Administrativa,A
+1252,Poder de Polícia Administrativa,A
+1253,Poder de Polícia Administrativa,C
+1254,Poder de Polícia Administrativa,D
+1255,Poder de Polícia Administrativa,A
+1256,Poder de Polícia Administrativa,A
+1257,Poder de Polícia Administrativa,D
+1258,Poder de Polícia Administrativa,D
+1259,Poder de Polícia Administrativa,C
+1260,Poder de Polícia Administrativa,C
+1261,Poder de Polícia Administrativa,B
+1262,Poder de Polícia Administrativa,D
+1263,Poder de Polícia Administrativa,A
+1264,Poder de Polícia Administrativa,D
+1265,Poder de Polícia Administrativa,A
+1266,Poder de Polícia Administrativa,B
+1267,Poder de Polícia Administrativa,A
+1268,Poder de Polícia Administrativa,C
+1269,Poder de Polícia Administrativa,B
+1270,Poder de Polícia Administrativa,D
+1271,Poder de Polícia Administrativa,A
+1272,Poder de Polícia Administrativa,D
+1273,Poder de Polícia Administrativa,D
+1274,Poder de Polícia Administrativa,B
+1275,Poder de Polícia Administrativa,B
+1276,Poder de Polícia Administrativa,A
+1277,Poder de Polícia Administrativa,D
+1278,Poder de Polícia Administrativa,B
+1279,Poder de Polícia Administrativa,B
+1280,Poder de Polícia Administrativa,B
+1281,Poder de Polícia Administrativa,D
+1282,Poder de Polícia Administrativa,A
+1283,Poder de Polícia Administrativa,A
+1284,Poder de Polícia Administrativa,C
+1285,Poder de Polícia Administrativa,A
+1286,Poder de Polícia Administrativa,D
+1287,Poder de Polícia Administrativa,D
+1288,Poder de Polícia Administrativa,B
+1289,Poder de Polícia Administrativa,C
+1290,Poder de Polícia Administrativa,C
+1291,Poder de Polícia Administrativa,C
+1292,Poder de Polícia Administrativa,A
+1293,Poder de Polícia Administrativa,A
+1294,Poder de Polícia Administrativa,D
+1295,Poder de Polícia Administrativa,C
+1296,Poder de Polícia Administrativa,B
+1297,Poder de Polícia Administrativa,B
+1298,Poder de Polícia Administrativa,D
+1299,Poder de Polícia Administrativa,B
+1300,Poder de Polícia Administrativa,D
+1301,Poder de Polícia Administrativa,A
+1302,Poder de Polícia Administrativa,C
+1303,Poder de Polícia Administrativa,A
+1304,Poder de Polícia Administrativa,B
+1305,Poder de Polícia Administrativa,A
+1306,Poder de Polícia Administrativa,B
+1307,Poder de Polícia Administrativa,B
+1308,Poder de Polícia Administrativa,C
+1309,Poder de Polícia Administrativa,B
+1310,Poder de Polícia Administrativa,D
+1311,Poder de Polícia Administrativa,A
+1312,Poder de Polícia Administrativa,C
+1313,Poder de Polícia Administrativa,B
+1314,Poder de Polícia Administrativa,A
+1315,Poder de Polícia Administrativa,B
+1316,Poder de Polícia Administrativa,B
+1317,Poder de Polícia Administrativa,A
+1318,Poder de Polícia Administrativa,D
+1319,Poder de Polícia Administrativa,D
+1320,Poder de Polícia Administrativa,D
+1321,Poder de Polícia Administrativa,D
+1322,Poder de Polícia Administrativa,C
+1323,Poder de Polícia Administrativa,B
+1324,Poder de Polícia Administrativa,A
+1325,Poder de Polícia Administrativa,A
+1326,Poder de Polícia Administrativa,C
+1327,Poder de Polícia Administrativa,D
+1328,Poder de Polícia Administrativa,C
+1329,Poder de Polícia Administrativa,D
+1330,Poder de Polícia Administrativa,D
+1331,Poder de Polícia Administrativa,C
+1332,Poder de Polícia Administrativa,D
+1333,Poder de Polícia Administrativa,A
+1334,Poder de Polícia Administrativa,C
+1335,Poder de Polícia Administrativa,B
+1336,Poder de Polícia Administrativa,B
+1337,Poder de Polícia Administrativa,D
+1338,Poder de Polícia Administrativa,B
+1339,Poder de Polícia Administrativa,A
+1340,Poder de Polícia Administrativa,B
+1341,Poder de Polícia Administrativa,D
+1342,Poder de Polícia Administrativa,C
+1343,Poder de Polícia Administrativa,B
+1344,Poder de Polícia Administrativa,D
+1345,Poder de Polícia Administrativa,A
+1346,Poder de Polícia Administrativa,C
+1347,Poder de Polícia Administrativa,C
+1348,Poder de Polícia Administrativa,C
+1349,Poder de Polícia Administrativa,D
+1350,Poder de Polícia Administrativa,D
+1351,Poder de Polícia Administrativa,D
+1352,Poder de Polícia Administrativa,D
+1353,Poder de Polícia Administrativa,D
+1354,Poder de Polícia Administrativa,B
+1355,Poder de Polícia Administrativa,B
+1356,Poder de Polícia Administrativa,B
+1357,Poder de Polícia Administrativa,A
+1358,Poder de Polícia Administrativa,C
+1359,Poder de Polícia Administrativa,B
+1360,Poder de Polícia Administrativa,A
+1361,Poder de Polícia Administrativa,A
+1362,Poder de Polícia Administrativa,B
+1363,Poder de Polícia Administrativa,A
+1364,Poder de Polícia Administrativa,B
+1365,Poder de Polícia Administrativa,D
+1366,Poder de Polícia Administrativa,A
+1367,Poder de Polícia Administrativa,A
+1368,Poder de Polícia Administrativa,D
+1369,Poder de Polícia Administrativa,B
+1370,Poder de Polícia Administrativa,D
+1371,Poder de Polícia Administrativa,D
+1372,Poder de Polícia Administrativa,D
+1373,Poder de Polícia Administrativa,C
+1374,Poder de Polícia Administrativa,C
+1375,Poder de Polícia Administrativa,D
+1376,Poder de Polícia Administrativa,B
+1377,Poder de Polícia Administrativa,B
+1378,Poder de Polícia Administrativa,A
+1379,Poder de Polícia Administrativa,D
+1380,Poder de Polícia Administrativa,A
+1381,Poder de Polícia Administrativa,B
+1382,Poder de Polícia Administrativa,B
+1383,Poder de Polícia Administrativa,A
+1384,Poder de Polícia Administrativa,D
+1385,Poder de Polícia Administrativa,A
+1386,Poder de Polícia Administrativa,C
+1387,Poder de Polícia Administrativa,C
+1388,Poder de Polícia Administrativa,B
+1389,Poder de Polícia Administrativa,A
+1390,Poder de Polícia Administrativa,A
+1391,Poder de Polícia Administrativa,A
+1392,Poder de Polícia Administrativa,B
+1393,Poder de Polícia Administrativa,A
+1394,Poder de Polícia Administrativa,B
+1395,Poder de Polícia Administrativa,C
+1396,Poder de Polícia Administrativa,C
+1397,Poder de Polícia Administrativa,A
+1398,Poder de Polícia Administrativa,A
+1399,Poder de Polícia Administrativa,B
+1400,Poder de Polícia Administrativa,B
+1401,Poder de Polícia Administrativa,D
+1402,Poder de Polícia Administrativa,B
+1403,Poder de Polícia Administrativa,B
+1404,Poder de Polícia Administrativa,A
+1405,Poder de Polícia Administrativa,B
+1406,Poder de Polícia Administrativa,C
+1407,Poder de Polícia Administrativa,D
+1408,Poder de Polícia Administrativa,B
+1409,Poder de Polícia Administrativa,C
+1410,Poder de Polícia Administrativa,A
+1411,Poder de Polícia Administrativa,B
+1412,Poder de Polícia Administrativa,D
+1413,Poder de Polícia Administrativa,A
+1414,Poder de Polícia Administrativa,A
+1415,Poder de Polícia Administrativa,C
+1416,Poder de Polícia Administrativa,A
+1417,Poder de Polícia Administrativa,C
+1418,Poder de Polícia Administrativa,D
+1419,Poder de Polícia Administrativa,D
+1420,Poder de Polícia Administrativa,B
+1421,Poder de Polícia Administrativa,B
+1422,Poder de Polícia Administrativa,B
+1423,Poder de Polícia Administrativa,C
+1424,Poder de Polícia Administrativa,D
+1425,Poder de Polícia Administrativa,D
+1426,Poder de Polícia Administrativa,A
+1427,Poder de Polícia Administrativa,B
+1428,Poder de Polícia Administrativa,B
+1429,Poder de Polícia Administrativa,A
+1430,Poder de Polícia Administrativa,D
+1431,Poder de Polícia Administrativa,B
+1432,Poder de Polícia Administrativa,B
+1433,Poder de Polícia Administrativa,A
+1434,Poder de Polícia Administrativa,A
+1435,Poder de Polícia Administrativa,B
+1436,Poder de Polícia Administrativa,A
+1437,Poder de Polícia Administrativa,D
+1438,Poder de Polícia Administrativa,B
+1439,Poder de Polícia Administrativa,C
+1440,Poder de Polícia Administrativa,C
+1441,Poder de Polícia Administrativa,C
+1442,Poder de Polícia Administrativa,D
+1443,Poder de Polícia Administrativa,C
+1444,Poder de Polícia Administrativa,B
+1445,Poder de Polícia Administrativa,B
+1446,Poder de Polícia Administrativa,D
+1447,Poder de Polícia Administrativa,A
+1448,Poder de Polícia Administrativa,C
+1449,Poder de Polícia Administrativa,B
+1450,Poder de Polícia Administrativa,A
+1451,Poder de Polícia Administrativa,C
+1452,Poder de Polícia Administrativa,B
+1453,Poder de Polícia Administrativa,A
+1454,Poder de Polícia Administrativa,B
+1455,Poder de Polícia Administrativa,C
+1456,Poder de Polícia Administrativa,D
+1457,Poder de Polícia Administrativa,B
+1458,Poder de Polícia Administrativa,D
+1459,Poder de Polícia Administrativa,A
+1460,Poder de Polícia Administrativa,B
+1461,Poder de Polícia Administrativa,D
+1462,Poder de Polícia Administrativa,C
+1463,Poder de Polícia Administrativa,A
+1464,Poder de Polícia Administrativa,D
+1465,Poder de Polícia Administrativa,D
+1466,Poder de Polícia Administrativa,A
+1467,Poder de Polícia Administrativa,B
+1468,Poder de Polícia Administrativa,B
+1469,Poder de Polícia Administrativa,D
+1470,Poder de Polícia Administrativa,C
+1471,Poder de Polícia Administrativa,A
+1472,Poder de Polícia Administrativa,C
+1473,Poder de Polícia Administrativa,D
+1474,Poder de Polícia Administrativa,D
+1475,Poder de Polícia Administrativa,C
+1476,Poder de Polícia Administrativa,B
+1477,Poder de Polícia Administrativa,A
+1478,Poder de Polícia Administrativa,B
+1479,Poder de Polícia Administrativa,C
+1480,Poder de Polícia Administrativa,C
+1481,Poder de Polícia Administrativa,C
+1482,Poder de Polícia Administrativa,B
+1483,Poder de Polícia Administrativa,A
+1484,Poder de Polícia Administrativa,B
+1485,Poder de Polícia Administrativa,D
+1486,Poder de Polícia Administrativa,C
+1487,Poder de Polícia Administrativa,C
+1488,Poder de Polícia Administrativa,D
+1489,Poder de Polícia Administrativa,A
+1490,Poder de Polícia Administrativa,D
+1491,Poder de Polícia Administrativa,A
+1492,Poder de Polícia Administrativa,C
+1493,Poder de Polícia Administrativa,A
+1494,Poder de Polícia Administrativa,D
+1495,Poder de Polícia Administrativa,B
+1496,Poder de Polícia Administrativa,D
+1497,Poder de Polícia Administrativa,B
+1498,Poder de Polícia Administrativa,B
+1499,Poder de Polícia Administrativa,B
+1500,Poder de Polícia Administrativa,A
+1501,Atos Administrativos,A
+1502,Atos Administrativos,C
+1503,Atos Administrativos,C
+1504,Atos Administrativos,A
+1505,Atos Administrativos,C
+1506,Atos Administrativos,A
+1507,Atos Administrativos,A
+1508,Atos Administrativos,A
+1509,Atos Administrativos,D
+1510,Atos Administrativos,D
+1511,Atos Administrativos,C
+1512,Atos Administrativos,B
+1513,Atos Administrativos,C
+1514,Atos Administrativos,C
+1515,Atos Administrativos,A
+1516,Atos Administrativos,D
+1517,Atos Administrativos,D
+1518,Atos Administrativos,B
+1519,Atos Administrativos,C
+1520,Atos Administrativos,A
+1521,Atos Administrativos,A
+1522,Atos Administrativos,D
+1523,Atos Administrativos,C
+1524,Atos Administrativos,C
+1525,Atos Administrativos,A
+1526,Atos Administrativos,D
+1527,Atos Administrativos,D
+1528,Atos Administrativos,D
+1529,Atos Administrativos,A
+1530,Atos Administrativos,C
+1531,Atos Administrativos,B
+1532,Atos Administrativos,A
+1533,Atos Administrativos,C
+1534,Atos Administrativos,B
+1535,Atos Administrativos,A
+1536,Atos Administrativos,A
+1537,Atos Administrativos,D
+1538,Atos Administrativos,B
+1539,Atos Administrativos,C
+1540,Atos Administrativos,D
+1541,Atos Administrativos,D
+1542,Atos Administrativos,C
+1543,Atos Administrativos,D
+1544,Atos Administrativos,B
+1545,Atos Administrativos,D
+1546,Atos Administrativos,B
+1547,Atos Administrativos,C
+1548,Atos Administrativos,B
+1549,Atos Administrativos,C
+1550,Atos Administrativos,A
+1551,Atos Administrativos,C
+1552,Atos Administrativos,D
+1553,Atos Administrativos,A
+1554,Atos Administrativos,B
+1555,Atos Administrativos,D
+1556,Atos Administrativos,A
+1557,Atos Administrativos,A
+1558,Atos Administrativos,B
+1559,Atos Administrativos,B
+1560,Atos Administrativos,A
+1561,Atos Administrativos,A
+1562,Atos Administrativos,B
+1563,Atos Administrativos,C
+1564,Atos Administrativos,B
+1565,Atos Administrativos,C
+1566,Atos Administrativos,A
+1567,Atos Administrativos,B
+1568,Atos Administrativos,B
+1569,Atos Administrativos,B
+1570,Atos Administrativos,B
+1571,Atos Administrativos,D
+1572,Atos Administrativos,D
+1573,Atos Administrativos,D
+1574,Atos Administrativos,D
+1575,Atos Administrativos,A
+1576,Atos Administrativos,B
+1577,Atos Administrativos,D
+1578,Atos Administrativos,D
+1579,Atos Administrativos,B
+1580,Atos Administrativos,D
+1581,Atos Administrativos,A
+1582,Atos Administrativos,D
+1583,Atos Administrativos,A
+1584,Atos Administrativos,D
+1585,Atos Administrativos,C
+1586,Atos Administrativos,A
+1587,Atos Administrativos,D
+1588,Atos Administrativos,B
+1589,Atos Administrativos,C
+1590,Atos Administrativos,C
+1591,Atos Administrativos,B
+1592,Atos Administrativos,A
+1593,Atos Administrativos,D
+1594,Atos Administrativos,B
+1595,Atos Administrativos,A
+1596,Atos Administrativos,B
+1597,Atos Administrativos,C
+1598,Atos Administrativos,D
+1599,Atos Administrativos,D
+1600,Atos Administrativos,B
+1601,Atos Administrativos,B
+1602,Atos Administrativos,C
+1603,Atos Administrativos,D
+1604,Atos Administrativos,C
+1605,Atos Administrativos,A
+1606,Atos Administrativos,B
+1607,Atos Administrativos,C
+1608,Atos Administrativos,B
+1609,Atos Administrativos,A
+1610,Atos Administrativos,D
+1611,Atos Administrativos,C
+1612,Atos Administrativos,D
+1613,Atos Administrativos,D
+1614,Atos Administrativos,D
+1615,Atos Administrativos,A
+1616,Atos Administrativos,D
+1617,Atos Administrativos,B
+1618,Atos Administrativos,D
+1619,Atos Administrativos,C
+1620,Atos Administrativos,A
+1621,Atos Administrativos,C
+1622,Atos Administrativos,A
+1623,Atos Administrativos,C
+1624,Atos Administrativos,C
+1625,Atos Administrativos,D
+1626,Atos Administrativos,A
+1627,Atos Administrativos,A
+1628,Atos Administrativos,A
+1629,Atos Administrativos,D
+1630,Atos Administrativos,A
+1631,Atos Administrativos,B
+1632,Atos Administrativos,B
+1633,Atos Administrativos,D
+1634,Atos Administrativos,A
+1635,Atos Administrativos,A
+1636,Atos Administrativos,C
+1637,Atos Administrativos,C
+1638,Atos Administrativos,C
+1639,Atos Administrativos,D
+1640,Atos Administrativos,B
+1641,Atos Administrativos,A
+1642,Atos Administrativos,D
+1643,Atos Administrativos,C
+1644,Atos Administrativos,D
+1645,Atos Administrativos,A
+1646,Atos Administrativos,A
+1647,Atos Administrativos,A
+1648,Atos Administrativos,A
+1649,Atos Administrativos,D
+1650,Atos Administrativos,C
+1651,Atos Administrativos,C
+1652,Atos Administrativos,C
+1653,Atos Administrativos,B
+1654,Atos Administrativos,C
+1655,Atos Administrativos,D
+1656,Atos Administrativos,D
+1657,Atos Administrativos,B
+1658,Atos Administrativos,C
+1659,Atos Administrativos,B
+1660,Atos Administrativos,A
+1661,Atos Administrativos,D
+1662,Atos Administrativos,B
+1663,Atos Administrativos,A
+1664,Atos Administrativos,A
+1665,Atos Administrativos,D
+1666,Atos Administrativos,B
+1667,Atos Administrativos,C
+1668,Atos Administrativos,D
+1669,Atos Administrativos,B
+1670,Atos Administrativos,A
+1671,Atos Administrativos,D
+1672,Atos Administrativos,A
+1673,Atos Administrativos,D
+1674,Atos Administrativos,C
+1675,Atos Administrativos,B
+1676,Atos Administrativos,D
+1677,Atos Administrativos,C
+1678,Atos Administrativos,A
+1679,Atos Administrativos,D
+1680,Atos Administrativos,D
+1681,Atos Administrativos,D
+1682,Atos Administrativos,A
+1683,Atos Administrativos,D
+1684,Atos Administrativos,C
+1685,Atos Administrativos,B
+1686,Atos Administrativos,B
+1687,Atos Administrativos,D
+1688,Atos Administrativos,B
+1689,Atos Administrativos,C
+1690,Atos Administrativos,C
+1691,Atos Administrativos,D
+1692,Atos Administrativos,C
+1693,Atos Administrativos,B
+1694,Atos Administrativos,A
+1695,Atos Administrativos,C
+1696,Atos Administrativos,C
+1697,Atos Administrativos,B
+1698,Atos Administrativos,A
+1699,Atos Administrativos,C
+1700,Atos Administrativos,B
+1701,Atos Administrativos,D
+1702,Atos Administrativos,A
+1703,Atos Administrativos,A
+1704,Atos Administrativos,D
+1705,Atos Administrativos,A
+1706,Atos Administrativos,C
+1707,Atos Administrativos,C
+1708,Atos Administrativos,A
+1709,Atos Administrativos,D
+1710,Atos Administrativos,C
+1711,Atos Administrativos,C
+1712,Atos Administrativos,A
+1713,Atos Administrativos,D
+1714,Atos Administrativos,D
+1715,Atos Administrativos,D
+1716,Atos Administrativos,A
+1717,Atos Administrativos,B
+1718,Atos Administrativos,D
+1719,Atos Administrativos,B
+1720,Atos Administrativos,C
+1721,Atos Administrativos,B
+1722,Atos Administrativos,B
+1723,Atos Administrativos,C
+1724,Atos Administrativos,C
+1725,Atos Administrativos,D
+1726,Atos Administrativos,D
+1727,Atos Administrativos,A
+1728,Atos Administrativos,A
+1729,Atos Administrativos,D
+1730,Atos Administrativos,B
+1731,Atos Administrativos,B
+1732,Atos Administrativos,D
+1733,Atos Administrativos,B
+1734,Atos Administrativos,B
+1735,Atos Administrativos,A
+1736,Atos Administrativos,C
+1737,Atos Administrativos,A
+1738,Atos Administrativos,A
+1739,Atos Administrativos,A
+1740,Atos Administrativos,C
+1741,Atos Administrativos,C
+1742,Atos Administrativos,C
+1743,Atos Administrativos,A
+1744,Atos Administrativos,D
+1745,Atos Administrativos,B
+1746,Atos Administrativos,C
+1747,Atos Administrativos,D
+1748,Atos Administrativos,A
+1749,Atos Administrativos,D
+1750,Atos Administrativos,B
+1751,Atos Administrativos,A
+1752,Atos Administrativos,C
+1753,Atos Administrativos,A
+1754,Atos Administrativos,B
+1755,Atos Administrativos,A
+1756,Atos Administrativos,A
+1757,Atos Administrativos,C
+1758,Atos Administrativos,C
+1759,Atos Administrativos,D
+1760,Atos Administrativos,D
+1761,Atos Administrativos,A
+1762,Atos Administrativos,A
+1763,Atos Administrativos,D
+1764,Atos Administrativos,D
+1765,Atos Administrativos,B
+1766,Atos Administrativos,D
+1767,Atos Administrativos,C
+1768,Atos Administrativos,B
+1769,Atos Administrativos,B
+1770,Atos Administrativos,A
+1771,Atos Administrativos,D
+1772,Atos Administrativos,B
+1773,Atos Administrativos,B
+1774,Atos Administrativos,D
+1775,Atos Administrativos,A
+1776,Atos Administrativos,A
+1777,Atos Administrativos,D
+1778,Atos Administrativos,D
+1779,Atos Administrativos,D
+1780,Atos Administrativos,B
+1781,Atos Administrativos,B
+1782,Atos Administrativos,C
+1783,Atos Administrativos,A
+1784,Atos Administrativos,D
+1785,Atos Administrativos,B
+1786,Atos Administrativos,D
+1787,Atos Administrativos,B
+1788,Atos Administrativos,D
+1789,Atos Administrativos,D
+1790,Atos Administrativos,D
+1791,Atos Administrativos,B
+1792,Atos Administrativos,B
+1793,Atos Administrativos,D
+1794,Atos Administrativos,A
+1795,Atos Administrativos,D
+1796,Atos Administrativos,D
+1797,Atos Administrativos,C
+1798,Atos Administrativos,B
+1799,Atos Administrativos,D
+1800,Atos Administrativos,C
+1801,Funções de protocolo e gerenciamento de documentos e processos,A
+1802,Funções de protocolo e gerenciamento de documentos e processos,C
+1803,Funções de protocolo e gerenciamento de documentos e processos,A
+1804,Funções de protocolo e gerenciamento de documentos e processos,A
+1805,Funções de protocolo e gerenciamento de documentos e processos,C
+1806,Funções de protocolo e gerenciamento de documentos e processos,D
+1807,Funções de protocolo e gerenciamento de documentos e processos,A
+1808,Funções de protocolo e gerenciamento de documentos e processos,B
+1809,Funções de protocolo e gerenciamento de documentos e processos,A
+1810,Funções de protocolo e gerenciamento de documentos e processos,B
+1811,Funções de protocolo e gerenciamento de documentos e processos,A
+1812,Funções de protocolo e gerenciamento de documentos e processos,C
+1813,Funções de protocolo e gerenciamento de documentos e processos,A
+1814,Funções de protocolo e gerenciamento de documentos e processos,D
+1815,Funções de protocolo e gerenciamento de documentos e processos,B
+1816,Funções de protocolo e gerenciamento de documentos e processos,B
+1817,Funções de protocolo e gerenciamento de documentos e processos,A
+1818,Funções de protocolo e gerenciamento de documentos e processos,B
+1819,Funções de protocolo e gerenciamento de documentos e processos,A
+1820,Funções de protocolo e gerenciamento de documentos e processos,A
+1821,Funções de protocolo e gerenciamento de documentos e processos,C
+1822,Funções de protocolo e gerenciamento de documentos e processos,A
+1823,Funções de protocolo e gerenciamento de documentos e processos,D
+1824,Funções de protocolo e gerenciamento de documentos e processos,A
+1825,Funções de protocolo e gerenciamento de documentos e processos,D
+1826,Funções de protocolo e gerenciamento de documentos e processos,A
+1827,Funções de protocolo e gerenciamento de documentos e processos,B
+1828,Funções de protocolo e gerenciamento de documentos e processos,B
+1829,Funções de protocolo e gerenciamento de documentos e processos,D
+1830,Funções de protocolo e gerenciamento de documentos e processos,D
+1831,Funções de protocolo e gerenciamento de documentos e processos,A
+1832,Funções de protocolo e gerenciamento de documentos e processos,D
+1833,Funções de protocolo e gerenciamento de documentos e processos,A
+1834,Funções de protocolo e gerenciamento de documentos e processos,A
+1835,Funções de protocolo e gerenciamento de documentos e processos,A
+1836,Funções de protocolo e gerenciamento de documentos e processos,C
+1837,Funções de protocolo e gerenciamento de documentos e processos,D
+1838,Funções de protocolo e gerenciamento de documentos e processos,D
+1839,Funções de protocolo e gerenciamento de documentos e processos,B
+1840,Funções de protocolo e gerenciamento de documentos e processos,D
+1841,Funções de protocolo e gerenciamento de documentos e processos,D
+1842,Funções de protocolo e gerenciamento de documentos e processos,D
+1843,Funções de protocolo e gerenciamento de documentos e processos,A
+1844,Funções de protocolo e gerenciamento de documentos e processos,B
+1845,Funções de protocolo e gerenciamento de documentos e processos,A
+1846,Funções de protocolo e gerenciamento de documentos e processos,C
+1847,Funções de protocolo e gerenciamento de documentos e processos,A
+1848,Funções de protocolo e gerenciamento de documentos e processos,C
+1849,Funções de protocolo e gerenciamento de documentos e processos,B
+1850,Funções de protocolo e gerenciamento de documentos e processos,B
+1851,Funções de protocolo e gerenciamento de documentos e processos,C
+1852,Funções de protocolo e gerenciamento de documentos e processos,B
+1853,Funções de protocolo e gerenciamento de documentos e processos,C
+1854,Funções de protocolo e gerenciamento de documentos e processos,D
+1855,Funções de protocolo e gerenciamento de documentos e processos,A
+1856,Funções de protocolo e gerenciamento de documentos e processos,D
+1857,Funções de protocolo e gerenciamento de documentos e processos,C
+1858,Funções de protocolo e gerenciamento de documentos e processos,B
+1859,Funções de protocolo e gerenciamento de documentos e processos,A
+1860,Funções de protocolo e gerenciamento de documentos e processos,B
+1861,Funções de protocolo e gerenciamento de documentos e processos,D
+1862,Funções de protocolo e gerenciamento de documentos e processos,C
+1863,Funções de protocolo e gerenciamento de documentos e processos,C
+1864,Funções de protocolo e gerenciamento de documentos e processos,A
+1865,Funções de protocolo e gerenciamento de documentos e processos,A
+1866,Funções de protocolo e gerenciamento de documentos e processos,B
+1867,Funções de protocolo e gerenciamento de documentos e processos,A
+1868,Funções de protocolo e gerenciamento de documentos e processos,A
+1869,Funções de protocolo e gerenciamento de documentos e processos,B
+1870,Funções de protocolo e gerenciamento de documentos e processos,A
+1871,Funções de protocolo e gerenciamento de documentos e processos,B
+1872,Funções de protocolo e gerenciamento de documentos e processos,B
+1873,Funções de protocolo e gerenciamento de documentos e processos,B
+1874,Funções de protocolo e gerenciamento de documentos e processos,C
+1875,Funções de protocolo e gerenciamento de documentos e processos,D
+1876,Funções de protocolo e gerenciamento de documentos e processos,A
+1877,Funções de protocolo e gerenciamento de documentos e processos,D
+1878,Funções de protocolo e gerenciamento de documentos e processos,A
+1879,Funções de protocolo e gerenciamento de documentos e processos,A
+1880,Funções de protocolo e gerenciamento de documentos e processos,D
+1881,Funções de protocolo e gerenciamento de documentos e processos,B
+1882,Funções de protocolo e gerenciamento de documentos e processos,D
+1883,Funções de protocolo e gerenciamento de documentos e processos,D
+1884,Funções de protocolo e gerenciamento de documentos e processos,D
+1885,Funções de protocolo e gerenciamento de documentos e processos,B
+1886,Funções de protocolo e gerenciamento de documentos e processos,B
+1887,Funções de protocolo e gerenciamento de documentos e processos,A
+1888,Funções de protocolo e gerenciamento de documentos e processos,B
+1889,Funções de protocolo e gerenciamento de documentos e processos,B
+1890,Funções de protocolo e gerenciamento de documentos e processos,B
+1891,Funções de protocolo e gerenciamento de documentos e processos,A
+1892,Funções de protocolo e gerenciamento de documentos e processos,C
+1893,Funções de protocolo e gerenciamento de documentos e processos,D
+1894,Funções de protocolo e gerenciamento de documentos e processos,D
+1895,Funções de protocolo e gerenciamento de documentos e processos,D
+1896,Funções de protocolo e gerenciamento de documentos e processos,D
+1897,Funções de protocolo e gerenciamento de documentos e processos,B
+1898,Funções de protocolo e gerenciamento de documentos e processos,A
+1899,Funções de protocolo e gerenciamento de documentos e processos,A
+1900,Funções de protocolo e gerenciamento de documentos e processos,C
+1901,Funções de protocolo e gerenciamento de documentos e processos,B
+1902,Funções de protocolo e gerenciamento de documentos e processos,B
+1903,Funções de protocolo e gerenciamento de documentos e processos,A
+1904,Funções de protocolo e gerenciamento de documentos e processos,B
+1905,Funções de protocolo e gerenciamento de documentos e processos,B
+1906,Funções de protocolo e gerenciamento de documentos e processos,D
+1907,Funções de protocolo e gerenciamento de documentos e processos,B
+1908,Funções de protocolo e gerenciamento de documentos e processos,C
+1909,Funções de protocolo e gerenciamento de documentos e processos,B
+1910,Funções de protocolo e gerenciamento de documentos e processos,B
+1911,Funções de protocolo e gerenciamento de documentos e processos,D
+1912,Funções de protocolo e gerenciamento de documentos e processos,C
+1913,Funções de protocolo e gerenciamento de documentos e processos,B
+1914,Funções de protocolo e gerenciamento de documentos e processos,D
+1915,Funções de protocolo e gerenciamento de documentos e processos,D
+1916,Funções de protocolo e gerenciamento de documentos e processos,A
+1917,Funções de protocolo e gerenciamento de documentos e processos,C
+1918,Funções de protocolo e gerenciamento de documentos e processos,A
+1919,Funções de protocolo e gerenciamento de documentos e processos,D
+1920,Funções de protocolo e gerenciamento de documentos e processos,C
+1921,Funções de protocolo e gerenciamento de documentos e processos,B
+1922,Funções de protocolo e gerenciamento de documentos e processos,D
+1923,Funções de protocolo e gerenciamento de documentos e processos,B
+1924,Funções de protocolo e gerenciamento de documentos e processos,D
+1925,Funções de protocolo e gerenciamento de documentos e processos,D
+1926,Funções de protocolo e gerenciamento de documentos e processos,D
+1927,Funções de protocolo e gerenciamento de documentos e processos,D
+1928,Funções de protocolo e gerenciamento de documentos e processos,D
+1929,Funções de protocolo e gerenciamento de documentos e processos,A
+1930,Funções de protocolo e gerenciamento de documentos e processos,A
+1931,Funções de protocolo e gerenciamento de documentos e processos,D
+1932,Funções de protocolo e gerenciamento de documentos e processos,A
+1933,Funções de protocolo e gerenciamento de documentos e processos,D
+1934,Funções de protocolo e gerenciamento de documentos e processos,A
+1935,Funções de protocolo e gerenciamento de documentos e processos,B
+1936,Funções de protocolo e gerenciamento de documentos e processos,D
+1937,Funções de protocolo e gerenciamento de documentos e processos,A
+1938,Funções de protocolo e gerenciamento de documentos e processos,B
+1939,Funções de protocolo e gerenciamento de documentos e processos,D
+1940,Funções de protocolo e gerenciamento de documentos e processos,A
+1941,Funções de protocolo e gerenciamento de documentos e processos,C
+1942,Funções de protocolo e gerenciamento de documentos e processos,D
+1943,Funções de protocolo e gerenciamento de documentos e processos,A
+1944,Funções de protocolo e gerenciamento de documentos e processos,D
+1945,Funções de protocolo e gerenciamento de documentos e processos,B
+1946,Funções de protocolo e gerenciamento de documentos e processos,D
+1947,Funções de protocolo e gerenciamento de documentos e processos,B
+1948,Funções de protocolo e gerenciamento de documentos e processos,A
+1949,Funções de protocolo e gerenciamento de documentos e processos,D
+1950,Funções de protocolo e gerenciamento de documentos e processos,D
+1951,Funções de protocolo e gerenciamento de documentos e processos,B
+1952,Funções de protocolo e gerenciamento de documentos e processos,B
+1953,Funções de protocolo e gerenciamento de documentos e processos,D
+1954,Funções de protocolo e gerenciamento de documentos e processos,D
+1955,Funções de protocolo e gerenciamento de documentos e processos,C
+1956,Funções de protocolo e gerenciamento de documentos e processos,C
+1957,Funções de protocolo e gerenciamento de documentos e processos,B
+1958,Funções de protocolo e gerenciamento de documentos e processos,B
+1959,Funções de protocolo e gerenciamento de documentos e processos,C
+1960,Funções de protocolo e gerenciamento de documentos e processos,D
+1961,Funções de protocolo e gerenciamento de documentos e processos,A
+1962,Funções de protocolo e gerenciamento de documentos e processos,D
+1963,Funções de protocolo e gerenciamento de documentos e processos,A
+1964,Funções de protocolo e gerenciamento de documentos e processos,C
+1965,Funções de protocolo e gerenciamento de documentos e processos,A
+1966,Funções de protocolo e gerenciamento de documentos e processos,D
+1967,Funções de protocolo e gerenciamento de documentos e processos,C
+1968,Funções de protocolo e gerenciamento de documentos e processos,C
+1969,Funções de protocolo e gerenciamento de documentos e processos,A
+1970,Funções de protocolo e gerenciamento de documentos e processos,C
+1971,Funções de protocolo e gerenciamento de documentos e processos,B
+1972,Funções de protocolo e gerenciamento de documentos e processos,A
+1973,Funções de protocolo e gerenciamento de documentos e processos,D
+1974,Funções de protocolo e gerenciamento de documentos e processos,D
+1975,Funções de protocolo e gerenciamento de documentos e processos,B
+1976,Funções de protocolo e gerenciamento de documentos e processos,D
+1977,Funções de protocolo e gerenciamento de documentos e processos,C
+1978,Funções de protocolo e gerenciamento de documentos e processos,A
+1979,Funções de protocolo e gerenciamento de documentos e processos,C
+1980,Funções de protocolo e gerenciamento de documentos e processos,C
+1981,Funções de protocolo e gerenciamento de documentos e processos,D
+1982,Funções de protocolo e gerenciamento de documentos e processos,A
+1983,Funções de protocolo e gerenciamento de documentos e processos,A
+1984,Funções de protocolo e gerenciamento de documentos e processos,A
+1985,Funções de protocolo e gerenciamento de documentos e processos,D
+1986,Funções de protocolo e gerenciamento de documentos e processos,B
+1987,Funções de protocolo e gerenciamento de documentos e processos,C
+1988,Funções de protocolo e gerenciamento de documentos e processos,C
+1989,Funções de protocolo e gerenciamento de documentos e processos,B
+1990,Funções de protocolo e gerenciamento de documentos e processos,C
+1991,Funções de protocolo e gerenciamento de documentos e processos,C
+1992,Funções de protocolo e gerenciamento de documentos e processos,B
+1993,Funções de protocolo e gerenciamento de documentos e processos,A
+1994,Funções de protocolo e gerenciamento de documentos e processos,C
+1995,Funções de protocolo e gerenciamento de documentos e processos,A
+1996,Funções de protocolo e gerenciamento de documentos e processos,C
+1997,Funções de protocolo e gerenciamento de documentos e processos,B
+1998,Funções de protocolo e gerenciamento de documentos e processos,C
+1999,Funções de protocolo e gerenciamento de documentos e processos,D
+2000,Funções de protocolo e gerenciamento de documentos e processos,A
+2001,Funções de protocolo e gerenciamento de documentos e processos,D
+2002,Funções de protocolo e gerenciamento de documentos e processos,B
+2003,Funções de protocolo e gerenciamento de documentos e processos,B
+2004,Funções de protocolo e gerenciamento de documentos e processos,D
+2005,Funções de protocolo e gerenciamento de documentos e processos,C
+2006,Funções de protocolo e gerenciamento de documentos e processos,B
+2007,Funções de protocolo e gerenciamento de documentos e processos,D
+2008,Funções de protocolo e gerenciamento de documentos e processos,A
+2009,Funções de protocolo e gerenciamento de documentos e processos,B
+2010,Funções de protocolo e gerenciamento de documentos e processos,D
+2011,Funções de protocolo e gerenciamento de documentos e processos,B
+2012,Funções de protocolo e gerenciamento de documentos e processos,A
+2013,Funções de protocolo e gerenciamento de documentos e processos,C
+2014,Funções de protocolo e gerenciamento de documentos e processos,C
+2015,Funções de protocolo e gerenciamento de documentos e processos,C
+2016,Funções de protocolo e gerenciamento de documentos e processos,A
+2017,Funções de protocolo e gerenciamento de documentos e processos,D
+2018,Funções de protocolo e gerenciamento de documentos e processos,D
+2019,Funções de protocolo e gerenciamento de documentos e processos,B
+2020,Funções de protocolo e gerenciamento de documentos e processos,A
+2021,Funções de protocolo e gerenciamento de documentos e processos,D
+2022,Funções de protocolo e gerenciamento de documentos e processos,D
+2023,Funções de protocolo e gerenciamento de documentos e processos,D
+2024,Funções de protocolo e gerenciamento de documentos e processos,D
+2025,Funções de protocolo e gerenciamento de documentos e processos,D
+2026,Funções de protocolo e gerenciamento de documentos e processos,D
+2027,Funções de protocolo e gerenciamento de documentos e processos,C
+2028,Funções de protocolo e gerenciamento de documentos e processos,B
+2029,Funções de protocolo e gerenciamento de documentos e processos,D
+2030,Funções de protocolo e gerenciamento de documentos e processos,B
+2031,Funções de protocolo e gerenciamento de documentos e processos,C
+2032,Funções de protocolo e gerenciamento de documentos e processos,C
+2033,Funções de protocolo e gerenciamento de documentos e processos,B
+2034,Funções de protocolo e gerenciamento de documentos e processos,C
+2035,Funções de protocolo e gerenciamento de documentos e processos,A
+2036,Funções de protocolo e gerenciamento de documentos e processos,D
+2037,Funções de protocolo e gerenciamento de documentos e processos,C
+2038,Funções de protocolo e gerenciamento de documentos e processos,A
+2039,Funções de protocolo e gerenciamento de documentos e processos,C
+2040,Funções de protocolo e gerenciamento de documentos e processos,B
+2041,Funções de protocolo e gerenciamento de documentos e processos,A
+2042,Funções de protocolo e gerenciamento de documentos e processos,B
+2043,Funções de protocolo e gerenciamento de documentos e processos,B
+2044,Funções de protocolo e gerenciamento de documentos e processos,C
+2045,Funções de protocolo e gerenciamento de documentos e processos,C
+2046,Funções de protocolo e gerenciamento de documentos e processos,B
+2047,Funções de protocolo e gerenciamento de documentos e processos,D
+2048,Funções de protocolo e gerenciamento de documentos e processos,D
+2049,Funções de protocolo e gerenciamento de documentos e processos,B
+2050,Funções de protocolo e gerenciamento de documentos e processos,C
+2051,Funções de protocolo e gerenciamento de documentos e processos,C
+2052,Funções de protocolo e gerenciamento de documentos e processos,D
+2053,Funções de protocolo e gerenciamento de documentos e processos,C
+2054,Funções de protocolo e gerenciamento de documentos e processos,C
+2055,Funções de protocolo e gerenciamento de documentos e processos,D
+2056,Funções de protocolo e gerenciamento de documentos e processos,D
+2057,Funções de protocolo e gerenciamento de documentos e processos,C
+2058,Funções de protocolo e gerenciamento de documentos e processos,D
+2059,Funções de protocolo e gerenciamento de documentos e processos,D
+2060,Funções de protocolo e gerenciamento de documentos e processos,D
+2061,Funções de protocolo e gerenciamento de documentos e processos,C
+2062,Funções de protocolo e gerenciamento de documentos e processos,B
+2063,Funções de protocolo e gerenciamento de documentos e processos,B
+2064,Funções de protocolo e gerenciamento de documentos e processos,A
+2065,Funções de protocolo e gerenciamento de documentos e processos,C
+2066,Funções de protocolo e gerenciamento de documentos e processos,D
+2067,Funções de protocolo e gerenciamento de documentos e processos,B
+2068,Funções de protocolo e gerenciamento de documentos e processos,A
+2069,Funções de protocolo e gerenciamento de documentos e processos,D
+2070,Funções de protocolo e gerenciamento de documentos e processos,A
+2071,Funções de protocolo e gerenciamento de documentos e processos,B
+2072,Funções de protocolo e gerenciamento de documentos e processos,C
+2073,Funções de protocolo e gerenciamento de documentos e processos,B
+2074,Funções de protocolo e gerenciamento de documentos e processos,B
+2075,Funções de protocolo e gerenciamento de documentos e processos,D
+2076,Funções de protocolo e gerenciamento de documentos e processos,C
+2077,Funções de protocolo e gerenciamento de documentos e processos,D
+2078,Funções de protocolo e gerenciamento de documentos e processos,C
+2079,Funções de protocolo e gerenciamento de documentos e processos,B
+2080,Funções de protocolo e gerenciamento de documentos e processos,A
+2081,Funções de protocolo e gerenciamento de documentos e processos,A
+2082,Funções de protocolo e gerenciamento de documentos e processos,D
+2083,Funções de protocolo e gerenciamento de documentos e processos,B
+2084,Funções de protocolo e gerenciamento de documentos e processos,A
+2085,Funções de protocolo e gerenciamento de documentos e processos,B
+2086,Funções de protocolo e gerenciamento de documentos e processos,D
+2087,Funções de protocolo e gerenciamento de documentos e processos,D
+2088,Funções de protocolo e gerenciamento de documentos e processos,C
+2089,Funções de protocolo e gerenciamento de documentos e processos,D
+2090,Funções de protocolo e gerenciamento de documentos e processos,C
+2091,Funções de protocolo e gerenciamento de documentos e processos,D
+2092,Funções de protocolo e gerenciamento de documentos e processos,B
+2093,Funções de protocolo e gerenciamento de documentos e processos,A
+2094,Funções de protocolo e gerenciamento de documentos e processos,B
+2095,Funções de protocolo e gerenciamento de documentos e processos,D
+2096,Funções de protocolo e gerenciamento de documentos e processos,B
+2097,Funções de protocolo e gerenciamento de documentos e processos,C
+2098,Funções de protocolo e gerenciamento de documentos e processos,C
+2099,Funções de protocolo e gerenciamento de documentos e processos,D
+2100,Funções de protocolo e gerenciamento de documentos e processos,B
+2101,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2102,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2103,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2104,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2105,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2106,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2107,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2108,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2109,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2110,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2111,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2112,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2113,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2114,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2115,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2116,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2117,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2118,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2119,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2120,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2121,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2122,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2123,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2124,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2125,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2126,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2127,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2128,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2129,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2130,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2131,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2132,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2133,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2134,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2135,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2136,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2137,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2138,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2139,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2140,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2141,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2142,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2143,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2144,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2145,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2146,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2147,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2148,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2149,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2150,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2151,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2152,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2153,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2154,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2155,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2156,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2157,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2158,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2159,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2160,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2161,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2162,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2163,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2164,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2165,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2166,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2167,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2168,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2169,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2170,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2171,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2172,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2173,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2174,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2175,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2176,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2177,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2178,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2179,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2180,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2181,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2182,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2183,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2184,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2185,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2186,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2187,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2188,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2189,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2190,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2191,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2192,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2193,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2194,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2195,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2196,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2197,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2198,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2199,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2200,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2201,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2202,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2203,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2204,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2205,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2206,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2207,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2208,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2209,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2210,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2211,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2212,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2213,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2214,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2215,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2216,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2217,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2218,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2219,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2220,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2221,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2222,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2223,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2224,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2225,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2226,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2227,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2228,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2229,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2230,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2231,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2232,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2233,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2234,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2235,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2236,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2237,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2238,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2239,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2240,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2241,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2242,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2243,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2244,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2245,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2246,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2247,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2248,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2249,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2250,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2251,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2252,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2253,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2254,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2255,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2256,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2257,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2258,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2259,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2260,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2261,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2262,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2263,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2264,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2265,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2266,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2267,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2268,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2269,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2270,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2271,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2272,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2273,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2274,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2275,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2276,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2277,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2278,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2279,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2280,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2281,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2282,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2283,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2284,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2285,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2286,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2287,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2288,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2289,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2290,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2291,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2292,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2293,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2294,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2295,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2296,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2297,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2298,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2299,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2300,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2301,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2302,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2303,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2304,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2305,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2306,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2307,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2308,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2309,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2310,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2311,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2312,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2313,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2314,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2315,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2316,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2317,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2318,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2319,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2320,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2321,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2322,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2323,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2324,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2325,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2326,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2327,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2328,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2329,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2330,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2331,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2332,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2333,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2334,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2335,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2336,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2337,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2338,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2339,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2340,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2341,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2342,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2343,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2344,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2345,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2346,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2347,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2348,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2349,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2350,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2351,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2352,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2353,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2354,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2355,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2356,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2357,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2358,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2359,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2360,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2361,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2362,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2363,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2364,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2365,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2366,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2367,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2368,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2369,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2370,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2371,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2372,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2373,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2374,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2375,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2376,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2377,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2378,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2379,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2380,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2381,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2382,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2383,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2384,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2385,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2386,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2387,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2388,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2389,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2390,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2391,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2392,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2393,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2394,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",A
+2395,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2396,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2397,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2398,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",B
+2399,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",D
+2400,"Lei de abuso de autoridade; Lei Maria da Penha; Estatutos da Criança e do Adolescente, do Idoso, da Pessoa com Deficiência, da Igualdade Racial",C
+2401,Código Penal - crimes contra a administração pública,C
+2402,Código Penal - crimes contra a administração pública,D
+2403,Código Penal - crimes contra a administração pública,A
+2404,Código Penal - crimes contra a administração pública,A
+2405,Código Penal - crimes contra a administração pública,A
+2406,Código Penal - crimes contra a administração pública,C
+2407,Código Penal - crimes contra a administração pública,B
+2408,Código Penal - crimes contra a administração pública,B
+2409,Código Penal - crimes contra a administração pública,B
+2410,Código Penal - crimes contra a administração pública,A
+2411,Código Penal - crimes contra a administração pública,B
+2412,Código Penal - crimes contra a administração pública,C
+2413,Código Penal - crimes contra a administração pública,D
+2414,Código Penal - crimes contra a administração pública,B
+2415,Código Penal - crimes contra a administração pública,D
+2416,Código Penal - crimes contra a administração pública,D
+2417,Código Penal - crimes contra a administração pública,B
+2418,Código Penal - crimes contra a administração pública,A
+2419,Código Penal - crimes contra a administração pública,A
+2420,Código Penal - crimes contra a administração pública,A
+2421,Código Penal - crimes contra a administração pública,A
+2422,Código Penal - crimes contra a administração pública,A
+2423,Código Penal - crimes contra a administração pública,B
+2424,Código Penal - crimes contra a administração pública,C
+2425,Código Penal - crimes contra a administração pública,B
+2426,Código Penal - crimes contra a administração pública,B
+2427,Código Penal - crimes contra a administração pública,C
+2428,Código Penal - crimes contra a administração pública,D
+2429,Código Penal - crimes contra a administração pública,D
+2430,Código Penal - crimes contra a administração pública,C
+2431,Código Penal - crimes contra a administração pública,A
+2432,Código Penal - crimes contra a administração pública,D
+2433,Código Penal - crimes contra a administração pública,C
+2434,Código Penal - crimes contra a administração pública,C
+2435,Código Penal - crimes contra a administração pública,B
+2436,Código Penal - crimes contra a administração pública,D
+2437,Código Penal - crimes contra a administração pública,B
+2438,Código Penal - crimes contra a administração pública,A
+2439,Código Penal - crimes contra a administração pública,B
+2440,Código Penal - crimes contra a administração pública,C
+2441,Código Penal - crimes contra a administração pública,C
+2442,Código Penal - crimes contra a administração pública,D
+2443,Código Penal - crimes contra a administração pública,A
+2444,Código Penal - crimes contra a administração pública,B
+2445,Código Penal - crimes contra a administração pública,B
+2446,Código Penal - crimes contra a administração pública,C
+2447,Código Penal - crimes contra a administração pública,D
+2448,Código Penal - crimes contra a administração pública,D
+2449,Código Penal - crimes contra a administração pública,B
+2450,Código Penal - crimes contra a administração pública,A
+2451,Código Penal - crimes contra a administração pública,D
+2452,Código Penal - crimes contra a administração pública,D
+2453,Código Penal - crimes contra a administração pública,D
+2454,Código Penal - crimes contra a administração pública,A
+2455,Código Penal - crimes contra a administração pública,B
+2456,Código Penal - crimes contra a administração pública,A
+2457,Código Penal - crimes contra a administração pública,D
+2458,Código Penal - crimes contra a administração pública,B
+2459,Código Penal - crimes contra a administração pública,D
+2460,Código Penal - crimes contra a administração pública,B
+2461,Código Penal - crimes contra a administração pública,C
+2462,Código Penal - crimes contra a administração pública,B
+2463,Código Penal - crimes contra a administração pública,C
+2464,Código Penal - crimes contra a administração pública,D
+2465,Código Penal - crimes contra a administração pública,A
+2466,Código Penal - crimes contra a administração pública,D
+2467,Código Penal - crimes contra a administração pública,D
+2468,Código Penal - crimes contra a administração pública,C
+2469,Código Penal - crimes contra a administração pública,C
+2470,Código Penal - crimes contra a administração pública,B
+2471,Código Penal - crimes contra a administração pública,C
+2472,Código Penal - crimes contra a administração pública,C
+2473,Código Penal - crimes contra a administração pública,C
+2474,Código Penal - crimes contra a administração pública,C
+2475,Código Penal - crimes contra a administração pública,A
+2476,Código Penal - crimes contra a administração pública,D
+2477,Código Penal - crimes contra a administração pública,D
+2478,Código Penal - crimes contra a administração pública,B
+2479,Código Penal - crimes contra a administração pública,C
+2480,Código Penal - crimes contra a administração pública,A
+2481,Código Penal - crimes contra a administração pública,D
+2482,Código Penal - crimes contra a administração pública,B
+2483,Código Penal - crimes contra a administração pública,C
+2484,Código Penal - crimes contra a administração pública,D
+2485,Código Penal - crimes contra a administração pública,C
+2486,Código Penal - crimes contra a administração pública,C
+2487,Código Penal - crimes contra a administração pública,A
+2488,Código Penal - crimes contra a administração pública,C
+2489,Código Penal - crimes contra a administração pública,D
+2490,Código Penal - crimes contra a administração pública,A
+2491,Código Penal - crimes contra a administração pública,B
+2492,Código Penal - crimes contra a administração pública,D
+2493,Código Penal - crimes contra a administração pública,D
+2494,Código Penal - crimes contra a administração pública,A
+2495,Código Penal - crimes contra a administração pública,B
+2496,Código Penal - crimes contra a administração pública,B
+2497,Código Penal - crimes contra a administração pública,C
+2498,Código Penal - crimes contra a administração pública,A
+2499,Código Penal - crimes contra a administração pública,B
+2500,Código Penal - crimes contra a administração pública,B
+2501,Código Penal - crimes contra a administração pública,C
+2502,Código Penal - crimes contra a administração pública,C
+2503,Código Penal - crimes contra a administração pública,D
+2504,Código Penal - crimes contra a administração pública,D
+2505,Código Penal - crimes contra a administração pública,C
+2506,Código Penal - crimes contra a administração pública,D
+2507,Código Penal - crimes contra a administração pública,A
+2508,Código Penal - crimes contra a administração pública,C
+2509,Código Penal - crimes contra a administração pública,D
+2510,Código Penal - crimes contra a administração pública,C
+2511,Código Penal - crimes contra a administração pública,B
+2512,Código Penal - crimes contra a administração pública,A
+2513,Código Penal - crimes contra a administração pública,B
+2514,Código Penal - crimes contra a administração pública,B
+2515,Código Penal - crimes contra a administração pública,C
+2516,Código Penal - crimes contra a administração pública,D
+2517,Código Penal - crimes contra a administração pública,B
+2518,Código Penal - crimes contra a administração pública,B
+2519,Código Penal - crimes contra a administração pública,B
+2520,Código Penal - crimes contra a administração pública,C
+2521,Código Penal - crimes contra a administração pública,C
+2522,Código Penal - crimes contra a administração pública,D
+2523,Código Penal - crimes contra a administração pública,B
+2524,Código Penal - crimes contra a administração pública,B
+2525,Código Penal - crimes contra a administração pública,B
+2526,Código Penal - crimes contra a administração pública,B
+2527,Código Penal - crimes contra a administração pública,D
+2528,Código Penal - crimes contra a administração pública,A
+2529,Código Penal - crimes contra a administração pública,C
+2530,Código Penal - crimes contra a administração pública,A
+2531,Código Penal - crimes contra a administração pública,A
+2532,Código Penal - crimes contra a administração pública,D
+2533,Código Penal - crimes contra a administração pública,D
+2534,Código Penal - crimes contra a administração pública,D
+2535,Código Penal - crimes contra a administração pública,D
+2536,Código Penal - crimes contra a administração pública,B
+2537,Código Penal - crimes contra a administração pública,C
+2538,Código Penal - crimes contra a administração pública,C
+2539,Código Penal - crimes contra a administração pública,D
+2540,Código Penal - crimes contra a administração pública,A
+2541,Código Penal - crimes contra a administração pública,C
+2542,Código Penal - crimes contra a administração pública,C
+2543,Código Penal - crimes contra a administração pública,A
+2544,Código Penal - crimes contra a administração pública,B
+2545,Código Penal - crimes contra a administração pública,C
+2546,Código Penal - crimes contra a administração pública,D
+2547,Código Penal - crimes contra a administração pública,D
+2548,Código Penal - crimes contra a administração pública,B
+2549,Código Penal - crimes contra a administração pública,B
+2550,Código Penal - crimes contra a administração pública,B
+2551,Código Penal - crimes contra a administração pública,B
+2552,Código Penal - crimes contra a administração pública,A
+2553,Código Penal - crimes contra a administração pública,C
+2554,Código Penal - crimes contra a administração pública,D
+2555,Código Penal - crimes contra a administração pública,D
+2556,Código Penal - crimes contra a administração pública,D
+2557,Código Penal - crimes contra a administração pública,D
+2558,Código Penal - crimes contra a administração pública,C
+2559,Código Penal - crimes contra a administração pública,A
+2560,Código Penal - crimes contra a administração pública,A
+2561,Código Penal - crimes contra a administração pública,B
+2562,Código Penal - crimes contra a administração pública,D
+2563,Código Penal - crimes contra a administração pública,D
+2564,Código Penal - crimes contra a administração pública,B
+2565,Código Penal - crimes contra a administração pública,D
+2566,Código Penal - crimes contra a administração pública,A
+2567,Código Penal - crimes contra a administração pública,A
+2568,Código Penal - crimes contra a administração pública,B
+2569,Código Penal - crimes contra a administração pública,D
+2570,Código Penal - crimes contra a administração pública,C
+2571,Código Penal - crimes contra a administração pública,A
+2572,Código Penal - crimes contra a administração pública,C
+2573,Código Penal - crimes contra a administração pública,B
+2574,Código Penal - crimes contra a administração pública,C
+2575,Código Penal - crimes contra a administração pública,A
+2576,Código Penal - crimes contra a administração pública,C
+2577,Código Penal - crimes contra a administração pública,B
+2578,Código Penal - crimes contra a administração pública,B
+2579,Código Penal - crimes contra a administração pública,A
+2580,Código Penal - crimes contra a administração pública,C
+2581,Código Penal - crimes contra a administração pública,B
+2582,Código Penal - crimes contra a administração pública,D
+2583,Código Penal - crimes contra a administração pública,A
+2584,Código Penal - crimes contra a administração pública,D
+2585,Código Penal - crimes contra a administração pública,D
+2586,Código Penal - crimes contra a administração pública,C
+2587,Código Penal - crimes contra a administração pública,A
+2588,Código Penal - crimes contra a administração pública,C
+2589,Código Penal - crimes contra a administração pública,B
+2590,Código Penal - crimes contra a administração pública,C
+2591,Código Penal - crimes contra a administração pública,A
+2592,Código Penal - crimes contra a administração pública,B
+2593,Código Penal - crimes contra a administração pública,C
+2594,Código Penal - crimes contra a administração pública,B
+2595,Código Penal - crimes contra a administração pública,A
+2596,Código Penal - crimes contra a administração pública,A
+2597,Código Penal - crimes contra a administração pública,D
+2598,Código Penal - crimes contra a administração pública,B
+2599,Código Penal - crimes contra a administração pública,A
+2600,Código Penal - crimes contra a administração pública,B
+2601,Código Penal - crimes contra a administração pública,C
+2602,Código Penal - crimes contra a administração pública,C
+2603,Código Penal - crimes contra a administração pública,D
+2604,Código Penal - crimes contra a administração pública,B
+2605,Código Penal - crimes contra a administração pública,C
+2606,Código Penal - crimes contra a administração pública,B
+2607,Código Penal - crimes contra a administração pública,D
+2608,Código Penal - crimes contra a administração pública,A
+2609,Código Penal - crimes contra a administração pública,B
+2610,Código Penal - crimes contra a administração pública,C
+2611,Código Penal - crimes contra a administração pública,B
+2612,Código Penal - crimes contra a administração pública,C
+2613,Código Penal - crimes contra a administração pública,D
+2614,Código Penal - crimes contra a administração pública,D
+2615,Código Penal - crimes contra a administração pública,A
+2616,Código Penal - crimes contra a administração pública,B
+2617,Código Penal - crimes contra a administração pública,C
+2618,Código Penal - crimes contra a administração pública,D
+2619,Código Penal - crimes contra a administração pública,B
+2620,Código Penal - crimes contra a administração pública,D
+2621,Código Penal - crimes contra a administração pública,A
+2622,Código Penal - crimes contra a administração pública,B
+2623,Código Penal - crimes contra a administração pública,A
+2624,Código Penal - crimes contra a administração pública,D
+2625,Código Penal - crimes contra a administração pública,C
+2626,Código Penal - crimes contra a administração pública,D
+2627,Código Penal - crimes contra a administração pública,D
+2628,Código Penal - crimes contra a administração pública,D
+2629,Código Penal - crimes contra a administração pública,A
+2630,Código Penal - crimes contra a administração pública,B
+2631,Código Penal - crimes contra a administração pública,C
+2632,Código Penal - crimes contra a administração pública,D
+2633,Código Penal - crimes contra a administração pública,B
+2634,Código Penal - crimes contra a administração pública,C
+2635,Código Penal - crimes contra a administração pública,C
+2636,Código Penal - crimes contra a administração pública,D
+2637,Código Penal - crimes contra a administração pública,D
+2638,Código Penal - crimes contra a administração pública,D
+2639,Código Penal - crimes contra a administração pública,D
+2640,Código Penal - crimes contra a administração pública,B
+2641,Código Penal - crimes contra a administração pública,C
+2642,Código Penal - crimes contra a administração pública,C
+2643,Código Penal - crimes contra a administração pública,C
+2644,Código Penal - crimes contra a administração pública,C
+2645,Código Penal - crimes contra a administração pública,D
+2646,Código Penal - crimes contra a administração pública,A
+2647,Código Penal - crimes contra a administração pública,D
+2648,Código Penal - crimes contra a administração pública,D
+2649,Código Penal - crimes contra a administração pública,C
+2650,Código Penal - crimes contra a administração pública,D
+2651,Código Penal - crimes contra a administração pública,B
+2652,Código Penal - crimes contra a administração pública,B
+2653,Código Penal - crimes contra a administração pública,C
+2654,Código Penal - crimes contra a administração pública,A
+2655,Código Penal - crimes contra a administração pública,A
+2656,Código Penal - crimes contra a administração pública,D
+2657,Código Penal - crimes contra a administração pública,D
+2658,Código Penal - crimes contra a administração pública,A
+2659,Código Penal - crimes contra a administração pública,C
+2660,Código Penal - crimes contra a administração pública,C
+2661,Código Penal - crimes contra a administração pública,A
+2662,Código Penal - crimes contra a administração pública,A
+2663,Código Penal - crimes contra a administração pública,C
+2664,Código Penal - crimes contra a administração pública,B
+2665,Código Penal - crimes contra a administração pública,D
+2666,Código Penal - crimes contra a administração pública,C
+2667,Código Penal - crimes contra a administração pública,B
+2668,Código Penal - crimes contra a administração pública,D
+2669,Código Penal - crimes contra a administração pública,C
+2670,Código Penal - crimes contra a administração pública,B
+2671,Código Penal - crimes contra a administração pública,B
+2672,Código Penal - crimes contra a administração pública,D
+2673,Código Penal - crimes contra a administração pública,B
+2674,Código Penal - crimes contra a administração pública,A
+2675,Código Penal - crimes contra a administração pública,B
+2676,Código Penal - crimes contra a administração pública,A
+2677,Código Penal - crimes contra a administração pública,A
+2678,Código Penal - crimes contra a administração pública,A
+2679,Código Penal - crimes contra a administração pública,B
+2680,Código Penal - crimes contra a administração pública,D
+2681,Código Penal - crimes contra a administração pública,A
+2682,Código Penal - crimes contra a administração pública,A
+2683,Código Penal - crimes contra a administração pública,D
+2684,Código Penal - crimes contra a administração pública,A
+2685,Código Penal - crimes contra a administração pública,B
+2686,Código Penal - crimes contra a administração pública,C
+2687,Código Penal - crimes contra a administração pública,C
+2688,Código Penal - crimes contra a administração pública,D
+2689,Código Penal - crimes contra a administração pública,C
+2690,Código Penal - crimes contra a administração pública,C
+2691,Código Penal - crimes contra a administração pública,C
+2692,Código Penal - crimes contra a administração pública,D
+2693,Código Penal - crimes contra a administração pública,B
+2694,Código Penal - crimes contra a administração pública,D
+2695,Código Penal - crimes contra a administração pública,C
+2696,Código Penal - crimes contra a administração pública,A
+2697,Código Penal - crimes contra a administração pública,D
+2698,Código Penal - crimes contra a administração pública,A
+2699,Código Penal - crimes contra a administração pública,B
+2700,Código Penal - crimes contra a administração pública,A
+2701,Noções de Direito Constitucional,B
+2702,Noções de Direito Constitucional,C
+2703,Noções de Direito Constitucional,D
+2704,Noções de Direito Constitucional,A
+2705,Noções de Direito Constitucional,B
+2706,Noções de Direito Constitucional,D
+2707,Noções de Direito Constitucional,D
+2708,Noções de Direito Constitucional,A
+2709,Noções de Direito Constitucional,D
+2710,Noções de Direito Constitucional,C
+2711,Noções de Direito Constitucional,A
+2712,Noções de Direito Constitucional,B
+2713,Noções de Direito Constitucional,A
+2714,Noções de Direito Constitucional,D
+2715,Noções de Direito Constitucional,D
+2716,Noções de Direito Constitucional,B
+2717,Noções de Direito Constitucional,B
+2718,Noções de Direito Constitucional,C
+2719,Noções de Direito Constitucional,C
+2720,Noções de Direito Constitucional,A
+2721,Noções de Direito Constitucional,B
+2722,Noções de Direito Constitucional,D
+2723,Noções de Direito Constitucional,B
+2724,Noções de Direito Constitucional,C
+2725,Noções de Direito Constitucional,D
+2726,Noções de Direito Constitucional,C
+2727,Noções de Direito Constitucional,A
+2728,Noções de Direito Constitucional,C
+2729,Noções de Direito Constitucional,D
+2730,Noções de Direito Constitucional,D
+2731,Noções de Direito Constitucional,B
+2732,Noções de Direito Constitucional,A
+2733,Noções de Direito Constitucional,B
+2734,Noções de Direito Constitucional,A
+2735,Noções de Direito Constitucional,D
+2736,Noções de Direito Constitucional,A
+2737,Noções de Direito Constitucional,A
+2738,Noções de Direito Constitucional,A
+2739,Noções de Direito Constitucional,C
+2740,Noções de Direito Constitucional,B
+2741,Noções de Direito Constitucional,A
+2742,Noções de Direito Constitucional,B
+2743,Noções de Direito Constitucional,C
+2744,Noções de Direito Constitucional,B
+2745,Noções de Direito Constitucional,C
+2746,Noções de Direito Constitucional,D
+2747,Noções de Direito Constitucional,C
+2748,Noções de Direito Constitucional,C
+2749,Noções de Direito Constitucional,B
+2750,Noções de Direito Constitucional,D
+2751,Noções de Direito Constitucional,D
+2752,Noções de Direito Constitucional,D
+2753,Noções de Direito Constitucional,C
+2754,Noções de Direito Constitucional,D
+2755,Noções de Direito Constitucional,D
+2756,Noções de Direito Constitucional,A
+2757,Noções de Direito Constitucional,A
+2758,Noções de Direito Constitucional,B
+2759,Noções de Direito Constitucional,C
+2760,Noções de Direito Constitucional,C
+2761,Noções de Direito Constitucional,A
+2762,Noções de Direito Constitucional,B
+2763,Noções de Direito Constitucional,A
+2764,Noções de Direito Constitucional,A
+2765,Noções de Direito Constitucional,C
+2766,Noções de Direito Constitucional,C
+2767,Noções de Direito Constitucional,B
+2768,Noções de Direito Constitucional,A
+2769,Noções de Direito Constitucional,A
+2770,Noções de Direito Constitucional,D
+2771,Noções de Direito Constitucional,C
+2772,Noções de Direito Constitucional,B
+2773,Noções de Direito Constitucional,B
+2774,Noções de Direito Constitucional,C
+2775,Noções de Direito Constitucional,A
+2776,Noções de Direito Constitucional,D
+2777,Noções de Direito Constitucional,D
+2778,Noções de Direito Constitucional,A
+2779,Noções de Direito Constitucional,B
+2780,Noções de Direito Constitucional,A
+2781,Noções de Direito Constitucional,D
+2782,Noções de Direito Constitucional,A
+2783,Noções de Direito Constitucional,B
+2784,Noções de Direito Constitucional,D
+2785,Noções de Direito Constitucional,B
+2786,Noções de Direito Constitucional,C
+2787,Noções de Direito Constitucional,A
+2788,Noções de Direito Constitucional,B
+2789,Noções de Direito Constitucional,B
+2790,Noções de Direito Constitucional,B
+2791,Noções de Direito Constitucional,B
+2792,Noções de Direito Constitucional,C
+2793,Noções de Direito Constitucional,A
+2794,Noções de Direito Constitucional,D
+2795,Noções de Direito Constitucional,A
+2796,Noções de Direito Constitucional,C
+2797,Noções de Direito Constitucional,B
+2798,Noções de Direito Constitucional,A
+2799,Noções de Direito Constitucional,D
+2800,Noções de Direito Constitucional,A
+2801,Noções de Direito Constitucional,C
+2802,Noções de Direito Constitucional,D
+2803,Noções de Direito Constitucional,C
+2804,Noções de Direito Constitucional,D
+2805,Noções de Direito Constitucional,C
+2806,Noções de Direito Constitucional,B
+2807,Noções de Direito Constitucional,A
+2808,Noções de Direito Constitucional,B
+2809,Noções de Direito Constitucional,A
+2810,Noções de Direito Constitucional,C
+2811,Noções de Direito Constitucional,A
+2812,Noções de Direito Constitucional,B
+2813,Noções de Direito Constitucional,D
+2814,Noções de Direito Constitucional,C
+2815,Noções de Direito Constitucional,D
+2816,Noções de Direito Constitucional,D
+2817,Noções de Direito Constitucional,A
+2818,Noções de Direito Constitucional,A
+2819,Noções de Direito Constitucional,C
+2820,Noções de Direito Constitucional,C
+2821,Noções de Direito Constitucional,A
+2822,Noções de Direito Constitucional,C
+2823,Noções de Direito Constitucional,A
+2824,Noções de Direito Constitucional,D
+2825,Noções de Direito Constitucional,C
+2826,Noções de Direito Constitucional,B
+2827,Noções de Direito Constitucional,A
+2828,Noções de Direito Constitucional,A
+2829,Noções de Direito Constitucional,B
+2830,Noções de Direito Constitucional,D
+2831,Noções de Direito Constitucional,C
+2832,Noções de Direito Constitucional,A
+2833,Noções de Direito Constitucional,B
+2834,Noções de Direito Constitucional,B
+2835,Noções de Direito Constitucional,C
+2836,Noções de Direito Constitucional,C
+2837,Noções de Direito Constitucional,B
+2838,Noções de Direito Constitucional,D
+2839,Noções de Direito Constitucional,A
+2840,Noções de Direito Constitucional,C
+2841,Noções de Direito Constitucional,B
+2842,Noções de Direito Constitucional,D
+2843,Noções de Direito Constitucional,C
+2844,Noções de Direito Constitucional,A
+2845,Noções de Direito Constitucional,A
+2846,Noções de Direito Constitucional,B
+2847,Noções de Direito Constitucional,C
+2848,Noções de Direito Constitucional,D
+2849,Noções de Direito Constitucional,A
+2850,Noções de Direito Constitucional,C
+2851,Noções de Direito Constitucional,D
+2852,Noções de Direito Constitucional,B
+2853,Noções de Direito Constitucional,B
+2854,Noções de Direito Constitucional,C
+2855,Noções de Direito Constitucional,B
+2856,Noções de Direito Constitucional,D
+2857,Noções de Direito Constitucional,C
+2858,Noções de Direito Constitucional,B
+2859,Noções de Direito Constitucional,A
+2860,Noções de Direito Constitucional,C
+2861,Noções de Direito Constitucional,D
+2862,Noções de Direito Constitucional,B
+2863,Noções de Direito Constitucional,A
+2864,Noções de Direito Constitucional,D
+2865,Noções de Direito Constitucional,B
+2866,Noções de Direito Constitucional,C
+2867,Noções de Direito Constitucional,C
+2868,Noções de Direito Constitucional,C
+2869,Noções de Direito Constitucional,C
+2870,Noções de Direito Constitucional,A
+2871,Noções de Direito Constitucional,D
+2872,Noções de Direito Constitucional,B
+2873,Noções de Direito Constitucional,A
+2874,Noções de Direito Constitucional,B
+2875,Noções de Direito Constitucional,B
+2876,Noções de Direito Constitucional,C
+2877,Noções de Direito Constitucional,C
+2878,Noções de Direito Constitucional,C
+2879,Noções de Direito Constitucional,D
+2880,Noções de Direito Constitucional,A
+2881,Noções de Direito Constitucional,C
+2882,Noções de Direito Constitucional,B
+2883,Noções de Direito Constitucional,B
+2884,Noções de Direito Constitucional,D
+2885,Noções de Direito Constitucional,C
+2886,Noções de Direito Constitucional,C
+2887,Noções de Direito Constitucional,B
+2888,Noções de Direito Constitucional,A
+2889,Noções de Direito Constitucional,B
+2890,Noções de Direito Constitucional,C
+2891,Noções de Direito Constitucional,B
+2892,Noções de Direito Constitucional,D
+2893,Noções de Direito Constitucional,B
+2894,Noções de Direito Constitucional,D
+2895,Noções de Direito Constitucional,B
+2896,Noções de Direito Constitucional,B
+2897,Noções de Direito Constitucional,D
+2898,Noções de Direito Constitucional,B
+2899,Noções de Direito Constitucional,B
+2900,Noções de Direito Constitucional,A
+2901,Noções de Direito Constitucional,D
+2902,Noções de Direito Constitucional,D
+2903,Noções de Direito Constitucional,A
+2904,Noções de Direito Constitucional,A
+2905,Noções de Direito Constitucional,D
+2906,Noções de Direito Constitucional,B
+2907,Noções de Direito Constitucional,A
+2908,Noções de Direito Constitucional,A
+2909,Noções de Direito Constitucional,A
+2910,Noções de Direito Constitucional,C
+2911,Noções de Direito Constitucional,A
+2912,Noções de Direito Constitucional,A
+2913,Noções de Direito Constitucional,D
+2914,Noções de Direito Constitucional,B
+2915,Noções de Direito Constitucional,A
+2916,Noções de Direito Constitucional,C
+2917,Noções de Direito Constitucional,B
+2918,Noções de Direito Constitucional,B
+2919,Noções de Direito Constitucional,C
+2920,Noções de Direito Constitucional,C
+2921,Noções de Direito Constitucional,C
+2922,Noções de Direito Constitucional,D
+2923,Noções de Direito Constitucional,A
+2924,Noções de Direito Constitucional,D
+2925,Noções de Direito Constitucional,D
+2926,Noções de Direito Constitucional,D
+2927,Noções de Direito Constitucional,C
+2928,Noções de Direito Constitucional,C
+2929,Noções de Direito Constitucional,B
+2930,Noções de Direito Constitucional,A
+2931,Noções de Direito Constitucional,C
+2932,Noções de Direito Constitucional,A
+2933,Noções de Direito Constitucional,B
+2934,Noções de Direito Constitucional,A
+2935,Noções de Direito Constitucional,D
+2936,Noções de Direito Constitucional,A
+2937,Noções de Direito Constitucional,D
+2938,Noções de Direito Constitucional,C
+2939,Noções de Direito Constitucional,C
+2940,Noções de Direito Constitucional,A
+2941,Noções de Direito Constitucional,A
+2942,Noções de Direito Constitucional,D
+2943,Noções de Direito Constitucional,C
+2944,Noções de Direito Constitucional,B
+2945,Noções de Direito Constitucional,A
+2946,Noções de Direito Constitucional,B
+2947,Noções de Direito Constitucional,D
+2948,Noções de Direito Constitucional,A
+2949,Noções de Direito Constitucional,C
+2950,Noções de Direito Constitucional,A
+2951,Noções de Direito Constitucional,C
+2952,Noções de Direito Constitucional,C
+2953,Noções de Direito Constitucional,D
+2954,Noções de Direito Constitucional,C
+2955,Noções de Direito Constitucional,D
+2956,Noções de Direito Constitucional,C
+2957,Noções de Direito Constitucional,D
+2958,Noções de Direito Constitucional,D
+2959,Noções de Direito Constitucional,D
+2960,Noções de Direito Constitucional,C
+2961,Noções de Direito Constitucional,C
+2962,Noções de Direito Constitucional,B
+2963,Noções de Direito Constitucional,A
+2964,Noções de Direito Constitucional,D
+2965,Noções de Direito Constitucional,B
+2966,Noções de Direito Constitucional,C
+2967,Noções de Direito Constitucional,B
+2968,Noções de Direito Constitucional,B
+2969,Noções de Direito Constitucional,A
+2970,Noções de Direito Constitucional,C
+2971,Noções de Direito Constitucional,B
+2972,Noções de Direito Constitucional,B
+2973,Noções de Direito Constitucional,A
+2974,Noções de Direito Constitucional,D
+2975,Noções de Direito Constitucional,A
+2976,Noções de Direito Constitucional,A
+2977,Noções de Direito Constitucional,B
+2978,Noções de Direito Constitucional,A
+2979,Noções de Direito Constitucional,A
+2980,Noções de Direito Constitucional,B
+2981,Noções de Direito Constitucional,C
+2982,Noções de Direito Constitucional,D
+2983,Noções de Direito Constitucional,B
+2984,Noções de Direito Constitucional,C
+2985,Noções de Direito Constitucional,D
+2986,Noções de Direito Constitucional,B
+2987,Noções de Direito Constitucional,A
+2988,Noções de Direito Constitucional,C
+2989,Noções de Direito Constitucional,A
+2990,Noções de Direito Constitucional,C
+2991,Noções de Direito Constitucional,D
+2992,Noções de Direito Constitucional,D
+2993,Noções de Direito Constitucional,D
+2994,Noções de Direito Constitucional,D
+2995,Noções de Direito Constitucional,C
+2996,Noções de Direito Constitucional,B
+2997,Noções de Direito Constitucional,A
+2998,Noções de Direito Constitucional,D
+2999,Noções de Direito Constitucional,C
+3000,Noções de Direito Constitucional,A
+3001,Informática,C
+3002,Informática,D
+3003,Informática,B
+3004,Informática,A
+3005,Informática,D
+3006,Informática,D
+3007,Informática,C
+3008,Informática,D
+3009,Informática,A
+3010,Informática,B
+3011,Informática,C
+3012,Informática,A
+3013,Informática,B
+3014,Informática,A
+3015,Informática,C
+3016,Informática,B
+3017,Informática,B
+3018,Informática,D
+3019,Informática,B
+3020,Informática,C
+3021,Informática,C
+3022,Informática,A
+3023,Informática,D
+3024,Informática,A
+3025,Informática,D
+3026,Informática,B
+3027,Informática,B
+3028,Informática,A
+3029,Informática,C
+3030,Informática,A
+3031,Informática,B
+3032,Informática,D
+3033,Informática,C
+3034,Informática,D
+3035,Informática,D
+3036,Informática,D
+3037,Informática,D
+3038,Informática,A
+3039,Informática,A
+3040,Informática,C
+3041,Informática,A
+3042,Informática,C
+3043,Informática,C
+3044,Informática,D
+3045,Informática,A
+3046,Informática,D
+3047,Informática,B
+3048,Informática,B
+3049,Informática,A
+3050,Informática,D
+3051,Informática,C
+3052,Informática,B
+3053,Informática,A
+3054,Informática,D
+3055,Informática,A
+3056,Informática,A
+3057,Informática,D
+3058,Informática,D
+3059,Informática,A
+3060,Informática,D
+3061,Informática,A
+3062,Informática,C
+3063,Informática,A
+3064,Informática,B
+3065,Informática,C
+3066,Informática,A
+3067,Informática,C
+3068,Informática,A
+3069,Informática,B
+3070,Informática,D
+3071,Informática,B
+3072,Informática,D
+3073,Informática,B
+3074,Informática,C
+3075,Informática,C
+3076,Informática,A
+3077,Informática,B
+3078,Informática,D
+3079,Informática,A
+3080,Informática,C
+3081,Informática,B
+3082,Informática,A
+3083,Informática,C
+3084,Informática,C
+3085,Informática,D
+3086,Informática,A
+3087,Informática,B
+3088,Informática,A
+3089,Informática,D
+3090,Informática,B
+3091,Informática,C
+3092,Informática,D
+3093,Informática,D
+3094,Informática,D
+3095,Informática,D
+3096,Informática,C
+3097,Informática,A
+3098,Informática,D
+3099,Informática,D
+3100,Informática,C
+3101,Informática,C
+3102,Informática,B
+3103,Informática,B
+3104,Informática,B
+3105,Informática,C
+3106,Informática,A
+3107,Informática,A
+3108,Informática,B
+3109,Informática,A
+3110,Informática,D
+3111,Informática,D
+3112,Informática,B
+3113,Informática,C
+3114,Informática,A
+3115,Informática,C
+3116,Informática,B
+3117,Informática,A
+3118,Informática,C
+3119,Informática,B
+3120,Informática,A
+3121,Informática,C
+3122,Informática,B
+3123,Informática,B
+3124,Informática,C
+3125,Informática,B
+3126,Informática,A
+3127,Informática,C
+3128,Informática,D
+3129,Informática,D
+3130,Informática,C
+3131,Informática,B
+3132,Informática,A
+3133,Informática,A
+3134,Informática,A
+3135,Informática,B
+3136,Informática,C
+3137,Informática,B
+3138,Informática,A
+3139,Informática,D
+3140,Informática,C
+3141,Informática,A
+3142,Informática,D
+3143,Informática,A
+3144,Informática,B
+3145,Informática,C
+3146,Informática,D
+3147,Informática,A
+3148,Informática,A
+3149,Informática,C
+3150,Informática,B
+3151,Informática,D
+3152,Informática,C
+3153,Informática,B
+3154,Informática,B
+3155,Informática,A
+3156,Informática,C
+3157,Informática,D
+3158,Informática,C
+3159,Informática,A
+3160,Informática,D
+3161,Informática,A
+3162,Informática,B
+3163,Informática,D
+3164,Informática,C
+3165,Informática,D
+3166,Informática,B
+3167,Informática,C
+3168,Informática,D
+3169,Informática,C
+3170,Informática,B
+3171,Informática,B
+3172,Informática,A
+3173,Informática,B
+3174,Informática,A
+3175,Informática,A
+3176,Informática,C
+3177,Informática,D
+3178,Informática,D
+3179,Informática,A
+3180,Informática,D
+3181,Informática,C
+3182,Informática,A
+3183,Informática,D
+3184,Informática,B
+3185,Informática,D
+3186,Informática,A
+3187,Informática,A
+3188,Informática,C
+3189,Informática,D
+3190,Informática,D
+3191,Informática,C
+3192,Informática,B
+3193,Informática,C
+3194,Informática,C
+3195,Informática,A
+3196,Informática,A
+3197,Informática,C
+3198,Informática,D
+3199,Informática,A
+3200,Informática,C
+3201,Informática,B
+3202,Informática,A
+3203,Informática,B
+3204,Informática,A
+3205,Informática,D
+3206,Informática,C
+3207,Informática,B
+3208,Informática,A
+3209,Informática,B
+3210,Informática,B
+3211,Informática,D
+3212,Informática,C
+3213,Informática,D
+3214,Informática,C
+3215,Informática,A
+3216,Informática,B
+3217,Informática,A
+3218,Informática,C
+3219,Informática,B
+3220,Informática,C
+3221,Informática,B
+3222,Informática,C
+3223,Informática,A
+3224,Informática,C
+3225,Informática,A
+3226,Informática,B
+3227,Informática,C
+3228,Informática,B
+3229,Informática,A
+3230,Informática,A
+3231,Informática,B
+3232,Informática,D
+3233,Informática,D
+3234,Informática,D
+3235,Informática,A
+3236,Informática,D
+3237,Informática,C
+3238,Informática,C
+3239,Informática,D
+3240,Informática,C
+3241,Informática,B
+3242,Informática,D
+3243,Informática,D
+3244,Informática,D
+3245,Informática,D
+3246,Informática,A
+3247,Informática,C
+3248,Informática,A
+3249,Informática,D
+3250,Informática,C
+3251,Informática,A
+3252,Informática,C
+3253,Informática,C
+3254,Informática,B
+3255,Informática,C
+3256,Informática,B
+3257,Informática,D
+3258,Informática,D
+3259,Informática,C
+3260,Informática,D
+3261,Informática,B
+3262,Informática,B
+3263,Informática,C
+3264,Informática,D
+3265,Informática,D
+3266,Informática,D
+3267,Informática,B
+3268,Informática,D
+3269,Informática,D
+3270,Informática,D
+3271,Informática,C
+3272,Informática,A
+3273,Informática,D
+3274,Informática,D
+3275,Informática,C
+3276,Informática,C
+3277,Informática,C
+3278,Informática,A
+3279,Informática,C
+3280,Informática,A
+3281,Informática,C
+3282,Informática,A
+3283,Informática,A
+3284,Informática,A
+3285,Informática,C
+3286,Informática,A
+3287,Informática,D
+3288,Informática,C
+3289,Informática,D
+3290,Informática,A
+3291,Informática,D
+3292,Informática,C
+3293,Informática,A
+3294,Informática,C
+3295,Informática,C
+3296,Informática,B
+3297,Informática,B
+3298,Informática,C
+3299,Informática,D
+3300,Informática,A
