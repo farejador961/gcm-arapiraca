@@ -9,6 +9,9 @@ import random
 import pandas as pd
 import os
 from datetime import datetime
+from sklearn.feature_extraction.text import TfidfVectorizer
+import random
+from nltk.tokenize import sent_tokenize
 
 # Baixar recursos do NLTK
 nltk.download("punkt")
@@ -34,47 +37,46 @@ def extrair_texto(pdf_stream):
     return texto
 
 
-def gerar_questoes_inteligentes(texto, n, modulo_label):
+def gerar_questoes_interpretativas(texto, n, modulo_label):
     sentencas = sent_tokenize(texto)
-    tokens = word_tokenize(texto)
-    tagged = pos_tag(tokens)
-    nouns = [w for w, t in tagged if t.startswith("NN") and w.isalpha() and len(w) > 3]
-
     questoes = []
-    random.shuffle(sentencas)
 
-    for sent in sentencas:
-        palavras = word_tokenize(sent)
-        tags = pos_tag(palavras)
-        subs = [w for w, tag in tags if tag.startswith("NN") and w in nouns]
+    # Organiza as sentenças por importância com TF-IDF
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(sentencas)
+    pontuacoes = X.sum(axis=1).flatten().tolist()[0]
+    sentencas_pontuadas = sorted(zip(sentencas, pontuacoes), key=lambda x: x[1], reverse=True)
 
-        if subs:
-            resposta = random.choice(subs)
-            pergunta = sent.replace(resposta, "____")
-            distratores = random.sample([n for n in nouns if n != resposta], k=min(3, len(nouns)-1))
-            opcoes = distratores + [resposta]
-            random.shuffle(opcoes)
-            questoes.append({
-                "texto": pergunta,
-                "opcoes": opcoes,
-                "correta": resposta,
-                "modulo": modulo_label
-            })
-        else:
-            if len(sent.split()) > 8:
-                opcoes = [sent]
-                while len(opcoes) < 4:
-                    falsa = random.choice(sentencas)
-                    if falsa not in opcoes:
-                        opcoes.append(falsa)
-                random.shuffle(opcoes)
-                pergunta = "Qual das sentenças abaixo estava no texto?"
-                questoes.append({
-                    "texto": pergunta,
-                    "opcoes": opcoes,
-                    "correta": sent,
-                    "modulo": modulo_label
-                })
+    usadas = set()
+
+    for i, (sentenca_base, _) in enumerate(sentencas_pontuadas):
+        if sentenca_base in usadas or len(sentenca_base.split()) < 8:
+            continue
+
+        # Alternativa correta
+        correta = sentenca_base.strip()
+        usadas.add(correta)
+
+        # Geração de alternativas incorretas
+        alternativas = [correta]
+        tentativas = 0
+        while len(alternativas) < 4 and tentativas < 15:
+            alternativa_falsa = random.choice(sentencas)
+            if alternativa_falsa != correta and alternativa_falsa not in alternativas and len(alternativa_falsa.split()) >= 8:
+                alternativas.append(alternativa_falsa.strip())
+            tentativas += 1
+
+        if len(alternativas) < 4:
+            continue  # pula se não conseguir 4 opções
+
+        random.shuffle(alternativas)
+
+        questoes.append({
+            "texto": "Com base no texto, qual das alternativas está correta?",
+            "opcoes": alternativas,
+            "correta": correta,
+            "modulo": modulo_label
+        })
 
         if len(questoes) >= n:
             break
@@ -100,7 +102,7 @@ with st.form("form_gerador"):
             path = os.path.join(UPLOAD_FOLDER, f"{label}_{datetime.now().strftime('%Y%m%d%H%M%S')}.pdf")
             with open(path, "wb") as f: f.write(pdf.getvalue())
             txt = extrair_texto(path)
-            st.session_state.perguntas += gerar_questoes_inteligentes(txt, num_list[idx] if idx < len(num_list) else 5, label)
+            st.session_state.perguntas += gerar_questoes_interpretativas(txt, num_list[idx] if idx < len(num_list) else 5, label)
             idx += 1
         for u in urls.splitlines():
             if not u.strip(): continue
@@ -108,7 +110,7 @@ with st.form("form_gerador"):
             r.raise_for_status()
             txt = extrair_texto(BytesIO(r.content))
             label = u.split('/')[-1]
-            st.session_state.perguntas += gerar_questoes_inteligentes(txt, num_list[idx] if idx < len(num_list) else 5, label)
+            st.session_state.perguntas += gerar_questoes_interpretativas(txt, num_list[idx] if idx < len(num_list) else 5, label)
             idx += 1
         # preparar estado de respostas
         st.session_state.respondido = [False] * len(st.session_state.perguntas)

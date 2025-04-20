@@ -19,6 +19,6 @@ pandas
 beautifulsoup4
 requests
 PyPDF2
-
+scikit-learn
 
 
