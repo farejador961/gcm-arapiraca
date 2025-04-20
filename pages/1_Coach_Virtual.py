@@ -126,6 +126,14 @@ for idx, q in enumerate(selecionadas):
             st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
         else:
             st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
+
+    # Se já respondeu antes
+    elif widget_key in st.session_state.answers:
+        r = st.session_state.answers[widget_key]
+        if r["acertou"]:
+            st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
+        else:
+            st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
             
 # --- Finalizar avaliação ---
 if st.button("✅ Finalizar Avaliação"):
