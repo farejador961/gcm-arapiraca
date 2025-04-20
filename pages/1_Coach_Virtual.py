@@ -100,7 +100,7 @@ for q in selecionadas:
     else:
         st.subheader(f"❓ Pergunta {idx} ({q['modulo']})")
     
-    escolha = st.radio(q["texto"], list(q["opcoes"].keys()), format_func=lambda x: f"{x}: {q['opcoes'][x]}", key=f"radio_{idx}")
+    escolha = st.radio(q["texto"], list(q["opcoes"].keys()), format_func=lambda x: f"{x}: {q['opcoes'][x]}", key=f"radio_{q['id']}")
     
     if st.button("Responder/Revisar", key=f"btn_{idx}"):
         acertou = (escolha == q["correta"])
