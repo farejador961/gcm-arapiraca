@@ -96,18 +96,18 @@ st.image("dados/Maike.png", width=150)
 for idx, q in enumerate(selecionadas):
     st.markdown(f"### Pergunta {idx+1} ({q['modulo']})")
 
-    # Key única segura
-    widget_key = f"radio_{q.get('id', uuid.uuid4())}_{idx}"
+    # ID único seguro para cada pergunta
+    widget_key = f"radio_{q['id']}_{idx}"
 
-    # Mostrar a pergunta
+    # Remove letras duplicadas (mostra só o texto da alternativa)
     escolha = st.radio(
         q["texto"],
         list(q["opcoes"].keys()),
-        format_func=lambda x: f"{x}: {q['opcoes'][x]}",
+        format_func=lambda x: q["opcoes"][x],  # mostra só o conteúdo
         key=widget_key
     )
 
-    # Botão de resposta
+    # Botão para registrar resposta e exibir feedback
     if st.button("Responder/Revisar", key=f"btn_{idx}"):
         acertou = escolha == q["correta"]
         st.session_state.answers[widget_key] = {"resposta": escolha, "acertou": acertou}
@@ -116,17 +116,17 @@ for idx, q in enumerate(selecionadas):
             st.success("✅ Acertou!")
             exibir_dialogo("Parabéns, você acertou a pergunta!")
         else:
-            st.error("❌ Errou!")
+            st.error(f"❌ Errou! Resposta correta: {q['correta']}")
             exibir_dialogo("Não desanime, vamos tentar novamente!")
 
-    # Mostrar resposta anterior (se já respondeu)
+    # Se já respondeu antes
     elif widget_key in st.session_state.answers:
-        resposta = st.session_state.answers[widget_key]
-        if resposta["acertou"]:
-            st.success(f"✅ Você respondeu: {resposta['resposta']} (Correta)")
+        r = st.session_state.answers[widget_key]
+        if r["acertou"]:
+            st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
         else:
-            st.error(f"❌ Você respondeu: {resposta['resposta']} (Correta: {q['correta']})")
-
+            st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
+            
 # --- Finalizar avaliação ---
 if st.button("✅ Finalizar Avaliação"):
     if not st.session_state.answers:
