@@ -93,19 +93,32 @@ random.shuffle(selecionadas)
 # --- Exibição das questões ---
 st.image("dados/Maike.png", width=150)
 
+# ——— Fix: fixa ‘selecionadas’ na sessão para não reembaralhar ———
+if "perguntas_fixadas" not in st.session_state:
+    st.session_state.perguntas_fixadas = selecionadas.copy()  # só na primeira vez
+selecionadas = st.session_state.perguntas_fixadas
+
+# ——— Loop de exibição, resposta e feedback ———
 for idx, q in enumerate(selecionadas):
     st.markdown(f"### Pergunta {idx+1} ({q['modulo']})")
 
-    # ID único seguro para cada pergunta
+    # key única do radio
     widget_key = f"radio_{q['id']}_{idx}"
-
-    # Remove letras duplicadas (mostra só o texto da alternativa)
     escolha = st.radio(
         q["texto"],
         list(q["opcoes"].keys()),
-        format_func=lambda x: q["opcoes"][x],  # mostra só o conteúdo
+        format_func=lambda x: q["opcoes"][x],  # só o texto, sem duplicar letra
         key=widget_key
     )
+
+    # key única do botão
+    btn_key = f"btn_{q['id']}_{idx}"
+    if st.button("Responder/Revisar", key=btn_key):
+        acertou = escolha == q["correta"]
+        st.session_state.answers[widget_key] = {
+            "resposta": escolha,
+            "acertou": acertou
+        }
 
     # Botão para registrar resposta e exibir feedback
     if st.button("Responder/Revisar", key=f"btn_{idx}"):
