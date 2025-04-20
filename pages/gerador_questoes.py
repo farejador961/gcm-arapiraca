@@ -48,34 +48,86 @@ def gerar_questoes_interpretativas(texto, n, modulo_label):
     sentencas_pontuadas = sorted(zip(sentencas, pontuacoes), key=lambda x: x[1], reverse=True)
 
     usadas = set()
+    tipos_questoes = [
+        "De acordo com o texto, qual das alternativas abaixo está correta?",
+        "Assinale a alternativa que melhor completa a seguinte afirmação sobre o texto:",
+        "Com base no texto, é INCORRETO afirmar que:",
+        "Qual das alternativas representa a principal ideia contida no seguinte trecho do texto?",
+        "O texto permite inferir que:",
+        "Segundo o texto, qual das seguintes afirmações é verdadeira?",
+        "A partir da leitura, conclui-se que:",
+        "O autor do texto deixa claro que:"
+    ]
 
     for i, (sentenca_base, _) in enumerate(sentencas_pontuadas):
-        if sentenca_base in usadas or len(sentenca_base.split()) < 8:
+        if sentenca_base in usadas or len(sentenca_base.split()) < 10:
             continue
 
+        # Processar a sentença base para criar variações
+        palavras = word_tokenize(sentenca_base)
+        tagged = pos_tag(palavras)
+        
+        # Identificar elementos para variações
+        substantivos = [word for word, pos in tagged if pos.startswith('NN')]
+        verbos = [word for word, pos in tagged if pos.startswith('VB')]
+        adjetivos = [word for word, pos in tagged if pos.startswith('JJ')]
+        
         # Alternativa correta
         correta = sentenca_base.strip()
         usadas.add(correta)
-
-        # Geração de alternativas incorretas
+        
+        # Gerar enunciado variado
+        tipo_questao = random.choice(tipos_questoes)
+        
+        # Geração de alternativas inteligentes
         alternativas = [correta]
         tentativas = 0
-        while len(alternativas) < 4 and tentativas < 15:
-            alternativa_falsa = random.choice(sentencas)
-            if alternativa_falsa != correta and alternativa_falsa not in alternativas and len(alternativa_falsa.split()) >= 8:
-                alternativas.append(alternativa_falsa.strip())
+        
+        while len(alternativas) < 4 and tentativas < 20:
+            # Estratégias para gerar alternativas plausíveis
+            estrategia = random.randint(1, 4)
+            
+            if estrategia == 1 and substantivos:  # Trocar substantivo
+                palavra = random.choice(substantivos)
+                substituto = random.choice([s for s in substantivos if s != palavra])
+                falsa = sentenca_base.replace(palavra, substituto)
+            
+            elif estrategia == 2 and verbos:  # Trocar verbo
+                palavra = random.choice(verbos)
+                substituto = random.choice([v for v in verbos if v != palavra])
+                falsa = sentenca_base.replace(palavra, substituto)
+            
+            elif estrategia == 3 and adjetivos:  # Trocar adjetivo
+                palavra = random.choice(adjetivos)
+                substituto = random.choice([a for a in adjetivos if a != palavra])
+                falsa = sentenca_base.replace(palavra, substituto)
+            
+            else:  # Usar outra sentença relevante
+                falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 8])
+            
+            # Garantir que a alternativa falsa seja plausível
+            if (falsa not in alternativas and 
+                len(falsa.split()) >= 6 and 
+                not falsa.endswith(('.', '!', '?')) and
+                abs(len(falsa) - len(correta)) < 0.5 * len(correta)):
+                alternativas.append(falsa.strip())
+            
             tentativas += 1
 
         if len(alternativas) < 4:
             continue  # pula se não conseguir 4 opções
 
+        # Ordenar alternativas por tamanho para dificultar identificação da correta
+        alternativas.sort(key=lambda x: len(x))
+        # Mas depois embaralhar para não ficar óbvio
         random.shuffle(alternativas)
 
         questoes.append({
-            "texto": "Com base no texto, qual das alternativas está correta?",
+            "texto": tipo_questao,
             "opcoes": alternativas,
             "correta": correta,
-            "modulo": modulo_label
+            "modulo": modulo_label,
+            "dica": f"Analise atentamente os detalhes da sentença. A alternativa correta mantém coerência com o contexto geral do texto."
         })
 
         if len(questoes) >= n:
