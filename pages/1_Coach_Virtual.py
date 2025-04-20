@@ -92,40 +92,40 @@ random.shuffle(selecionadas)
 
 # --- Exibição das questões ---
 st.image("dados/Maike.png", width=150)
-for q in selecionadas:
-    idx = q["id"]
-    # Cabeçalho com marcação
 
-for idx, q in enumerate(perguntas):
-    st.markdown(f"### Pergunta {idx+1}")
+for idx, q in enumerate(selecionadas):
+    st.markdown(f"### Pergunta {idx+1} ({q['modulo']})")
 
-    # Garante uma key única e segura
-    widget_key = f"radio_{q.get('id') or uuid.uuid4()}"
+    # Key única segura
+    widget_key = f"radio_{q.get('id', uuid.uuid4())}_{idx}"
 
-    # Exibe a pergunta com opções
+    # Mostrar a pergunta
     escolha = st.radio(
         q["texto"],
         list(q["opcoes"].keys()),
         format_func=lambda x: f"{x}: {q['opcoes'][x]}",
         key=widget_key
     )
-    if idx in st.session_state.answers:
-        status = "✅" if st.session_state.answers[idx]["acertou"] else "❌"
-        st.subheader(f"{status} Pergunta {idx} ({q['modulo']})")
-    else:
-        st.subheader(f"❓ Pergunta {idx} ({q['modulo']})")
-    
-    escolha = st.radio(q["texto"], list(q["opcoes"].keys()), format_func=lambda x: f"{x}: {q['opcoes'][x]}", key=f"radio_{q['id']}")
-    
+
+    # Botão de resposta
     if st.button("Responder/Revisar", key=f"btn_{idx}"):
-        acertou = (escolha == q["correta"])
-        st.session_state.answers[idx] = {"resposta": escolha, "acertou": acertou}
+        acertou = escolha == q["correta"]
+        st.session_state.answers[widget_key] = {"resposta": escolha, "acertou": acertou}
+
         if acertou:
             st.success("✅ Acertou!")
             exibir_dialogo("Parabéns, você acertou a pergunta!")
         else:
             st.error("❌ Errou!")
             exibir_dialogo("Não desanime, vamos tentar novamente!")
+
+    # Mostrar resposta anterior (se já respondeu)
+    elif widget_key in st.session_state.answers:
+        resposta = st.session_state.answers[widget_key]
+        if resposta["acertou"]:
+            st.success(f"✅ Você respondeu: {resposta['resposta']} (Correta)")
+        else:
+            st.error(f"❌ Você respondeu: {resposta['resposta']} (Correta: {q['correta']})")
 
 # --- Finalizar avaliação ---
 if st.button("✅ Finalizar Avaliação"):
