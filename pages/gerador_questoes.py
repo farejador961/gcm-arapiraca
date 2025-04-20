@@ -37,8 +37,14 @@ def extrair_texto(pdf_stream):
     return texto
 
 
-def gerar_questoes_interpretativas(texto, n, modulo_label):
-    sentencas = [s.strip() for s in sent_tokenize(texto) if len(s.split()) >= 8]
+def gerar_questoes_interpretativas(texto, n, modulo_label, max_palavras_sentenca=30, max_caracteres_alternativa=180):
+    from nltk.tokenize import sent_tokenize, word_tokenize
+    from nltk import pos_tag
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    import random
+
+    # Quebra em sentenças e limita por número de palavras
+    sentencas = [s.strip() for s in sent_tokenize(texto) if 8 <= len(s.split()) <= max_palavras_sentenca]
     if not sentencas:
         return []
 
@@ -66,63 +72,49 @@ def gerar_questoes_interpretativas(texto, n, modulo_label):
 
         palavras = word_tokenize(sentenca_base)
         tagged = pos_tag(palavras)
-        
-        # Identificar elementos com fallback
+
         substantivos = [word for word, pos in tagged if pos.startswith('NN')] or ['']
         verbos = [word for word, pos in tagged if pos.startswith('VB')] or ['']
         adjetivos = [word for word, pos in tagged if pos.startswith('JJ')] or ['']
-        
-        correta = sentenca_base
+
+        correta = sentenca_base.strip()
+        if len(correta) > max_caracteres_alternativa:
+            correta = correta[:max_caracteres_alternativa].rsplit(' ', 1)[0] + "..."
+
         usadas.add(correta)
-        
+
         tipo_questao = random.choice(tipos_questoes)
         alternativas = [correta]
-        
+
         tentativas = 0
         while len(alternativas) < 4 and tentativas < 20:
             try:
                 estrategia = random.randint(1, 4)
-                
-                if estrategia == 1:  # Trocar substantivo
+
+                if estrategia == 1:
                     palavra = random.choice(substantivos)
                     substitutos = [s for s in substantivos if s != palavra]
-                    if substitutos:
-                        substituto = random.choice(substitutos)
-                        falsa = sentenca_base.replace(palavra, substituto)
-                    else:
-                        falsa = random.choice([s for s in sentencas if s != correta])
-                
-                elif estrategia == 2:  # Trocar verbo
+                    falsa = sentenca_base.replace(palavra, random.choice(substitutos)) if substitutos else ""
+                elif estrategia == 2:
                     palavra = random.choice(verbos)
                     substitutos = [v for v in verbos if v != palavra]
-                    if substitutos:
-                        substituto = random.choice(substitutos)
-                        falsa = sentenca_base.replace(palavra, substituto)
-                    else:
-                        falsa = random.choice([s for s in sentencas if s != correta])
-                
-                elif estrategia == 3:  # Trocar adjetivo
+                    falsa = sentenca_base.replace(palavra, random.choice(substitutos)) if substitutos else ""
+                elif estrategia == 3:
                     palavra = random.choice(adjetivos)
                     substitutos = [a for a in adjetivos if a != palavra]
-                    if substitutos:
-                        substituto = random.choice(substitutos)
-                        falsa = sentenca_base.replace(palavra, substituto)
-                    else:
-                        falsa = random.choice([s for s in sentencas if s != correta])
-                
-                else:  # Usar outra sentença relevante
-                    falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 6])
-                
-                if (falsa not in alternativas and 
-                    len(falsa.split()) >= 6 and 
-                    falsa.strip() not in usadas):
-                    alternativas.append(falsa.strip())
-                
-            except (IndexError, ValueError):
-                falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 6])
-                if falsa not in alternativas:
-                    alternativas.append(falsa.strip())
-            
+                    falsa = sentenca_base.replace(palavra, random.choice(substitutos)) if substitutos else ""
+                else:
+                    falsa = random.choice([s for s in sentencas if s != sentenca_base])
+
+                falsa = falsa.strip()
+                if len(falsa) > max_caracteres_alternativa:
+                    falsa = falsa[:max_caracteres_alternativa].rsplit(' ', 1)[0] + "..."
+
+                if falsa and falsa not in alternativas:
+                    alternativas.append(falsa)
+
+            except Exception:
+                pass
             tentativas += 1
 
         if len(alternativas) < 4:
