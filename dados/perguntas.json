@@ -9,8 +9,7 @@
           "C) Independência financeira total sem repasses estaduais",
           "D) Competência exclusiva para segurança pública"
         ],
-        "resposta_correta": "B) Autogoverno e gestão de interesses locais nos limites da Constituição",
-        "id": 1
+        "resposta_correta": "B) Autogoverno e gestão de interesses locais nos limites da Constituição"
       },
       {
         "pergunta": "Cabe à Câmara Municipal, dentre suas atribuições:",
@@ -20,8 +19,7 @@
           "C) Julgar crimes federais",
           "D) Conceder empréstimos a Estados"
         ],
-        "resposta_correta": "B) Fiscalizar atos do Executivo e criar leis municipais",
-        "id": 2
+        "resposta_correta": "B) Fiscalizar atos do Executivo e criar leis municipais"
       }
     ],
     "Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018)": [
@@ -33,8 +31,7 @@
           "C) Diretrizes de cooperação entre União, Estados, DF e Municípios",
           "D) Centralização das ações policiais na Polícia Federal"
         ],
-        "resposta_correta": "C) Diretrizes de cooperação entre União, Estados, DF e Municípios",
-        "id": 3
+        "resposta_correta": "C) Diretrizes de cooperação entre União, Estados, DF e Municípios"
       },
       {
         "pergunta": "Um dos princípios da PNPSD é:",
@@ -44,8 +41,7 @@
           "C) Criminalização das manifestações",
           "D) Privatização da segurança pública"
         ],
-        "resposta_correta": "B) Eficiência e controle social",
-        "id": 4
+        "resposta_correta": "B) Eficiência e controle social"
       }
     ],
     "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)": [
@@ -57,8 +53,7 @@
           "C) Julgamento de infrações rodoviárias",
           "D) Atuação no sistema prisional"
         ],
-        "resposta_correta": "B) Proteção de bens, serviços e instalações municipais",
-        "id": 5
+        "resposta_correta": "B) Proteção de bens, serviços e instalações municipais"
       },
       {
         "pergunta": "O Decreto 11.841/2023 regula a cooperação das Guardas Municipais com:",
@@ -68,8 +63,7 @@
           "C) Órgãos de segurança da União, Estados e DF",
           "D) Empresas privadas de segurança"
         ],
-        "resposta_correta": "C) Órgãos de segurança da União, Estados e DF",
-        "id": 6
+        "resposta_correta": "C) Órgãos de segurança da União, Estados e DF"
       }
     ],
     "Organização, Comando e Controle e Plano de Carreira (LC 05/2024)": [
@@ -81,8 +75,7 @@
           "C) Estatuto do Servidor Federal",
           "D) Organização do Ministério Público"
         ],
-        "resposta_correta": "B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca",
-        "id": 7
+        "resposta_correta": "B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca"
       }
     ],
     "Poder de Polícia Administrativa2": [
@@ -94,8 +87,7 @@
           "C) Multas somente ao Estado",
           "D) Alterações constitucionais"
         ],
-        "resposta_correta": "B) Sanções administrativas para proteger o interesse público",
-        "id": 8
+        "resposta_correta": "B) Sanções administrativas para proteger o interesse público"
       }
     ],
     "Atos Administrativos": [
@@ -107,8 +99,7 @@
           "C) Atos de sanção penal",
           "D) Atos judiciais"
         ],
-        "resposta_correta": "A) Atos que criam regras gerais e abstratas",
-        "id": 9
+        "resposta_correta": "A) Atos que criam regras gerais e abstratas"
       }
     ],
     "Protocolo e Gerenciamento de Documentos e Processos": [
@@ -120,8 +111,7 @@
           "C) Dividir processos em partes",
           "D) Enviar documentos a órgãos externos"
         ],
-        "resposta_correta": "B) Juntar processos relacionados em um só",
-        "id": 10
+        "resposta_correta": "B) Juntar processos relacionados em um só"
       }
     ],
     "Legislação de Proteção e Estatutos Específicos": [
@@ -133,8 +123,7 @@
           "C) Mulheres contra violência doméstica",
           "D) Pessoas com deficiência"
         ],
-        "resposta_correta": "C) Mulheres contra violência doméstica",
-        "id": 11
+        "resposta_correta": "C) Mulheres contra violência doméstica"
       },
       {
         "pergunta": "O Estatuto da Criança e do Adolescente (ECA) prevê:",
@@ -144,8 +133,7 @@
           "C) Extinção da guarda municipal",
           "D) Exclusão de adolescentes do sistema escolar"
         ],
-        "resposta_correta": "B) Medidas de proteção para menores de 18 anos",
-        "id": 12
+        "resposta_correta": "B) Medidas de proteção para menores de 18 anos"
       }
     ],
     "Crimes contra a Administração Pública": [
@@ -157,8 +145,7 @@
           "C) Falsificação de documentos particulares",
           "D) Tráfico de influência"
         ],
-        "resposta_correta": "A) Apropriação indevida de bens públicos por funcionário",
-        "id": 13
+        "resposta_correta": "A) Apropriação indevida de bens públicos por funcionário"
       },
       {
         "pergunta": "No art. 330 do CP, resistência caracteriza-se por:",
@@ -168,8 +155,7 @@
           "C) Corromper testemunha",
           "D) Retenção de documento público"
         ],
-        "resposta_correta": "B) Impedir execução de ato legal",
-        "id": 14
+        "resposta_correta": "B) Impedir execução de ato legal"
       }
     ],
     "Noções de Direito Constitucional": [
@@ -181,8 +167,7 @@
           "C) Concentração de poder no Executivo",
           "D) Ausência de controle jurisdicional"
         ],
-        "resposta_correta": "B) Obediência à Constituição e direitos fundamentais",
-        "id": 15
+        "resposta_correta": "B) Obediência à Constituição e direitos fundamentais"
       }
     ],
     "Língua Portuguesa": [
@@ -194,8 +179,7 @@
           "C) Referi-me a Ela durante o discurso.",
           "D) As aulas começam à as oito."
         ],
-        "resposta_correta": "A) Vou à festa hoje à noite.",
-        "id": 16
+        "resposta_correta": "A) Vou à festa hoje à noite."
       }
     ],
     "Conhecimentos Gerais sobre o Município de Arapiraca": [
@@ -207,8 +191,7 @@
           "C) Dependência total do governo estadual",
           "D) Subordinação ao Plano Nacional de Desenvolvimento"
         ],
-        "resposta_correta": "B) Capacidade de instituir normas e gerir recursos próprios",
-        "id": 17
+        "resposta_correta": "B) Capacidade de instituir normas e gerir recursos próprios"
       }
     ],
     "Noções de Informática": [
@@ -220,13 +203,12 @@
           "C) Windows + I",
           "D) Ctrl + Alt + Del"
         ],
-        "resposta_correta": "C) Windows + I",
-        "id": 18
+        "resposta_correta": "C) Windows + I"
       }
     ],
     "Lei Orgânica do Município2": [
       {
-        "id": 19,
+        "id": 1,
         "pergunta": "Segundo a Lei Orgânica de Arapiraca, qual é a posição do Município na Federação brasileira?",
         "alternativas": {
           "A": "Entidade autônoma dentro do Estado de Alagoas",
@@ -237,7 +219,7 @@
         "resposta_correta": "A"
       },
       {
-        "id": 20,
+        "id": 2,
         "pergunta": "Quais são os princípios fundamentais do Município conforme sua Lei Orgânica?",
         "alternativas": {
           "A": "Autonomia, democracia e participação popular",
@@ -250,7 +232,7 @@
     ],
     "Lei nº 13675/2018 (SUSP)": [
       {
-        "id": 21,
+        "id": 3,
         "pergunta": "O que institui a Lei nº 13.675/2018?",
         "alternativas": {
           "A": "O Sistema Único de Segurança Pública (SUSP)",
@@ -263,7 +245,7 @@
     ],
     "Estatuto das Guardas Municipais (Lei nº 13022/2014)": [
       {
-        "id": 22,
+        "id": 4,
         "pergunta": "Qual é a natureza jurídica das Guardas Municipais segundo a Lei nº 13.022/2014?",
         "alternativas": {
           "A": "Órgãos de segurança pública",
@@ -276,7 +258,7 @@
     ],
     "Lei Complementar nº 05/2024 (GCM Arapiraca)": [
       {
-        "id": 23,
+        "id": 5,
         "pergunta": "Segundo a LC 05/2024, qual é o órgão máximo de comando da GCM de Arapiraca?",
         "alternativas": {
           "A": "Comando Superior da Guarda Civil Municipal",
@@ -289,7 +271,7 @@
     ],
     "Poder de Polícia Administrativa": [
       {
-        "id": 24,
+        "id": 6,
         "pergunta": "Qual é o fundamento constitucional do poder de polícia administrativa?",
         "alternativas": {
           "A": "Art. 78 da Constituição Federal",
@@ -302,7 +284,7 @@
     ],
     "Atos administrativos": [
       {
-        "id": 25,
+        "id": 7,
         "pergunta": "Qual das seguintes alternativas NÃO é uma espécie de ato administrativo?",
         "alternativas": {
           "A": "Atos discricionários",
@@ -315,7 +297,7 @@
     ],
     "Protocolo e gestão documental": [
       {
-        "id": 26,
+        "id": 8,
         "pergunta": "O que significa a termologia 'apensação' na gestão documental?",
         "alternativas": {
           "A": "Juntar um processo a outro como apêndice",
@@ -328,7 +310,7 @@
     ],
     "Legislações especiais": [
       {
-        "id": 27,
+        "id": 9,
         "pergunta": "Qual lei estabelece medidas protetivas para mulheres vítimas de violência doméstica?",
         "alternativas": {
           "A": "Lei Maria da Penha (Lei nº 11.340/2006)",
@@ -341,7 +323,7 @@
     ],
     "Direito Constitucional": [
       {
-        "id": 28,
+        "id": 10,
         "pergunta": "Qual artigo da CF/88 trata dos direitos e deveres individuais e coletivos?",
         "alternativas": {
           "A": "Art. 5º",
@@ -354,7 +336,7 @@
     ],
     "Lei Orgânica do Município3": [
       {
-        "id": 29,
+        "id": 1,
         "pergunta": "Qual é a posição constitucional do Município na Federação brasileira?",
         "alternativas": {
           "A": "Autarquia territorial",
@@ -365,7 +347,7 @@
         "resposta_correta": "B"
       },
       {
-        "id": 30,
+        "id": 2,
         "pergunta": "Qual artigo da Lei Orgânica de Arapiraca trata das competências legislativas?",
         "alternativas": {
           "A": "Artigo 10º",
@@ -378,7 +360,7 @@
     ],
     "Lei nº 13.675/2018 (SUSP)": [
       {
-        "id": 31,
+        "id": 801,
         "pergunta": "Qual órgão coordena o SUSP em nível nacional?",
         "alternativas": {
           "A": "Ministério da Justiça",
@@ -391,7 +373,7 @@
     ],
     "Informática": [
       {
-        "id": 32,
+        "id": 4501,
         "pergunta": "Qual atalho no Windows 11 abre o Explorador de Arquivos?",
         "alternativas": {
           "A": "Ctrl + E",
