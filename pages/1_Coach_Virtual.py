@@ -96,37 +96,40 @@ st.image("dados/Maike.png", width=150)
 for idx, q in enumerate(selecionadas):
     st.markdown(f"### Pergunta {idx+1} ({q['modulo']})")
 
-    # ID único seguro para cada pergunta
     widget_key = f"radio_{q['id']}_{idx}"
 
-    # Remove letras duplicadas (mostra só o texto da alternativa)
     escolha = st.radio(
         q["texto"],
         list(q["opcoes"].keys()),
-        format_func=lambda x: q["opcoes"][x],  # mostra só o conteúdo
+        format_func=lambda x: q["opcoes"][x],
         key=widget_key
     )
 
-    # Botão para registrar resposta e exibir feedback
-btn_key = f"btn_{q['id']}_{idx}"
-if st.button("Responder/Revisar", key=btn_key):
-    acertou = escolha == q["correta"]
-    st.session_state.answers[widget_key] = {
-        "resposta": escolha,
-        "acertou": acertou,
-        "corrigida": True  # flag para saber que foi avaliada
-    }
+    btn_key = f"btn_{q['id']}_{idx}"
 
-# Exibe feedback se já foi corrigida
-if widget_key in st.session_state.answers and st.session_state.answers[widget_key].get("corrigida"):
-    r = st.session_state.answers[widget_key]
-    if r["acertou"]:
-        st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
-        exibir_dialogo("Parabéns, você acertou a pergunta!")
-    else:
-        st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
-        exibir_dialogo("Não desanime, vamos tentar novamente!")
+    if st.button("Responder/Revisar", key=btn_key):
+        acertou = escolha == q["correta"]
+        st.session_state.answers[widget_key] = {
+            "resposta": escolha,
+            "acertou": acertou,
+            "corrigida": True
+        }
 
+        if acertou:
+            st.success("✅ Acertou!")
+            exibir_dialogo("Parabéns, você acertou a pergunta!")
+        else:
+            st.error(f"❌ Errou! Resposta correta: {q['correta']}")
+            exibir_dialogo("Não desanime, vamos tentar novamente!")
+
+    # Exibe feedback se já foi corrigida anteriormente
+    elif widget_key in st.session_state.answers and st.session_state.answers[widget_key].get("corrigida"):
+        r = st.session_state.answers[widget_key]
+        if r["acertou"]:
+            st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
+        else:
+            st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
+            
 # --- Finalizar avaliação ---
 if st.button("✅ Finalizar Avaliação"):
     if not st.session_state.answers:
