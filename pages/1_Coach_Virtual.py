@@ -6,6 +6,7 @@ from time import sleep
 from gtts import gTTS
 import base64
 import random
+import uuid  # no início do arquivo
 
 # --- Configuração da página ---
 st.set_page_config(page_title="Coach GCM Arapiraca", layout="wide")
@@ -94,6 +95,20 @@ st.image("dados/Maike.png", width=150)
 for q in selecionadas:
     idx = q["id"]
     # Cabeçalho com marcação
+
+for idx, q in enumerate(perguntas):
+    st.markdown(f"### Pergunta {idx+1}")
+
+    # Garante uma key única e segura
+    widget_key = f"radio_{q.get('id') or uuid.uuid4()}"
+
+    # Exibe a pergunta com opções
+    escolha = st.radio(
+        q["texto"],
+        list(q["opcoes"].keys()),
+        format_func=lambda x: f"{x}: {q['opcoes'][x]}",
+        key=widget_key
+    )
     if idx in st.session_state.answers:
         status = "✅" if st.session_state.answers[idx]["acertou"] else "❌"
         st.subheader(f"{status} Pergunta {idx} ({q['modulo']})")
