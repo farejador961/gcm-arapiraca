@@ -96,24 +96,21 @@ st.image("dados/Maike.png", width=150)
 for idx, q in enumerate(selecionadas):
     st.markdown(f"### Pergunta {idx+1} ({q['modulo']})")
 
+    # ID único seguro para cada pergunta
     widget_key = f"radio_{q['id']}_{idx}"
 
+    # Remove letras duplicadas (mostra só o texto da alternativa)
     escolha = st.radio(
         q["texto"],
         list(q["opcoes"].keys()),
-        format_func=lambda x: q["opcoes"][x],
+        format_func=lambda x: q["opcoes"][x],  # mostra só o conteúdo
         key=widget_key
     )
 
-    btn_key = f"btn_{q['id']}_{idx}"
-
-    if st.button("Responder/Revisar", key=btn_key):
+    # Botão para registrar resposta e exibir feedback
+    if st.button("Responder/Revisar", key=f"btn_{idx}"):
         acertou = escolha == q["correta"]
-        st.session_state.answers[widget_key] = {
-            "resposta": escolha,
-            "acertou": acertou,
-            "corrigida": True
-        }
+        st.session_state.answers[widget_key] = {"resposta": escolha, "acertou": acertou}
 
         if acertou:
             st.success("✅ Acertou!")
@@ -122,8 +119,8 @@ for idx, q in enumerate(selecionadas):
             st.error(f"❌ Errou! Resposta correta: {q['correta']}")
             exibir_dialogo("Não desanime, vamos tentar novamente!")
 
-    # Exibe feedback se já foi corrigida anteriormente
-    elif widget_key in st.session_state.answers and st.session_state.answers[widget_key].get("corrigida"):
+    # Se já respondeu antes
+    elif widget_key in st.session_state.answers:
         r = st.session_state.answers[widget_key]
         if r["acertou"]:
             st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
