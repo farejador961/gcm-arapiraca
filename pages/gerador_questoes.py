@@ -20,6 +20,16 @@ st.set_page_config(page_title="Gerador de Questões", layout="wide")
 st.title("📝 Gerador de Questões Dinâmicas")
 st.image("dados/Maike.png", width=150)
 
+def extrair_texto(pdf_stream):
+    texto = ""
+    with pdfplumber.open(pdf_stream) as pdf:
+        for p in pdf.pages:
+            t = p.extract_text()
+            if t:
+                texto += t + "\n"
+    return texto
+
+# Sidebar para configurações de IA
 # Sidebar para configurações de IA
 st.sidebar.header("Configurações de IA")
 api_key = st.sidebar.text_input("OpenAI API Key", type="password")
@@ -34,17 +44,61 @@ temp = st.sidebar.slider("Temperatura (apenas GPT)", 0.0, 1.0, 0.7)
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# --- Funções Auxiliares ---
+# Função atualizada para gerar questões usando o novo método da API
+def gerar_questoes_gpt(texto, n, modulo_label, model="gpt-3.5-turbo", temperature=0.7):
+    questoes = []
+    for i in range(n):
+        prompt = f"""
+Gere uma questão de múltipla escolha (4 alternativas) com base no seguinte texto do módulo '{modulo_label}':
 
-def extrair_texto(pdf_stream):
-    texto = ""
-    with pdfplumber.open(pdf_stream) as pdf:
-        for p in pdf.pages:
-            t = p.extract_text()
-            if t:
-                texto += t + "\n"
-    return texto
+""" + texto + """
 
+Formato de saída:
+Pergunta: ...
+A) ...
+B) ...
+C) ...
+D) ...
+Resposta correta: letra (A, B, C ou D)
+"""
+        try:
+            # Utilizando a nova API para interagir com o modelo GPT
+            response = openai.ChatCompletion.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=temperature,
+                max_tokens=500
+            )
+            content = response.choices[0].message["content"]
+        except Exception as e:
+            st.error(f"Erro na API GPT: {e}")
+            break
+
+        # Parse resposta
+        lines = [l.strip() for l in content.splitlines() if l.strip()]
+        pergunta = ''
+        opts = []
+        corret = None
+        for line in lines:
+            if line.startswith("Pergunta:"):
+                pergunta = line.split("Pergunta:", 1)[1].strip()
+            elif line[1:2] == ')' or line[1:2] == ')':  # A) ...
+                opts.append(line[2:].strip())
+            elif line.lower().startswith("resposta correta"):
+                letra = line.split(":", 1)[1].strip().upper()
+                mapa = {"A": 0, "B": 1, "C": 2, "D": 3}
+                if letra in mapa and len(opts) == 4:
+                    corret = opts[mapa[letra]]
+        if pergunta and len(opts) == 4 and corret:
+            questoes.append({
+                "texto": pergunta,
+                "opcoes": opts,
+                "correta": corret,
+                "modulo": modulo_label
+            })
+    return questoes
 
 def gerar_questoes_interpretativas(texto, n, modulo_label):
     sentencas = sent_tokenize(texto)
@@ -81,59 +135,6 @@ def gerar_questoes_interpretativas(texto, n, modulo_label):
         })
         if len(questoes) >= n:
             break
-    return questoes
-
-
-def gerar_questoes_gpt(texto, n, modulo_label, model="gpt-3.5-turbo", temperature=0.7):
-    questoes = []
-    for i in range(n):
-        prompt = f"""
-Gere uma questão de múltipla escolha (4 alternativas) com base no seguinte texto do módulo '{modulo_label}':
-
-""" + texto + """
-
-Formato de saída:
-Pergunta: ...
-A) ...
-B) ...
-C) ...
-D) ...
-Resposta correta: letra (A, B, C ou D)
-"""
-        try:
-            resp = openai.ChatCompletion.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=temperature,
-                max_tokens=500
-            )
-            content = resp.choices[0].message.content
-        except Exception as e:
-            st.error(f"Erro na API GPT: {e}")
-            break
-
-        # Parse resposta
-        lines = [l.strip() for l in content.splitlines() if l.strip()]
-        pergunta = ''
-        opts = []
-        corret = None
-        for line in lines:
-            if line.startswith("Pergunta:"):
-                pergunta = line.split("Pergunta:",1)[1].strip()
-            elif line[1:2] == ')' or line[1:2] == ')':  # A) ...
-                opts.append(line[2:].strip())
-            elif line.lower().startswith("resposta correta"):
-                letra = line.split(":",1)[1].strip().upper()
-                mapa = {"A":0, "B":1, "C":2, "D":3}
-                if letra in mapa and len(opts) == 4:
-                    corret = opts[mapa[letra]]
-        if pergunta and len(opts) == 4 and corret:
-            questoes.append({
-                "texto": pergunta,
-                "opcoes": opts,
-                "correta": corret,
-                "modulo": modulo_label
-            })
     return questoes
 
 # --- Streamlit UI e Lógica ---
