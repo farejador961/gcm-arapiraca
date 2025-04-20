@@ -451,7 +451,7 @@
             "c": "A dignidade da pessoa humana é um princípio que não possui aplicação prática.",
             "d": "A justiça social é um princípio que não se relaciona com a Constituição."
           },
-          "resposta": "b"
+          "resposta_correta": "b"
         },
         {
           "id": 37,
@@ -463,7 +463,7 @@
             "c": "A licença para tratamento de saúde é concedida independentemente de perícia médica.",
             "d": "O servidor público não pode acumular cargos públicos."
           },
-          "resposta": "a"
+          "resposta_correta": "a"
         },
         {
           "id": 38,
@@ -475,7 +475,7 @@
             "c": "O sistema operacional não interage com o hardware do computador.",
             "d": "O sistema operacional é irrelevante para o funcionamento do computador."
           },
-          "resposta": "b"
+          "resposta_correta": "b"
         },
         {
           "id": 39,
@@ -487,7 +487,7 @@
             "c": "O Código Penal não trata de crimes militares.",
             "d": "A legítima defesa é considerada uma excludente de ilicitude."
           },
-          "resposta": "d"
+          "resposta_correta": "d"
         },
         {
           "id": 40,
@@ -499,7 +499,7 @@
             "c": "A ultrapassagem é proibida em faixas contínuas.",
             "d": "O condutor deve sempre estacionar em vagas destinadas a deficientes."
           },
-          "resposta": "c"
+          "resposta_correta": "c"
         }
       ]
     }
