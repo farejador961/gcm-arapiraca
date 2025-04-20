@@ -63,14 +63,13 @@ Resposta correta: letra (A, B, C ou D)
 """
         try:
             # Utilizando a nova API para interagir com o modelo GPT
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ],
+            response = openai.completions.create(
+                model="gpt-3.5-turbo",
+                prompt=prompt,
                 temperature=temperature,
                 max_tokens=500
             )
+
             content = response.choices[0].message["content"]
         except Exception as e:
             st.error(f"Erro na API GPT: {e}")
