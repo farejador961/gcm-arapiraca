@@ -444,7 +444,7 @@
         {
           "id": 36,
           "disciplina": "Direito Constitucional",
-          "enunciado": "Assinale a alternativa correta sobre os princípios fundamentais da Constituição Federal.",
+          "pergunta": "Assinale a alternativa correta sobre os princípios fundamentais da Constituição Federal.",
           "alternativas": {
             "a": "A soberania é um princípio que se aplica apenas a Estados independentes.",
             "b": "A cidadania é um princípio que se refere ao direito de participar da vida política do país.",
@@ -456,7 +456,7 @@
         {
           "id": 37,
           "disciplina": "Direito Administrativo",
-          "enunciado": "De acordo com a Lei nº 8.112/1990, é correto afirmar que:",
+          "pergunta": "De acordo com a Lei nº 8.112/1990, é correto afirmar que:",
           "alternativas": {
             "a": "O servidor público pode ser exonerado a pedido a qualquer momento.",
             "b": "A estabilidade no serviço público é adquirida após 3 anos de efetivo exercício.",
@@ -468,7 +468,7 @@
         {
           "id": 38,
           "disciplina": "Noções de Informática",
-          "enunciado": "Assinale a alternativa correta sobre sistemas operacionais.",
+          "pergunta": "Assinale a alternativa correta sobre sistemas operacionais.",
           "alternativas": {
             "a": "O sistema operacional é responsável apenas pela execução de programas.",
             "b": "O sistema operacional gerencia recursos como memória e processador.",
@@ -480,7 +480,7 @@
         {
           "id": 39,
           "disciplina": "Código Penal",
-          "enunciado": "Sobre o Código Penal Brasileiro, é correto afirmar que:",
+          "pergunta": "Sobre o Código Penal Brasileiro, é correto afirmar que:",
           "alternativas": {
             "a": "O Código Penal não prevê penas alternativas.",
             "b": "A pena de morte é permitida em casos excepcionais.",
@@ -492,7 +492,7 @@
         {
           "id": 40,
           "disciplina": "Código de Trânsito Brasileiro",
-          "enunciado": "De acordo com o Código de Trânsito Brasileiro, é correto afirmar que:",
+          "pergunta": "De acordo com o Código de Trânsito Brasileiro, é correto afirmar que:",
           "alternativas": {
             "a": "A velocidade máxima em vias urbanas é sempre 60 km/h.",
             "b": "O uso do cinto de segurança é obrigatório apenas para o motorista.",
