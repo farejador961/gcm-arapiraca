@@ -52,32 +52,52 @@ def extrair_texto(pdf_stream):
                 texto += t + "\n"
     return texto
 
-# Geração de questões tipo cloze
-def gerar_questoes_cloze(texto, n):
+def gerar_questoes_inteligentes(texto, n):
     sentencas = sent_tokenize(texto)
     tokens = word_tokenize(texto)
     tagged = pos_tag(tokens)
     nouns = [w for w, t in tagged if t.startswith("NN") and w.isalpha() and len(w) > 3]
+
     questoes = []
     random.shuffle(sentencas)
+
     for sent in sentencas:
         palavras = word_tokenize(sent)
         tags = pos_tag(palavras)
-        subs = [w for w, tag in tags if tag.startswith("NN") and w in nouns]
-        if not subs:
-            continue
-        resposta = random.choice(subs)
-        pergunta = sent.replace(resposta, "____")
-        distratores = random.sample([n for n in nouns if n != resposta], k=3) if len(nouns) > 3 else []
-        opcoes = distratores + [resposta]
-        random.shuffle(opcoes)
-        questoes.append({
-            "pergunta": pergunta,
-            "opcoes": opcoes,
-            "resposta": resposta
-        })
+        substantivos_na_sentenca = [w for w, tag in tags if tag.startswith("NN") and w in nouns]
+
+        if substantivos_na_sentenca:
+            resposta = random.choice(substantivos_na_sentenca)
+            pergunta = sent.replace(resposta, "____")
+            distratores = random.sample([n for n in nouns if n != resposta], k=min(3, len(nouns)-1))
+            opcoes = distratores + [resposta]
+            random.shuffle(opcoes)
+            questoes.append({
+                "tipo": "cloze",
+                "pergunta": pergunta,
+                "opcoes": opcoes,
+                "resposta": resposta
+            })
+        else:
+            # Geração por compreensão
+            if len(sent.split()) > 8:
+                opcoes = [sent]
+                while len(opcoes) < 4:
+                    falsa_sent = random.choice(sentencas)
+                    if falsa_sent != sent and falsa_sent not in opcoes:
+                        opcoes.append(falsa_sent)
+                random.shuffle(opcoes)
+                pergunta = "Qual das sentenças abaixo **estava presente no texto**?"
+                questoes.append({
+                    "tipo": "compreensao",
+                    "pergunta": pergunta,
+                    "opcoes": opcoes,
+                    "resposta": sent
+                })
+
         if len(questoes) >= n:
             break
+
     return questoes
 
 # Processamento
@@ -120,7 +140,7 @@ if gerar:
     # Gerar questões para cada PDF
     st.session_state.questoes = []
     for texto, qtd in zip(st.session_state.textos_pdf, st.session_state.num_questoes):
-        questoes_pdf = gerar_questoes_cloze(texto, qtd)
+        questoes_pdf = gerar_questoes_inteligentes(texto, qtd)
         st.session_state.questoes.extend(questoes_pdf)
 
     st.session_state.gq_resp = [None] * len(st.session_state.questoes)
@@ -134,12 +154,14 @@ if "questoes" in st.session_state and st.session_state.questoes:
     st.markdown("### 🔍 Questões Geradas")
 
     for i, q in enumerate(questoes):
+        st.markdown(f"**Tipo:** {'Preenchimento de lacuna' if q['tipo'] == 'cloze' else 'Compreensão textual'}")
         st.markdown(f"---\n**Q{i+1}.** {q['pergunta']}")
         escolha = st.radio(
             f"Escolha a alternativa (Q{i+1})",
             options=q["opcoes"],
             key=f"q{i}"
         )
+
         st.session_state.gq_resp[i] = escolha
 
         if st.button("Mostrar Gabarito", key=f"gab_{i}"):
