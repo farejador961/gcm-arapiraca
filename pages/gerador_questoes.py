@@ -38,10 +38,11 @@ def extrair_texto(pdf_stream):
 
 
 def gerar_questoes_interpretativas(texto, n, modulo_label):
-    sentencas = sent_tokenize(texto)
-    questoes = []
+    sentencas = [s.strip() for s in sent_tokenize(texto) if len(s.split()) >= 8]
+    if not sentencas:
+        return []
 
-    # Organiza as sentenças por importância com TF-IDF
+    questoes = []
     vectorizer = TfidfVectorizer()
     X = vectorizer.fit_transform(sentencas)
     pontuacoes = X.sum(axis=1).flatten().tolist()[0]
@@ -59,67 +60,74 @@ def gerar_questoes_interpretativas(texto, n, modulo_label):
         "O autor do texto deixa claro que:"
     ]
 
-    for i, (sentenca_base, _) in enumerate(sentencas_pontuadas):
-        if sentenca_base in usadas or len(sentenca_base.split()) < 10:
+    for sentenca_base, _ in sentencas_pontuadas:
+        if sentenca_base in usadas:
             continue
 
-        # Processar a sentença base para criar variações
         palavras = word_tokenize(sentenca_base)
         tagged = pos_tag(palavras)
         
-        # Identificar elementos para variações
-        substantivos = [word for word, pos in tagged if pos.startswith('NN')]
-        verbos = [word for word, pos in tagged if pos.startswith('VB')]
-        adjetivos = [word for word, pos in tagged if pos.startswith('JJ')]
+        # Identificar elementos com fallback
+        substantivos = [word for word, pos in tagged if pos.startswith('NN')] or ['']
+        verbos = [word for word, pos in tagged if pos.startswith('VB')] or ['']
+        adjetivos = [word for word, pos in tagged if pos.startswith('JJ')] or ['']
         
-        # Alternativa correta
-        correta = sentenca_base.strip()
+        correta = sentenca_base
         usadas.add(correta)
         
-        # Gerar enunciado variado
         tipo_questao = random.choice(tipos_questoes)
-        
-        # Geração de alternativas inteligentes
         alternativas = [correta]
-        tentativas = 0
         
+        tentativas = 0
         while len(alternativas) < 4 and tentativas < 20:
-            # Estratégias para gerar alternativas plausíveis
-            estrategia = random.randint(1, 4)
-            
-            if estrategia == 1 and substantivos:  # Trocar substantivo
-                palavra = random.choice(substantivos)
-                substituto = random.choice([s for s in substantivos if s != palavra])
-                falsa = sentenca_base.replace(palavra, substituto)
-            
-            elif estrategia == 2 and verbos:  # Trocar verbo
-                palavra = random.choice(verbos)
-                substituto = random.choice([v for v in verbos if v != palavra])
-                falsa = sentenca_base.replace(palavra, substituto)
-            
-            elif estrategia == 3 and adjetivos:  # Trocar adjetivo
-                palavra = random.choice(adjetivos)
-                substituto = random.choice([a for a in adjetivos if a != palavra])
-                falsa = sentenca_base.replace(palavra, substituto)
-            
-            else:  # Usar outra sentença relevante
-                falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 8])
-            
-            # Garantir que a alternativa falsa seja plausível
-            if (falsa not in alternativas and 
-                len(falsa.split()) >= 6 and 
-                not falsa.endswith(('.', '!', '?')) and
-                abs(len(falsa) - len(correta)) < 0.5 * len(correta)):
-                alternativas.append(falsa.strip())
+            try:
+                estrategia = random.randint(1, 4)
+                
+                if estrategia == 1:  # Trocar substantivo
+                    palavra = random.choice(substantivos)
+                    substitutos = [s for s in substantivos if s != palavra]
+                    if substitutos:
+                        substituto = random.choice(substitutos)
+                        falsa = sentenca_base.replace(palavra, substituto)
+                    else:
+                        falsa = random.choice([s for s in sentencas if s != correta])
+                
+                elif estrategia == 2:  # Trocar verbo
+                    palavra = random.choice(verbos)
+                    substitutos = [v for v in verbos if v != palavra]
+                    if substitutos:
+                        substituto = random.choice(substitutos)
+                        falsa = sentenca_base.replace(palavra, substituto)
+                    else:
+                        falsa = random.choice([s for s in sentencas if s != correta])
+                
+                elif estrategia == 3:  # Trocar adjetivo
+                    palavra = random.choice(adjetivos)
+                    substitutos = [a for a in adjetivos if a != palavra]
+                    if substitutos:
+                        substituto = random.choice(substitutos)
+                        falsa = sentenca_base.replace(palavra, substituto)
+                    else:
+                        falsa = random.choice([s for s in sentencas if s != correta])
+                
+                else:  # Usar outra sentença relevante
+                    falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 6])
+                
+                if (falsa not in alternativas and 
+                    len(falsa.split()) >= 6 and 
+                    falsa.strip() not in usadas):
+                    alternativas.append(falsa.strip())
+                
+            except (IndexError, ValueError):
+                falsa = random.choice([s for s in sentencas if s != correta and len(s.split()) >= 6])
+                if falsa not in alternativas:
+                    alternativas.append(falsa.strip())
             
             tentativas += 1
 
         if len(alternativas) < 4:
-            continue  # pula se não conseguir 4 opções
+            continue
 
-        # Ordenar alternativas por tamanho para dificultar identificação da correta
-        alternativas.sort(key=lambda x: len(x))
-        # Mas depois embaralhar para não ficar óbvio
         random.shuffle(alternativas)
 
         questoes.append({
@@ -127,7 +135,7 @@ def gerar_questoes_interpretativas(texto, n, modulo_label):
             "opcoes": alternativas,
             "correta": correta,
             "modulo": modulo_label,
-            "dica": f"Analise atentamente os detalhes da sentença. A alternativa correta mantém coerência com o contexto geral do texto."
+            "dica": "Analise atentamente os detalhes da sentença."
         })
 
         if len(questoes) >= n:
