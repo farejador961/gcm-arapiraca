@@ -78,7 +78,7 @@
         "resposta_correta": "B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca"
       }
     ],
-    "Poder de Polícia Administrativa": [
+    "Poder de Polícia Administrativa2": [
       {
         "pergunta": "O poder de polícia administrativa pode impor:",
         "alternativas": [
@@ -204,6 +204,184 @@
           "D) Ctrl + Alt + Del"
         ],
         "resposta_correta": "C) Windows + I"
+      }
+    ],
+    "Lei Orgânica do Município2": [
+      {
+        "id": 1,
+        "pergunta": "Segundo a Lei Orgânica de Arapiraca, qual é a posição do Município na Federação brasileira?",
+        "alternativas": {
+          "A": "Entidade autônoma dentro do Estado de Alagoas",
+          "B": "Subdivisão administrativa dependente do Governo Federal",
+          "C": "Unidade federativa independente",
+          "D": "Autarquia regional vinculada ao Estado"
+        },
+        "resposta_correta": "A"
+      },
+      {
+        "id": 2,
+        "pergunta": "Quais são os princípios fundamentais do Município conforme sua Lei Orgânica?",
+        "alternativas": {
+          "A": "Autonomia, democracia e participação popular",
+          "B": "Centralização, hierarquia e disciplina",
+          "C": "Dependência estadual, tecnocracia e eficiência",
+          "D": "Federalismo, presidencialismo e representação"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Lei nº 13675/2018 (SUSP)": [
+      {
+        "id": 3,
+        "pergunta": "O que institui a Lei nº 13.675/2018?",
+        "alternativas": {
+          "A": "O Sistema Único de Segurança Pública (SUSP)",
+          "B": "O Estatuto do Desarmamento",
+          "C": "A Política Nacional de Inteligência",
+          "D": "O Código de Processo Penal Brasileiro"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Estatuto das Guardas Municipais (Lei nº 13022/2014)": [
+      {
+        "id": 4,
+        "pergunta": "Qual é a natureza jurídica das Guardas Municipais segundo a Lei nº 13.022/2014?",
+        "alternativas": {
+          "A": "Órgãos de segurança pública",
+          "B": "Forças auxiliares do Exército",
+          "C": "Empresas públicas de vigilância",
+          "D": "Organizações sociais civis"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Lei Complementar nº 05/2024 (GCM Arapiraca)": [
+      {
+        "id": 5,
+        "pergunta": "Segundo a LC 05/2024, qual é o órgão máximo de comando da GCM de Arapiraca?",
+        "alternativas": {
+          "A": "Comando Superior da Guarda Civil Municipal",
+          "B": "Secretaria Municipal de Segurança",
+          "C": "Prefeitura Municipal",
+          "D": "Conselho Municipal de Segurança"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Poder de Polícia Administrativa": [
+      {
+        "id": 6,
+        "pergunta": "Qual é o fundamento constitucional do poder de polícia administrativa?",
+        "alternativas": {
+          "A": "Art. 78 da Constituição Federal",
+          "B": "Art. 5º, inciso II da CF",
+          "C": "Art. 144 da CF",
+          "D": "Art. 37 da CF"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Atos administrativos": [
+      {
+        "id": 7,
+        "pergunta": "Qual das seguintes alternativas NÃO é uma espécie de ato administrativo?",
+        "alternativas": {
+          "A": "Atos discricionários",
+          "B": "Atos normativos",
+          "C": "Atos ordinatórios",
+          "D": "Atos enunciativos"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Protocolo e gestão documental": [
+      {
+        "id": 8,
+        "pergunta": "O que significa a termologia 'apensação' na gestão documental?",
+        "alternativas": {
+          "A": "Juntar um processo a outro como apêndice",
+          "B": "Autuar um novo documento",
+          "C": "Arquivar definitivamente um processo",
+          "D": "Desmembrar um volume processual"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Legislações especiais": [
+      {
+        "id": 9,
+        "pergunta": "Qual lei estabelece medidas protetivas para mulheres vítimas de violência doméstica?",
+        "alternativas": {
+          "A": "Lei Maria da Penha (Lei nº 11.340/2006)",
+          "B": "Estatuto do Idoso",
+          "C": "Lei de Abuso de Autoridade",
+          "D": "Código Penal"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Direito Constitucional": [
+      {
+        "id": 10,
+        "pergunta": "Qual artigo da CF/88 trata dos direitos e deveres individuais e coletivos?",
+        "alternativas": {
+          "A": "Art. 5º",
+          "B": "Art. 6º",
+          "C": "Art. 144",
+          "D": "Art. 37"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Lei Orgânica do Município3": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a posição constitucional do Município na Federação brasileira?",
+        "alternativas": {
+          "A": "Autarquia territorial",
+          "B": "Entidade autônoma",
+          "C": "Subdivisão estadual",
+          "D": "Repartição federal"
+        },
+        "resposta_correta": "B"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual artigo da Lei Orgânica de Arapiraca trata das competências legislativas?",
+        "alternativas": {
+          "A": "Artigo 10º",
+          "B": "Artigo 25º",
+          "C": "Artigo 42º",
+          "D": "Artigo 55º"
+        },
+        "resposta_correta": "A"
+      }
+    ],
+    "Lei nº 13.675/2018 (SUSP)": [
+      {
+        "id": 801,
+        "pergunta": "Qual órgão coordena o SUSP em nível nacional?",
+        "alternativas": {
+          "A": "Ministério da Justiça",
+          "B": "Conselho Nacional de Segurança",
+          "C": "Secretaria Nacional de Segurança Pública",
+          "D": "Gabinete de Segurança Institucional"
+        },
+        "resposta_correta": "C"
+      }
+    ],
+    "Informática": [
+      {
+        "id": 4501,
+        "pergunta": "Qual atalho no Windows 11 abre o Explorador de Arquivos?",
+        "alternativas": {
+          "A": "Ctrl + E",
+          "B": "Win + E",
+          "C": "Alt + F",
+          "D": "Shift + W"
+        },
+        "resposta_correta": "B"
       }
     ]
   }
