@@ -108,25 +108,25 @@ for idx, q in enumerate(selecionadas):
     )
 
     # Botão para registrar resposta e exibir feedback
-    if st.button("Responder/Revisar", key=f"btn_{idx}"):
-        acertou = escolha == q["correta"]
-        st.session_state.answers[widget_key] = {"resposta": escolha, "acertou": acertou}
+btn_key = f"btn_{q['id']}_{idx}"
+if st.button("Responder/Revisar", key=btn_key):
+    acertou = escolha == q["correta"]
+    st.session_state.answers[widget_key] = {
+        "resposta": escolha,
+        "acertou": acertou,
+        "corrigida": True  # flag para saber que foi avaliada
+    }
 
-        if acertou:
-            st.success("✅ Acertou!")
-            exibir_dialogo("Parabéns, você acertou a pergunta!")
-        else:
-            st.error(f"❌ Errou! Resposta correta: {q['correta']}")
-            exibir_dialogo("Não desanime, vamos tentar novamente!")
+# Exibe feedback se já foi corrigida
+if widget_key in st.session_state.answers and st.session_state.answers[widget_key].get("corrigida"):
+    r = st.session_state.answers[widget_key]
+    if r["acertou"]:
+        st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
+        exibir_dialogo("Parabéns, você acertou a pergunta!")
+    else:
+        st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
+        exibir_dialogo("Não desanime, vamos tentar novamente!")
 
-    # Se já respondeu antes
-    elif widget_key in st.session_state.answers:
-        r = st.session_state.answers[widget_key]
-        if r["acertou"]:
-            st.success(f"✅ Você respondeu: {r['resposta']} (Correta)")
-        else:
-            st.error(f"❌ Você respondeu: {r['resposta']} (Correta: {q['correta']})")
-            
 # --- Finalizar avaliação ---
 if st.button("✅ Finalizar Avaliação"):
     if not st.session_state.answers:
