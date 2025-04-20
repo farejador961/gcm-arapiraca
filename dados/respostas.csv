@@ -1,33 +1,158 @@
 id,modulo,pergunta,resposta_correta
-LEI_1,Lei Orgânica do Município,Qual é o conceito de autonomia municipal segundo a Lei Orgânica?,B) Autogoverno e gestão de interesses locais nos limites da Constituição
-LEI_2,Lei Orgânica do Município,"Cabe à Câmara Municipal, dentre suas atribuições:",B) Fiscalizar atos do Executivo e criar leis municipais
-POL_1,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),O que institui o Sistema Único de Segurança Pública (SUSP)?,"C) Diretrizes de cooperação entre União, Estados, DF e Municípios"
-POL_2,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Um dos princípios da PNPSD é:,B) Eficiência e controle social
-EST_1,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),"Segundo o Estatuto, as Guardas Municipais têm como função principal:","B) Proteção de bens, serviços e instalações municipais"
-EST_2,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),O Decreto 11.841/2023 regula a cooperação das Guardas Municipais com:,"C) Órgãos de segurança da União, Estados e DF"
-ORG_1,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A Lei Complementar nº 05/2024 trata de:,"B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca"
-POD_1,Poder de Polícia Administrativa2,O poder de polícia administrativa pode impor:,B) Sanções administrativas para proteger o interesse público
-ATO_1,Atos Administrativos,Qual a natureza de um ato administrativo normativo?,A) Atos que criam regras gerais e abstratas
-PRO_1,Protocolo e Gerenciamento de Documentos e Processos,Apensação em processo administrativo significa:,B) Juntar processos relacionados em um só
-LEG_1,Legislação de Proteção e Estatutos Específicos,A Lei Maria da Penha foi criada para proteger:,C) Mulheres contra violência doméstica
-LEG_2,Legislação de Proteção e Estatutos Específicos,O Estatuto da Criança e do Adolescente (ECA) prevê:,B) Medidas de proteção para menores de 18 anos
-CRI_1,Crimes contra a Administração Pública,Peculato está previsto no art. 312 do Código Penal e consiste em:,A) Apropriação indevida de bens públicos por funcionário
-CRI_2,Crimes contra a Administração Pública,"No art. 330 do CP, resistência caracteriza-se por:",B) Impedir execução de ato legal
-NOÇ_1,Noções de Direito Constitucional,Uma característica do Estado Democrático de Direito é:,B) Obediência à Constituição e direitos fundamentais
-LÍN_1,Língua Portuguesa,Assinale a frase com o uso correto da crase:,A) Vou à festa hoje à noite.
-CON_1,Conhecimentos Gerais sobre o Município de Arapiraca,A Lei Orgânica de Arapiraca define a autonomia do município como:,B) Capacidade de instituir normas e gerir recursos próprios
-NOÇ_1,Noções de Informática,Qual atalho no Windows geralmente abre as configurações de teclado?,C) Windows + I
-1,Lei Orgânica do Município2,"Segundo a Lei Orgânica de Arapiraca, qual é a posição do Município na Federação brasileira?",A
-2,Lei Orgânica do Município2,Quais são os princípios fundamentais do Município conforme sua Lei Orgânica?,A
-3,Lei nº 13675/2018 (SUSP),O que institui a Lei nº 13.675/2018?,A
-4,Estatuto das Guardas Municipais (Lei nº 13022/2014),Qual é a natureza jurídica das Guardas Municipais segundo a Lei nº 13.022/2014?,A
-5,Lei Complementar nº 05/2024 (GCM Arapiraca),"Segundo a LC 05/2024, qual é o órgão máximo de comando da GCM de Arapiraca?",A
-6,Poder de Polícia Administrativa,Qual é o fundamento constitucional do poder de polícia administrativa?,A
-7,Atos administrativos,Qual das seguintes alternativas NÃO é uma espécie de ato administrativo?,A
-8,Protocolo e gestão documental,O que significa a termologia 'apensação' na gestão documental?,A
-9,Legislações especiais,Qual lei estabelece medidas protetivas para mulheres vítimas de violência doméstica?,A
-10,Direito Constitucional,Qual artigo da CF/88 trata dos direitos e deveres individuais e coletivos?,A
-1,Lei Orgânica do Município3,Qual é a posição constitucional do Município na Federação brasileira?,B
-2,Lei Orgânica do Município3,Qual artigo da Lei Orgânica de Arapiraca trata das competências legislativas?,A
-801,Lei nº 13.675/2018 (SUSP),Qual órgão coordena o SUSP em nível nacional?,C
-4501,Informática,Qual atalho no Windows 11 abre o Explorador de Arquivos?,B
+1,Lei Orgânica do Município,Qual é o conceito de autonomia municipal segundo a Lei Orgânica?,B) Autogoverno e gestão de interesses locais nos limites da Constituição
+2,Lei Orgânica do Município,"Cabe à Câmara Municipal, dentre suas atribuições:",B) Fiscalizar atos do Executivo e criar leis municipais
+33,Lei Orgânica do Município,Nova pergunta 1 sobre Lei Orgânica do Município,A
+34,Lei Orgânica do Município,Nova pergunta 2 sobre Lei Orgânica do Município,A
+35,Lei Orgânica do Município,Nova pergunta 3 sobre Lei Orgânica do Município,A
+36,Lei Orgânica do Município,Nova pergunta 4 sobre Lei Orgânica do Município,A
+37,Lei Orgânica do Município,Nova pergunta 5 sobre Lei Orgânica do Município,A
+3,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),O que institui o Sistema Único de Segurança Pública (SUSP)?,"C) Diretrizes de cooperação entre União, Estados, DF e Municípios"
+4,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Um dos princípios da PNPSD é:,B) Eficiência e controle social
+38,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Nova pergunta 1 sobre Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),A
+39,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Nova pergunta 2 sobre Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),A
+40,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Nova pergunta 3 sobre Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),A
+41,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Nova pergunta 4 sobre Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),A
+42,Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),Nova pergunta 5 sobre Política Nacional de Segurança Pública e Defesa Social (Lei 13.675/2018),A
+5,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),"Segundo o Estatuto, as Guardas Municipais têm como função principal:","B) Proteção de bens, serviços e instalações municipais"
+6,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),O Decreto 11.841/2023 regula a cooperação das Guardas Municipais com:,"C) Órgãos de segurança da União, Estados e DF"
+43,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),Nova pergunta 1 sobre Estatuto Geral das Guardas Municipais (Lei 13.022/2014),A
+44,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),Nova pergunta 2 sobre Estatuto Geral das Guardas Municipais (Lei 13.022/2014),A
+45,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),Nova pergunta 3 sobre Estatuto Geral das Guardas Municipais (Lei 13.022/2014),A
+46,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),Nova pergunta 4 sobre Estatuto Geral das Guardas Municipais (Lei 13.022/2014),A
+47,Estatuto Geral das Guardas Municipais (Lei 13.022/2014),Nova pergunta 5 sobre Estatuto Geral das Guardas Municipais (Lei 13.022/2014),A
+7,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A Lei Complementar nº 05/2024 trata de:,"B) Estrutura, carreira e vencimentos da Guarda Civil Municipal de Arapiraca"
+48,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)","Nova pergunta 1 sobre Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A
+49,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)","Nova pergunta 2 sobre Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A
+50,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)","Nova pergunta 3 sobre Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A
+51,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)","Nova pergunta 4 sobre Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A
+52,"Organização, Comando e Controle e Plano de Carreira (LC 05/2024)","Nova pergunta 5 sobre Organização, Comando e Controle e Plano de Carreira (LC 05/2024)",A
+8,Poder de Polícia Administrativa2,O poder de polícia administrativa pode impor:,B) Sanções administrativas para proteger o interesse público
+53,Poder de Polícia Administrativa2,Nova pergunta 1 sobre Poder de Polícia Administrativa2,A
+54,Poder de Polícia Administrativa2,Nova pergunta 2 sobre Poder de Polícia Administrativa2,A
+55,Poder de Polícia Administrativa2,Nova pergunta 3 sobre Poder de Polícia Administrativa2,A
+56,Poder de Polícia Administrativa2,Nova pergunta 4 sobre Poder de Polícia Administrativa2,A
+57,Poder de Polícia Administrativa2,Nova pergunta 5 sobre Poder de Polícia Administrativa2,A
+9,Atos Administrativos,Qual a natureza de um ato administrativo normativo?,A) Atos que criam regras gerais e abstratas
+58,Atos Administrativos,Nova pergunta 1 sobre Atos Administrativos,A
+59,Atos Administrativos,Nova pergunta 2 sobre Atos Administrativos,A
+60,Atos Administrativos,Nova pergunta 3 sobre Atos Administrativos,A
+61,Atos Administrativos,Nova pergunta 4 sobre Atos Administrativos,A
+62,Atos Administrativos,Nova pergunta 5 sobre Atos Administrativos,A
+10,Protocolo e Gerenciamento de Documentos e Processos,Apensação em processo administrativo significa:,B) Juntar processos relacionados em um só
+63,Protocolo e Gerenciamento de Documentos e Processos,Nova pergunta 1 sobre Protocolo e Gerenciamento de Documentos e Processos,A
+64,Protocolo e Gerenciamento de Documentos e Processos,Nova pergunta 2 sobre Protocolo e Gerenciamento de Documentos e Processos,A
+65,Protocolo e Gerenciamento de Documentos e Processos,Nova pergunta 3 sobre Protocolo e Gerenciamento de Documentos e Processos,A
+66,Protocolo e Gerenciamento de Documentos e Processos,Nova pergunta 4 sobre Protocolo e Gerenciamento de Documentos e Processos,A
+67,Protocolo e Gerenciamento de Documentos e Processos,Nova pergunta 5 sobre Protocolo e Gerenciamento de Documentos e Processos,A
+11,Legislação de Proteção e Estatutos Específicos,A Lei Maria da Penha foi criada para proteger:,C) Mulheres contra violência doméstica
+12,Legislação de Proteção e Estatutos Específicos,O Estatuto da Criança e do Adolescente (ECA) prevê:,B) Medidas de proteção para menores de 18 anos
+68,Legislação de Proteção e Estatutos Específicos,Nova pergunta 1 sobre Legislação de Proteção e Estatutos Específicos,A
+69,Legislação de Proteção e Estatutos Específicos,Nova pergunta 2 sobre Legislação de Proteção e Estatutos Específicos,A
+70,Legislação de Proteção e Estatutos Específicos,Nova pergunta 3 sobre Legislação de Proteção e Estatutos Específicos,A
+71,Legislação de Proteção e Estatutos Específicos,Nova pergunta 4 sobre Legislação de Proteção e Estatutos Específicos,A
+72,Legislação de Proteção e Estatutos Específicos,Nova pergunta 5 sobre Legislação de Proteção e Estatutos Específicos,A
+13,Crimes contra a Administração Pública,Peculato está previsto no art. 312 do Código Penal e consiste em:,A) Apropriação indevida de bens públicos por funcionário
+14,Crimes contra a Administração Pública,"No art. 330 do CP, resistência caracteriza-se por:",B) Impedir execução de ato legal
+73,Crimes contra a Administração Pública,Nova pergunta 1 sobre Crimes contra a Administração Pública,A
+74,Crimes contra a Administração Pública,Nova pergunta 2 sobre Crimes contra a Administração Pública,A
+75,Crimes contra a Administração Pública,Nova pergunta 3 sobre Crimes contra a Administração Pública,A
+76,Crimes contra a Administração Pública,Nova pergunta 4 sobre Crimes contra a Administração Pública,A
+77,Crimes contra a Administração Pública,Nova pergunta 5 sobre Crimes contra a Administração Pública,A
+15,Noções de Direito Constitucional,Uma característica do Estado Democrático de Direito é:,B) Obediência à Constituição e direitos fundamentais
+78,Noções de Direito Constitucional,Nova pergunta 1 sobre Noções de Direito Constitucional,A
+79,Noções de Direito Constitucional,Nova pergunta 2 sobre Noções de Direito Constitucional,A
+80,Noções de Direito Constitucional,Nova pergunta 3 sobre Noções de Direito Constitucional,A
+81,Noções de Direito Constitucional,Nova pergunta 4 sobre Noções de Direito Constitucional,A
+82,Noções de Direito Constitucional,Nova pergunta 5 sobre Noções de Direito Constitucional,A
+16,Língua Portuguesa,Assinale a frase com o uso correto da crase:,A) Vou à festa hoje à noite.
+83,Língua Portuguesa,Nova pergunta 1 sobre Língua Portuguesa,A
+84,Língua Portuguesa,Nova pergunta 2 sobre Língua Portuguesa,A
+85,Língua Portuguesa,Nova pergunta 3 sobre Língua Portuguesa,A
+86,Língua Portuguesa,Nova pergunta 4 sobre Língua Portuguesa,A
+87,Língua Portuguesa,Nova pergunta 5 sobre Língua Portuguesa,A
+17,Conhecimentos Gerais sobre o Município de Arapiraca,A Lei Orgânica de Arapiraca define a autonomia do município como:,B) Capacidade de instituir normas e gerir recursos próprios
+88,Conhecimentos Gerais sobre o Município de Arapiraca,Nova pergunta 1 sobre Conhecimentos Gerais sobre o Município de Arapiraca,A
+89,Conhecimentos Gerais sobre o Município de Arapiraca,Nova pergunta 2 sobre Conhecimentos Gerais sobre o Município de Arapiraca,A
+90,Conhecimentos Gerais sobre o Município de Arapiraca,Nova pergunta 3 sobre Conhecimentos Gerais sobre o Município de Arapiraca,A
+91,Conhecimentos Gerais sobre o Município de Arapiraca,Nova pergunta 4 sobre Conhecimentos Gerais sobre o Município de Arapiraca,A
+92,Conhecimentos Gerais sobre o Município de Arapiraca,Nova pergunta 5 sobre Conhecimentos Gerais sobre o Município de Arapiraca,A
+18,Noções de Informática,Qual atalho no Windows geralmente abre as configurações de teclado?,C) Windows + I
+93,Noções de Informática,Nova pergunta 1 sobre Noções de Informática,A
+94,Noções de Informática,Nova pergunta 2 sobre Noções de Informática,A
+95,Noções de Informática,Nova pergunta 3 sobre Noções de Informática,A
+96,Noções de Informática,Nova pergunta 4 sobre Noções de Informática,A
+97,Noções de Informática,Nova pergunta 5 sobre Noções de Informática,A
+19,Lei Orgânica do Município2,"Segundo a Lei Orgânica de Arapiraca, qual é a posição do Município na Federação brasileira?",A
+20,Lei Orgânica do Município2,Quais são os princípios fundamentais do Município conforme sua Lei Orgânica?,A
+98,Lei Orgânica do Município2,Nova pergunta 1 sobre Lei Orgânica do Município2,A
+99,Lei Orgânica do Município2,Nova pergunta 2 sobre Lei Orgânica do Município2,A
+100,Lei Orgânica do Município2,Nova pergunta 3 sobre Lei Orgânica do Município2,A
+101,Lei Orgânica do Município2,Nova pergunta 4 sobre Lei Orgânica do Município2,A
+102,Lei Orgânica do Município2,Nova pergunta 5 sobre Lei Orgânica do Município2,A
+21,Lei nº 13675/2018 (SUSP),O que institui a Lei nº 13.675/2018?,A
+103,Lei nº 13675/2018 (SUSP),Nova pergunta 1 sobre Lei nº 13675/2018 (SUSP),A
+104,Lei nº 13675/2018 (SUSP),Nova pergunta 2 sobre Lei nº 13675/2018 (SUSP),A
+105,Lei nº 13675/2018 (SUSP),Nova pergunta 3 sobre Lei nº 13675/2018 (SUSP),A
+106,Lei nº 13675/2018 (SUSP),Nova pergunta 4 sobre Lei nº 13675/2018 (SUSP),A
+107,Lei nº 13675/2018 (SUSP),Nova pergunta 5 sobre Lei nº 13675/2018 (SUSP),A
+22,Estatuto das Guardas Municipais (Lei nº 13022/2014),Qual é a natureza jurídica das Guardas Municipais segundo a Lei nº 13.022/2014?,A
+108,Estatuto das Guardas Municipais (Lei nº 13022/2014),Nova pergunta 1 sobre Estatuto das Guardas Municipais (Lei nº 13022/2014),A
+109,Estatuto das Guardas Municipais (Lei nº 13022/2014),Nova pergunta 2 sobre Estatuto das Guardas Municipais (Lei nº 13022/2014),A
+110,Estatuto das Guardas Municipais (Lei nº 13022/2014),Nova pergunta 3 sobre Estatuto das Guardas Municipais (Lei nº 13022/2014),A
+111,Estatuto das Guardas Municipais (Lei nº 13022/2014),Nova pergunta 4 sobre Estatuto das Guardas Municipais (Lei nº 13022/2014),A
+112,Estatuto das Guardas Municipais (Lei nº 13022/2014),Nova pergunta 5 sobre Estatuto das Guardas Municipais (Lei nº 13022/2014),A
+23,Lei Complementar nº 05/2024 (GCM Arapiraca),"Segundo a LC 05/2024, qual é o órgão máximo de comando da GCM de Arapiraca?",A
+113,Lei Complementar nº 05/2024 (GCM Arapiraca),Nova pergunta 1 sobre Lei Complementar nº 05/2024 (GCM Arapiraca),A
+114,Lei Complementar nº 05/2024 (GCM Arapiraca),Nova pergunta 2 sobre Lei Complementar nº 05/2024 (GCM Arapiraca),A
+115,Lei Complementar nº 05/2024 (GCM Arapiraca),Nova pergunta 3 sobre Lei Complementar nº 05/2024 (GCM Arapiraca),A
+116,Lei Complementar nº 05/2024 (GCM Arapiraca),Nova pergunta 4 sobre Lei Complementar nº 05/2024 (GCM Arapiraca),A
+117,Lei Complementar nº 05/2024 (GCM Arapiraca),Nova pergunta 5 sobre Lei Complementar nº 05/2024 (GCM Arapiraca),A
+24,Poder de Polícia Administrativa,Qual é o fundamento constitucional do poder de polícia administrativa?,A
+118,Poder de Polícia Administrativa,Nova pergunta 1 sobre Poder de Polícia Administrativa,A
+119,Poder de Polícia Administrativa,Nova pergunta 2 sobre Poder de Polícia Administrativa,A
+120,Poder de Polícia Administrativa,Nova pergunta 3 sobre Poder de Polícia Administrativa,A
+121,Poder de Polícia Administrativa,Nova pergunta 4 sobre Poder de Polícia Administrativa,A
+122,Poder de Polícia Administrativa,Nova pergunta 5 sobre Poder de Polícia Administrativa,A
+25,Atos administrativos,Qual das seguintes alternativas NÃO é uma espécie de ato administrativo?,A
+123,Atos administrativos,Nova pergunta 1 sobre Atos administrativos,A
+124,Atos administrativos,Nova pergunta 2 sobre Atos administrativos,A
+125,Atos administrativos,Nova pergunta 3 sobre Atos administrativos,A
+126,Atos administrativos,Nova pergunta 4 sobre Atos administrativos,A
+127,Atos administrativos,Nova pergunta 5 sobre Atos administrativos,A
+26,Protocolo e gestão documental,O que significa a termologia 'apensação' na gestão documental?,A
+128,Protocolo e gestão documental,Nova pergunta 1 sobre Protocolo e gestão documental,A
+129,Protocolo e gestão documental,Nova pergunta 2 sobre Protocolo e gestão documental,A
+130,Protocolo e gestão documental,Nova pergunta 3 sobre Protocolo e gestão documental,A
+131,Protocolo e gestão documental,Nova pergunta 4 sobre Protocolo e gestão documental,A
+132,Protocolo e gestão documental,Nova pergunta 5 sobre Protocolo e gestão documental,A
+27,Legislações especiais,Qual lei estabelece medidas protetivas para mulheres vítimas de violência doméstica?,A
+133,Legislações especiais,Nova pergunta 1 sobre Legislações especiais,A
+134,Legislações especiais,Nova pergunta 2 sobre Legislações especiais,A
+135,Legislações especiais,Nova pergunta 3 sobre Legislações especiais,A
+136,Legislações especiais,Nova pergunta 4 sobre Legislações especiais,A
+137,Legislações especiais,Nova pergunta 5 sobre Legislações especiais,A
+28,Direito Constitucional,Qual artigo da CF/88 trata dos direitos e deveres individuais e coletivos?,A
+138,Direito Constitucional,Nova pergunta 1 sobre Direito Constitucional,A
+139,Direito Constitucional,Nova pergunta 2 sobre Direito Constitucional,A
+140,Direito Constitucional,Nova pergunta 3 sobre Direito Constitucional,A
+141,Direito Constitucional,Nova pergunta 4 sobre Direito Constitucional,A
+142,Direito Constitucional,Nova pergunta 5 sobre Direito Constitucional,A
+29,Lei Orgânica do Município3,Qual é a posição constitucional do Município na Federação brasileira?,B
+30,Lei Orgânica do Município3,Qual artigo da Lei Orgânica de Arapiraca trata das competências legislativas?,A
+143,Lei Orgânica do Município3,Nova pergunta 1 sobre Lei Orgânica do Município3,A
+144,Lei Orgânica do Município3,Nova pergunta 2 sobre Lei Orgânica do Município3,A
+145,Lei Orgânica do Município3,Nova pergunta 3 sobre Lei Orgânica do Município3,A
+146,Lei Orgânica do Município3,Nova pergunta 4 sobre Lei Orgânica do Município3,A
+147,Lei Orgânica do Município3,Nova pergunta 5 sobre Lei Orgânica do Município3,A
+31,Lei nº 13.675/2018 (SUSP),Qual órgão coordena o SUSP em nível nacional?,C
+148,Lei nº 13.675/2018 (SUSP),Nova pergunta 1 sobre Lei nº 13.675/2018 (SUSP),A
+149,Lei nº 13.675/2018 (SUSP),Nova pergunta 2 sobre Lei nº 13.675/2018 (SUSP),A
+150,Lei nº 13.675/2018 (SUSP),Nova pergunta 3 sobre Lei nº 13.675/2018 (SUSP),A
+151,Lei nº 13.675/2018 (SUSP),Nova pergunta 4 sobre Lei nº 13.675/2018 (SUSP),A
+152,Lei nº 13.675/2018 (SUSP),Nova pergunta 5 sobre Lei nº 13.675/2018 (SUSP),A
+32,Informática,Qual atalho no Windows 11 abre o Explorador de Arquivos?,B
+153,Informática,Nova pergunta 1 sobre Informática,A
+154,Informática,Nova pergunta 2 sobre Informática,A
+155,Informática,Nova pergunta 3 sobre Informática,A
+156,Informática,Nova pergunta 4 sobre Informática,A
+157,Informática,Nova pergunta 5 sobre Informática,A
