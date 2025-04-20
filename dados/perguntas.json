@@ -488,18 +488,6 @@
             "d": "A legítima defesa é considerada uma excludente de ilicitude."
           },
           "resposta_correta": "d"
-        },
-        {
-          "id": 40,
-          "disciplina": "Código de Trânsito Brasileiro",
-          "pergunta": "De acordo com o Código de Trânsito Brasileiro, é correto afirmar que:",
-          "alternativas": {
-            "a": "A velocidade máxima em vias urbanas é sempre 60 km/h.",
-            "b": "O uso do cinto de segurança é obrigatório apenas para o motorista.",
-            "c": "A ultrapassagem é proibida em faixas contínuas.",
-            "d": "O condutor deve sempre estacionar em vagas destinadas a deficientes."
-          },
-          "resposta_correta": "c"
         }
       ]
     }
