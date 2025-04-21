@@ -11,6 +11,7 @@ import os
 from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
+from fuzzywuzzy import fuzz
 
 # Baixar recursos do NLTK
 nltk.download("punkt")
@@ -177,7 +178,7 @@ if st.session_state.gerar:
         escolha = st.radio(q["texto"], q["opcoes"], key=f"radio_{i}")
 
         if st.button(f"Responder {i+1}", key=f"btn_{i}"):
-            acertou = escolha == q["correta"]
+            acertou = fuzz.ratio(escolha, q["correta"]) > 85  # Ajuste o valor conforme a sensibilidade desejada
             st.session_state.respostas[i] = {
                 "módulo": q["modulo"],
                 "acertou": acertou,
