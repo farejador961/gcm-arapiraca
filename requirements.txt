@@ -20,7 +20,8 @@ beautifulsoup4
 requests
 PyPDF2
 scikit-learn
-openai
+
+
 
 
 
