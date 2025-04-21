@@ -93,10 +93,16 @@ random.shuffle(selecionadas)
 # --- Exibição das questões ---
 st.image("dados/Maike.png", width=150)
 
+# Resetar perguntas fixadas se filtros forem alterados
+filtros_atuais = (tuple(selected_modulos), num_por_modulo, include_answered)
+if st.session_state.get("ultimos_filtros") != filtros_atuais:
+    st.session_state.perguntas_fixadas = None
+    st.session_state.ultimos_filtros = filtros_atuais
+
 # ——— Fix: fixa ‘selecionadas’ na sessão para não reembaralhar ———
-if "perguntas_fixadas" not in st.session_state:
+if "perguntas_fixadas" not in st.session_state or st.session_state.perguntas_fixadas is None:
     st.session_state.perguntas_fixadas = selecionadas.copy()  # só na primeira vez
-    selecionadas = st.session_state.perguntas_fixadas
+selecionadas = st.session_state.perguntas_fixadas
 
 # ——— Loop de exibição, resposta e feedback ———
 for idx, q in enumerate(selecionadas):
