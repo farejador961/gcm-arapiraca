@@ -11,7 +11,6 @@ import os
 from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
-from nltk.tokenize import sent_tokenize
 
 # Baixar recursos do NLTK
 nltk.download("punkt")
@@ -26,7 +25,6 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # --- Geração inteligente de questões ---
-
 def extrair_texto(pdf_stream):
     texto = ""
     with pdfplumber.open(pdf_stream) as pdf:
@@ -36,13 +34,7 @@ def extrair_texto(pdf_stream):
                 texto += t + "\n"
     return texto
 
-
 def gerar_questoes_interpretativas(texto, n, modulo_label, max_palavras_sentenca=60, max_caracteres_alternativa=360):
-    from nltk.tokenize import sent_tokenize, word_tokenize
-    from nltk import pos_tag
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    import random
-
     # Quebra em sentenças e limita por número de palavras
     sentencas = [s.strip() for s in sent_tokenize(texto) if 8 <= len(s.split()) <= max_palavras_sentenca]
     if not sentencas:
@@ -139,6 +131,12 @@ def gerar_questoes_interpretativas(texto, n, modulo_label, max_palavras_sentenca
 if "gerar" not in st.session_state:
     st.session_state.gerar = False
 
+# Inicialização do estado
+if "perguntas" not in st.session_state:
+    st.session_state.perguntas = []
+if "respostas" not in st.session_state:
+    st.session_state.respostas = []
+
 with st.form("form_gerador"):
     uploaded = st.file_uploader("📁 PDFs", type="pdf", accept_multiple_files=True)
     urls = st.text_area("📄 URLs de PDFs (uma por linha)")
@@ -164,22 +162,15 @@ with st.form("form_gerador"):
             label = u.split('/')[-1]
             st.session_state.perguntas += gerar_questoes_interpretativas(txt, num_list[idx] if idx < len(num_list) else 5, label)
             idx += 1
-        # preparar estado de respostas
-        st.session_state.respondido = [False] * len(st.session_state.perguntas)
-        st.session_state.respostas = []
 
-        # inicializar respostas se ainda não estiverem
-if "respostas" not in st.session_state:
-    st.session_state.respostas = [{} for _ in range(len(st.session_state.perguntas))]
+        # Garantir que as respostas sejam inicializadas corretamente
+        if len(st.session_state.respostas) != len(st.session_state.perguntas):
+            st.session_state.respostas = [{} for _ in range(len(st.session_state.perguntas))]
 
 # Exibir e avaliar
 if st.session_state.gerar:
     st.markdown("### 🔍 Avaliação de Questões Dinâmicas")
     perguntas = st.session_state.perguntas
-
-    # Garante que respostas está inicializado corretamente
-    if "respostas" not in st.session_state or len(st.session_state.respostas) != len(perguntas):
-        st.session_state.respostas = [{} for _ in range(len(perguntas))]
 
     for i, q in enumerate(perguntas):
         st.subheader(f"❓ Pergunta {i+1} ({q['modulo']})")
@@ -211,17 +202,17 @@ if st.session_state.gerar:
         df = pd.DataFrame(st.session_state.respostas)
         acertos = df["acertou"].sum()
         total = len(df)
-        perc = (acertos/total)*100
+        perc = (acertos / total) * 100
 
         st.header("📊 Resultados Gerais")
         st.metric("Total de Acertos", f"{acertos}/{total}")
-        st.progress(perc/100)
+        st.progress(perc / 100)
 
         # Desempenho por módulo
         st.subheader("📌 Desempenho por PDF/Fonte")
-        mod = df.groupby("módulo")["acertou"].agg(["mean","count"]).reset_index()
-        mod["% Acerto"] = (mod["mean"]*100).round(1)
-        st.dataframe(mod[["módulo","% Acerto","count"]].rename(columns={"módulo":"Fonte","count":"Perguntas"}))
+        mod = df.groupby("módulo")["acertou"].agg(["mean", "count"]).reset_index()
+        mod["% Acerto"] = (mod["mean"] * 100).round(1)
+        st.dataframe(mod[["módulo", "% Acerto", "count"]].rename(columns={"módulo": "Fonte", "count": "Perguntas"}))
 
         # Gráfico com matplotlib
         import matplotlib.pyplot as plt
@@ -231,5 +222,6 @@ if st.session_state.gerar:
         ax.set_ylabel("% Acerto")
         ax.set_title("Desempenho por Fonte")
         st.pyplot(fig)
+
 
 
