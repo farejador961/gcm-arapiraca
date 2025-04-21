@@ -96,7 +96,7 @@ st.image("dados/Maike.png", width=150)
 # ——— Fix: fixa ‘selecionadas’ na sessão para não reembaralhar ———
 if "perguntas_fixadas" not in st.session_state:
     st.session_state.perguntas_fixadas = selecionadas.copy()  # só na primeira vez
-selecionadas = st.session_state.perguntas_fixadas
+    selecionadas = st.session_state.perguntas_fixadas
 
 # ——— Loop de exibição, resposta e feedback ———
 for idx, q in enumerate(selecionadas):
@@ -149,7 +149,9 @@ if st.button("✅ Finalizar Avaliação"):
         st.warning("Você ainda não respondeu nenhuma pergunta.")
     else:
         df = pd.DataFrame.from_dict(st.session_state.answers, orient='index')
-        df['modulo'] = df.index.map(lambda i: next(q['modulo'] for q in perguntas if q['id']==i))
+        # Corrigir extração do módulo baseado na chave `radio_<id>_<idx>`
+        df['modulo'] = df.index.map(
+            lambda i: next((q['modulo'] for q in perguntas if f"radio_{q['id']}" in i), None))
         acertos = df['acertou'].sum()
         total = len(df)
         percentual = (acertos / total) * 100
