@@ -168,15 +168,6 @@ with st.form("form_gerador"):
         st.session_state.respondido = [False] * len(st.session_state.perguntas)
         st.session_state.respostas = []
 
-# Exibir e avaliar
-if st.session_state.gerar:
-    st.markdown("### 🔍 Avaliação de Questões Dinâmicas")
-    perguntas = st.session_state.perguntas
-
-    for i, q in enumerate(perguntas):
-        st.subheader(f"❓ Pergunta {i+1} ({q['modulo']})")
-        escolha = st.radio(q["texto"], q["opcoes"], key=f"radio_{i}")
-
         # inicializar respostas se ainda não estiverem
 if "respostas" not in st.session_state:
     st.session_state.respostas = [{} for _ in range(len(st.session_state.perguntas))]
@@ -206,14 +197,6 @@ if st.session_state.gerar:
                 st.success("✅ Acertou!")
             else:
                 st.error(f"❌ Errou! Resposta correta: {q['correta']}")
-
-        # Exibir feedback da última resposta, mesmo se não clicar de novo
-        if st.session_state.respostas[i]:
-            r = st.session_state.respostas[i]
-            if r["acertou"]:
-                st.success(f"✅ Última resposta: {r['resposta']} (Correta)")
-            else:
-                st.error(f"❌ Última resposta: {r['resposta']} (Correta: {r['correta']})")
 
         # Exibir feedback da última resposta, mesmo se não clicar de novo
         if st.session_state.respostas[i]:
