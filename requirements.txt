@@ -20,7 +20,7 @@ beautifulsoup4
 requests
 PyPDF2
 scikit-learn
-rapidfuzz==3.6.1
+fuzzywuzzy
 
 
 
