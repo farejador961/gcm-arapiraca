@@ -177,14 +177,51 @@ if st.session_state.gerar:
         st.subheader(f"❓ Pergunta {i+1} ({q['modulo']})")
         escolha = st.radio(q["texto"], q["opcoes"], key=f"radio_{i}")
 
-        if st.button(f"Responder {i+1}", key=f"btn_{i}") and not st.session_state.respondido[i]:
+        # inicializar respostas se ainda não estiverem
+if "respostas" not in st.session_state:
+    st.session_state.respostas = [{} for _ in range(len(st.session_state.perguntas))]
+
+# Exibir e avaliar
+if st.session_state.gerar:
+    st.markdown("### 🔍 Avaliação de Questões Dinâmicas")
+    perguntas = st.session_state.perguntas
+
+    # Garante que respostas está inicializado corretamente
+    if "respostas" not in st.session_state or len(st.session_state.respostas) != len(perguntas):
+        st.session_state.respostas = [{} for _ in range(len(perguntas))]
+
+    for i, q in enumerate(perguntas):
+        st.subheader(f"❓ Pergunta {i+1} ({q['modulo']})")
+        escolha = st.radio(q["texto"], q["opcoes"], key=f"radio_{i}")
+
+        if st.button(f"Responder {i+1}", key=f"btn_{i}"):
             acertou = escolha == q["correta"]
-            st.session_state.respostas.append({"módulo": q["modulo"], "acertou": acertou})
-            st.session_state.respondido[i] = True
+            st.session_state.respostas[i] = {
+                "módulo": q["modulo"],
+                "acertou": acertou,
+                "resposta": escolha,
+                "correta": q["correta"]
+            }
             if acertou:
                 st.success("✅ Acertou!")
             else:
-                st.error("❌ Errou!")
+                st.error(f"❌ Errou! Resposta correta: {q['correta']}")
+
+        # Exibir feedback da última resposta, mesmo se não clicar de novo
+        if st.session_state.respostas[i]:
+            r = st.session_state.respostas[i]
+            if r["acertou"]:
+                st.success(f"✅ Última resposta: {r['resposta']} (Correta)")
+            else:
+                st.error(f"❌ Última resposta: {r['resposta']} (Correta: {r['correta']})")
+
+        # Exibir feedback da última resposta, mesmo se não clicar de novo
+        if st.session_state.respostas[i]:
+            r = st.session_state.respostas[i]
+            if r["acertou"]:
+                st.success(f"✅ Última resposta: {r['resposta']} (Correta)")
+            else:
+                st.error(f"❌ Última resposta: {r['resposta']} (Correta: {r['correta']})")
 
     # Finalizar avaliação
     if st.button("✅ Finalizar Avaliação"):
