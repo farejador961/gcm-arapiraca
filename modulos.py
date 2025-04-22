@@ -74,7 +74,7 @@ modules = [
                 ),
                 "example": "Fluxograma de comando em operações especiais.",
                 "exercise": "Descreva as etapas de promoção na carreira da GM.",
-                "references": "LC 05/2024, Capítulos I–VIII."
+                "references": "Lei de Criação da GCM-Arapiraca,LC 05/2024, Capítulos I–VIII."
             }
         ]
     },
@@ -108,7 +108,7 @@ modules = [
                 ),
                 "example": "Exemplo de ato normativo municipal (decreto).",
                 "exercise": "Diferencie ato ordinatório de ato normativo.",
-                "references": "Lei 9.784/1999."
+                "references": "Lei 9.784/1999. Art. 2º: Define os princípios gerai,Arts.3,22,69A,50,53,56,65"
             }
         ]
     },
@@ -172,6 +172,7 @@ modules = [
             {
                 "title": "10.1 Conteúdos",
                 "content": (
+                    "- Estudar art. 3 ao 23, art. 87 ao 102. Além disso, As observaões a baixo."
                     "- Classificação das constituições\n"
                     "- Direitos e garantias fundamentais\n"
                     "- Organização dos Poderes (Executivo, Legislativo, Judiciário)\n"
