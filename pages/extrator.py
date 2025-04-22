@@ -93,6 +93,17 @@ with st.form("resumo_form"):
 
     submitted = st.form_submit_button("Gerar Resumo")
 
+def display_study_summary(summary_text):
+    st.markdown("### 📘 Resumo Estudantil Gerado")
+    for idx, sentence in enumerate(summary_text.split('. ')):
+        if sentence.strip():
+            with st.container():
+                st.markdown(f"""
+                <div style="background-color:#f0f2f6; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                    <p style="font-size: 16px; line-height: 1.6; margin: 0;"><strong>•</strong> {sentence.strip()}.</p>
+                </div>
+                """, unsafe_allow_html=True)
+
 if submitted:
     with st.spinner("🔎 Processando..."):
         pages_to_include = list(range(pagina_inicio - 1, pagina_fim)) if pagina_fim >= pagina_inicio else None
@@ -103,7 +114,7 @@ if submitted:
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
                 st.success("✅ Resumo gerado com sucesso a partir da URL:")
-                st.markdown(f"**Resumo:**\n\n{summary}")
+                display_study_summary(summary)  # <=== USANDO A VISUALIZAÇÃO BONITA AQUI TAMBÉM
             else:
                 st.error(f"❌ Erro ao processar o PDF da URL: {text}")
 
@@ -115,20 +126,9 @@ if submitted:
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
                 st.success("✅ Resumo gerado com sucesso a partir do arquivo:")
-                def display_study_summary(summary_text):
-                    st.markdown("### 📘 Resumo Estudantil Gerado")
-                    
-                    for idx, sentence in enumerate(summary_text.split('. ')):
-                        if sentence.strip():
-                            with st.container():
-                                st.markdown(f"""
-                                <div style="background-color:#f0f2f6; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                                    <p style="font-size: 16px; line-height: 1.6; margin: 0;"><strong>•</strong> {sentence.strip()}.</p>
-                                </div>
-                                """, unsafe_allow_html=True)
-
-                # E na hora de exibir:
-                display_study_summary(summary)
+                display_study_summary(summary)  # <=== AQUI JÁ ESTAVA CERTO
+            else:
+                st.error(text)
 
 
 
