@@ -21,6 +21,9 @@ requests
 PyPDF2
 scikit-learn
 fuzzywuzzy
+streamlit-extras
+
+
 
 
 
