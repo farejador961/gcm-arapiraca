@@ -11,6 +11,8 @@ import streamlit as st
 # Baixar recursos do NLTK
 nltk.download("punkt")
 nltk.download("stopwords")
+nltk.data.path.append("nltk_data")
+
 
 # Diretório para uploads
 UPLOAD_FOLDER = "uploads"
