@@ -110,7 +110,7 @@ if submitted:
                         if sentence.strip():
                             with st.container():
                                 st.markdown(f"""
-                                <div style="background-color:gray; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                                <div style="background-color:white; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
                                     <p style="font-size: 16px; line-height: 1.6; margin: 0; color: blue;"><strong>•</strong> {sentence.strip()}.</p>
                                 </div>
                                 """, unsafe_allow_html=True)
@@ -133,7 +133,7 @@ if submitted:
                         if sentence.strip():
                             with st.container():
                                 st.markdown(f"""
-                                <div style="background-color:gray; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                                <div style="background-color:white; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
                                     <p style="font-size: 16px; line-height: 1.6; margin: 0; color: blue;"><strong>•</strong> {sentence.strip()}.</p>
                                 </div>
                                 """, unsafe_allow_html=True)
