@@ -7,6 +7,8 @@ from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 import nltk
 import streamlit as st
+from st_pages import add_page_title  # (opcional, se estiver usando navegação multipágina)
+
 
 # Baixar recursos do NLTK
 # nltk.download("punkt")
@@ -75,18 +77,18 @@ def extract_text_from_url(url, pages_to_include=None, pages_to_exclude=None):
 # Interface Streamlit
 
 with st.form("resumo_form"):
-    st.subheader("🔢 Escolha o número de sentenças para o resumo")
+    st.markdown("### 📝 Escolha o número de sentenças para o resumo")
     num_sentences = st.slider("Quantas sentenças deseja no resumo?", 1, 50, 10)
 
-    st.subheader("📄 Defina intervalo de páginas (opcional)")
+    st.markdown("### 📄 Defina intervalo de páginas (opcional)")
     pagina_inicio = st.number_input("Página inicial (começando do 1)", min_value=1, value=1)
     pagina_fim = st.number_input("Página final", min_value=1, value=1)
     pular_paginas = st.text_input("Páginas a pular (separadas por vírgula)", "")
 
-    st.subheader("🌐 Ou cole o link de um PDF (URL)")
+    st.markdown("### 🌐 Ou cole o link de um PDF (URL)")
     pdf_url = st.text_input("URL do PDF")
 
-    st.subheader("📁 Ou envie um arquivo PDF")
+    st.markdown("### 📁 Ou envie um arquivo PDF")
     uploaded_file = st.file_uploader("Selecione um PDF", type=["pdf"])
 
     submitted = st.form_submit_button("Gerar Resumo")
@@ -100,10 +102,10 @@ if submitted:
             text = extract_text_from_url(pdf_url, pages_to_include, pages_to_exclude)
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
-                st.success("Resumo gerado com sucesso a partir da URL:")
-                st.write(summary)
+                st.success("✅ Resumo gerado com sucesso a partir da URL:")
+                st.markdown(f"**Resumo:**\n\n{summary}")
             else:
-                st.error(text)
+                st.error(f"❌ Erro ao processar o PDF da URL: {text}")
 
         elif uploaded_file:
             file_path = os.path.join(UPLOAD_FOLDER, uploaded_file.name)
@@ -112,12 +114,29 @@ if submitted:
             text = extract_text_from_pdf(file_path, pages_to_include, pages_to_exclude)
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
-                st.success("Resumo gerado com sucesso a partir do arquivo:")
-                st.write(summary)
-            else:
-                st.error(text)
-        else:
-            st.warning("Por favor, forneça uma URL ou envie um arquivo PDF.")
+                st.success("✅ Resumo gerado com sucesso a partir do arquivo:")
+                def display_study_summary(summary_text):
+                    st.markdown("### 📘 Resumo Estudantil Gerado")
+                    
+                    for idx, sentence in enumerate(summary_text.split('. ')):
+                        if sentence.strip():
+                            with st.container():
+                                st.markdown(f"""
+                                <div style="background-color:#f0f2f6; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                                    <p style="font-size: 16px; line-height: 1.6; margin: 0;"><strong>•</strong> {sentence.strip()}.</p>
+                                </div>
+                                """, unsafe_allow_html=True)
+
+                # E na hora de exibir:
+                display_study_summary(summary)
+
+
+
+
+
+
+
+
 
 
 
