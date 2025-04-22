@@ -9,8 +9,8 @@ import nltk
 import streamlit as st
 
 # Baixar recursos do NLTK
-nltk.download("punkt")
-nltk.download("stopwords")
+# nltk.download("punkt")
+# nltk.download("stopwords")
 nltk.data.path.append("nltk_data")
 
 
