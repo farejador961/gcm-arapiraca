@@ -2,12 +2,14 @@ import streamlit as st
 import os
 import base64
 import pandas as pd
+import urllib.parse
 
 st.set_page_config(page_title="Módulos GCM", layout="wide")
 st.title("📘 Módulos de Estudo da Guarda Municipal de Arapiraca")
 
 MODULOS_DIR = "modulos_pdf"
 EXCEL_FILENAME = "Plano_Estudos_Semanal_GCM.xlsx"
+REPO_URL_BASE = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/modulos_pdf"  # Ajuste com seu repositório
 
 # ───────────────────────────────
 # EXIBE O PLANO DE ESTUDOS
@@ -48,11 +50,21 @@ else:
                 pdf_data = f.read()
                 base64_pdf = base64.b64encode(pdf_data).decode("utf-8")
 
+            # Botão para download
             st.download_button(
                 label="⬇️ Baixar PDF",
                 data=pdf_data,
                 file_name=pdf_file,
                 mime="application/pdf"
+            )
+
+            # Link para visualizar online
+            pdf_url = f"{REPO_URL_BASE}/{urllib.parse.quote(pdf_file)}"
+            st.markdown(
+                f'<a href="{pdf_url}" target="_blank">'
+                f'<button style="background-color:#4CAF50;color:white;border:none;padding:8px 16px;border-radius:5px;">👁️ Visualizar Online</button>'
+                f'</a>',
+                unsafe_allow_html=True
             )
 
             # Visualizador via iframe + base64
