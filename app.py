@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Coach GCM Arapiraca", layout="wide")
 st.title("📘 Bem-vindo ao Coach GCM Arapiraca")
-st.image("dados/Mayke.png", width=150)
+st.image("dados/jany.png", width=150)
 
 st.markdown("""
 Navegue pelas abas laterais para acessar:

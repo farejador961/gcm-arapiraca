@@ -20,7 +20,7 @@ nltk.download("averaged_perceptron_tagger")
 # Configurações da página
 st.set_page_config(page_title="Gerador de Questões", layout="wide")
 st.title("📝 Gerador de Questões Dinâmicas")
-st.image("dados/Maike.png", width=150)
+st.image("dados/Mayke.png", width=150)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
