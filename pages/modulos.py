@@ -23,7 +23,7 @@ modules = [
                 ),
                 "example": "Analise como o orçamento municipal impacta serviços de segurança comunitária.",
                 "exercise": "Explique a diferença entre administração direta e indireta.",
-                "references": "Lei Orgânica de Arapiraca; CF art. 144, §8º."
+                "references": "Lei Orgânica de Arapiraca; CF art. 144, §8º. CF art 18,19,22,23,24,28,29 e 30", 
             },
         ]
     },
