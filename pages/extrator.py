@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 import nltk
 import streamlit as st
-from st_pages import add_page_title  # (opcional, se estiver usando navegação multipágina)
+
 
 
 # Baixar recursos do NLTK
