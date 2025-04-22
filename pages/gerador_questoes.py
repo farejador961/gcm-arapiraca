@@ -178,7 +178,7 @@ if st.session_state.gerar:
         escolha = st.radio(q["texto"], q["opcoes"], key=f"radio_{i}")
 
         if st.button(f"Responder {i+1}", key=f"btn_{i}"):
-            acertou = fuzz.ratio(escolha, q["correta"]) > 85  # Ajuste o valor conforme a sensibilidade desejada
+            acertou = escolha == q["correta"]
             st.session_state.respostas[i] = {
                 "módulo": q["modulo"],
                 "acertou": acertou,
