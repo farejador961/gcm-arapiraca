@@ -103,9 +103,20 @@ if submitted:
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
                 st.success("✅ Resumo gerado com sucesso a partir da URL:")
-                st.markdown(f"**Resumo:**\n\n{summary}")
-            else:
-                st.error(f"❌ Erro ao processar o PDF da URL: {text}")
+                def display_study_summary(summary_text):
+                    st.markdown("### 📘 Resumo Estudantil Gerado")
+                    
+                    for idx, sentence in enumerate(summary_text.split('. ')):
+                        if sentence.strip():
+                            with st.container():
+                                st.markdown(f"""
+                                <div style="background-color:#f0f2f6; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                                    <p style="font-size: 16px; line-height: 1.6; margin: 0;"><strong>•</strong> {sentence.strip()}.</p>
+                                </div>
+                                """, unsafe_allow_html=True)
+
+                # E na hora de exibir:
+                display_study_summary(summary)
 
         elif uploaded_file:
             file_path = os.path.join(UPLOAD_FOLDER, uploaded_file.name)
@@ -115,11 +126,21 @@ if submitted:
             if not text.startswith("❌"):
                 summary = summarize_text(text, num_sentences)
                 st.success("✅ Resumo gerado com sucesso a partir do arquivo:")
-                st.markdown(f"**Resumo:**\n\n{summary}")
-            else:
-                st.error(f"❌ Erro ao processar o arquivo PDF: {text}")
-        else:
-            st.warning("⚠️ Por favor, forneça uma URL ou envie um arquivo PDF.")
+                def display_study_summary(summary_text):
+                    st.markdown("### 📘 Resumo Estudantil Gerado")
+                    
+                    for idx, sentence in enumerate(summary_text.split('. ')):
+                        if sentence.strip():
+                            with st.container():
+                                st.markdown(f"""
+                                <div style="background-color:#f0f2f6; padding: 15px; margin: 10px 0; border-left: 5px solid #4F8BF9; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                                    <p style="font-size: 16px; line-height: 1.6; margin: 0;"><strong>•</strong> {sentence.strip()}.</p>
+                                </div>
+                                """, unsafe_allow_html=True)
+
+                # E na hora de exibir:
+                display_study_summary(summary)
+
 
 
 
