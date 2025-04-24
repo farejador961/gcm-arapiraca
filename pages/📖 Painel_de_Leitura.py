@@ -145,7 +145,8 @@ if uploaded_file:
     with colC:
         if st.button("🌗 Alternar tema"):
             st.session_state.dark_mode = not st.session_state.dark_mode
-            st.experimental_rerun()
+            st.rerun()
+
 
     # Botão flutuante de ações
     st.markdown("<div class='botao-flutuante' onclick='document.querySelector(\"details\").open = true;'>⚙️</div>", unsafe_allow_html=True)
