@@ -2,20 +2,36 @@ import streamlit as st
 import fitz  # PyMuPDF
 from io import BytesIO
 
+# Config inicial
 st.set_page_config(layout="wide", page_title="Painel de Leitura")
 
-st.markdown("""
+# Estado inicial
+if "page_number" not in st.session_state:
+    st.session_state.page_number = 1
+if "fullscreen" not in st.session_state:
+    st.session_state.fullscreen = False
+if "dark_mode" not in st.session_state:
+    st.session_state.dark_mode = False
+if "rerun_flag" not in st.session_state:
+    st.session_state.rerun_flag = False
+
+# Alternância de tema
+theme_color = "#111" if st.session_state.dark_mode else "#fdfdfd"
+text_color = "#eee" if st.session_state.dark_mode else "#222"
+
+# Estilo dinâmico com base no tema
+st.markdown(f"""
 <style>
-    .texto-pagina {
+    .texto-pagina {{
         text-align: justify;
         font-size: 18px;
         line-height: 1.6;
-        background-color: #fdfdfd;
+        background-color: {theme_color};
         padding: 20px;
         border-radius: 12px;
-        color: #222;
-    }
-    .botao-flutuante {
+        color: {text_color};
+    }}
+    .botao-flutuante {{
         position: fixed;
         bottom: 40px;
         right: 40px;
@@ -26,31 +42,33 @@ st.markdown("""
         font-size: 16px;
         cursor: pointer;
         z-index: 9999;
-    }
-    .fullscreen {
+    }}
+    .fullscreen {{
         position: fixed;
         top: 0; left: 0;
         right: 0; bottom: 0;
-        background-color: white;
+        background-color: {theme_color};
         padding: 30px;
         overflow-y: scroll;
         z-index: 999;
-    }
+        color: {text_color};
+    }}
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📖 Painel de Leitura com Modo Foco")
+# Título e upload
+st.title("📖 Painel de Leitura com Modo Noturno & Marcações")
 
 uploaded_file = st.file_uploader("📤 Faça upload do PDF", type="pdf")
 
-# Sessão para manter estado da página e tela cheia
-if "page_number" not in st.session_state:
-    st.session_state.page_number = 1
-if "fullscreen" not in st.session_state:
-    st.session_state.fullscreen = False
-
+# Muda página
 def muda_pagina(delta):
     st.session_state.page_number = max(1, min(st.session_state.page_number + delta, st.session_state.total_pages))
+
+# Modo tela cheia sem erro
+if st.session_state.rerun_flag:
+    st.session_state.fullscreen = True
+    st.session_state.rerun_flag = False
 
 if uploaded_file:
     doc = fitz.open(stream=uploaded_file.read(), filetype="pdf")
@@ -58,16 +76,15 @@ if uploaded_file:
     page = doc[st.session_state.page_number - 1]
     text = page.get_text("text")
 
-    # Modo tela cheia
+    # Tela cheia
     if st.session_state.fullscreen:
         st.markdown("<div class='fullscreen'>", unsafe_allow_html=True)
         st.markdown(f"<div class='texto-pagina'>{text}</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
         if st.button("❌ Sair do modo tela cheia"):
             st.session_state.fullscreen = False
         st.stop()
 
-    # Controles de navegação
+    # Navegação
     col1, col2, col3 = st.columns([1, 8, 1])
     with col1:
         if st.button("⬅️"):
@@ -78,11 +95,11 @@ if uploaded_file:
         if st.button("➡️"):
             muda_pagina(1)
 
-    # Visualização de texto
-    st.markdown("### 📰 Conteúdo da Página")
+    # Texto da página
+    st.markdown("### 📄 Conteúdo da Página")
     st.markdown(f"<div class='texto-pagina'>{text}</div>", unsafe_allow_html=True)
 
-    # Botão flutuante com opções
+    # Botão para ativar opções
     with st.popover("⚙️ Ações"):
         selection = st.text_input("🔎 Trecho a destacar")
         color = st.color_picker("🎨 Cor do destaque", "#ffff00")
@@ -104,17 +121,34 @@ if uploaded_file:
             else:
                 st.warning("⚠️ Insira o texto a marcar.")
 
+    # Lista de marcações na página
+    st.markdown("### 🗂️ Marcações nesta página")
+    annotations = page.annots()
+    if annotations:
+        for annot in annotations:
+            info = annot.info
+            st.write(f"🔸 **Tipo**: {annot.type[1]} | **Comentário**: {info.get('subject', '')}")
+    else:
+        st.info("Nenhuma marcação nesta página.")
+
+    # Botões diversos
+    colA, colB, colC = st.columns(3)
+    with colA:
+        if st.button("💾 Salvar PDF com anotações"):
+            buffer = BytesIO()
+            doc.save(buffer)
+            st.download_button("⬇️ Baixar PDF", buffer.getvalue(), file_name="pdf_com_anotacoes.pdf")
+    with colB:
+        if st.button("🖥️ Entrar em modo tela cheia"):
+            st.session_state.rerun_flag = True
+            st.experimental_rerun()
+    with colC:
+        if st.button("🌗 Alternar tema"):
+            st.session_state.dark_mode = not st.session_state.dark_mode
+            st.experimental_rerun()
+
+    # Botão flutuante de ações
     st.markdown("<div class='botao-flutuante' onclick='document.querySelector(\"details\").open = true;'>⚙️</div>", unsafe_allow_html=True)
 
-    # Salvar PDF com anotações
-    if st.button("💾 Salvar PDF com anotações"):
-        pdf_saida = BytesIO()
-        doc.save(pdf_saida)
-        st.download_button("⬇️ Baixar PDF anotado", pdf_saida.getvalue(), file_name="pdf_com_anotacoes.pdf")
-
-    # Entrar em modo tela cheia
-    if st.button("🖥️ Entrar em modo tela cheia"):
-        st.session_state.fullscreen = True
-        st.experimental_rerun()
 
 
