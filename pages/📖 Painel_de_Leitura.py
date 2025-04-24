@@ -141,7 +141,7 @@ if uploaded_file:
     with colB:
         if st.button("🖥️ Entrar em modo tela cheia"):
             st.session_state.rerun_flag = True
-            st.experimental_rerun()
+            st.rerun()
     with colC:
         if st.button("🌗 Alternar tema"):
             st.session_state.dark_mode = not st.session_state.dark_mode
