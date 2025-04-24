@@ -105,21 +105,30 @@ if uploaded_file:
         color = st.color_picker("🎨 Cor do destaque", "#ffff00")
         annotation = st.text_area("📝 Comentário (opcional)")
 
-        if st.button("➕ Aplicar marcação"):
-            if selection:
-                text_instances = page.search_for(selection)
-                if text_instances:
-                    for inst in text_instances:
-                        highlight = page.add_highlight_annot(inst)
-                        highlight.set_colors(stroke=color)
-                        highlight.update()
-                        if annotation:
-                            highlight.set_info(info={"title": "Comentário", "subject": annotation})
-                    st.success("✅ Marcação aplicada!")
-                else:
-                    st.error("⚠️ Trecho não encontrado.")
-            else:
-                st.warning("⚠️ Insira o texto a marcar.")
+    # Função para converter cor hexadecimal para RGB normalizado (entre 0 e 1)
+def hex_to_rgb_float(hex_color):
+    hex_color = hex_color.lstrip("#")
+    r, g, b = tuple(int(hex_color[i:i+2], 16)/255 for i in (0, 2 ,4))
+    return (r, g, b)
+
+# Lógica de aplicar marcação
+if st.button("➕ Aplicar marcação"):
+    if selection:
+        text_instances = page.search_for(selection)
+        if text_instances:
+            for inst in text_instances:
+                highlight = page.add_highlight_annot(inst)
+                rgb_color = hex_to_rgb_float(color)
+                highlight.set_colors(stroke=rgb_color)
+                highlight.update()
+                if annotation:
+                    highlight.set_info(info={"title": "Comentário", "subject": annotation})
+            st.success("✅ Marcação aplicada!")
+        else:
+            st.error("⚠️ Trecho não encontrado.")
+    else:
+        st.warning("⚠️ Insira o texto a marcar.")
+
 
     # Lista de marcações na página
     st.markdown("### 🗂️ Marcações nesta página")
